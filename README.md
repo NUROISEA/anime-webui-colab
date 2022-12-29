@@ -11,11 +11,12 @@
 ## Mixed Models
 | Colab Link | Model | Model Page
 | --- | --- | --- |
-| WIP | AnyGape Mix | https://huggingface.co/etherealxx/anygape-mix
-| WIP | Anything Mix | https://huggingface.co/NUROISEA/anything-mix
-| WIP | DrBob2142's Mix Models | https://huggingface.co/DrBob2142/Mix-Models
-| WIP | OrangeMixs | https://huggingface.co/WarriorMama777/OrangeMixs
-| WIP | Misobaristic's Playground | https://huggingface.co/misobarisic/playground
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/any_gape_mix.ipynb) | AnyGape Mix | https://huggingface.co/etherealxx/anygape-mix
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/anything_mix.ipynb) | Anything Mix | https://huggingface.co/NUROISEA/anything-mix
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/drbob2142_mix_models.ipynb) | DrBob2142's Mix Models | https://huggingface.co/DrBob2142/Mix-Models
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/misobarisic_playground.ipynb) | Misobaristic's Playground | https://huggingface.co/misobarisic/playground
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/momocha_mix.ipynb) | Momocha Mix | https://huggingface.co/NoCrypt/momocha-mix
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/orange_mixs.ipynb) | OrangeMixs | https://huggingface.co/WarriorMama777/OrangeMixs
 
 # 🤔 How to use
 
