@@ -11,7 +11,11 @@
 ## Mixed Models
 | Colab Link | Model | Model Page
 | --- | --- | --- |
-| Im still | gathering the models | :)
+| WIP | AnyGape Mix | https://huggingface.co/etherealxx/anygape-mix
+| WIP | Anything Mix | https://huggingface.co/NUROISEA/anything-mix
+| WIP | DrBob2142's Mix Models | https://huggingface.co/DrBob2142/Mix-Models
+| WIP | OrangeMixs | https://huggingface.co/WarriorMama777/OrangeMixs
+| WIP | Misobaristic's Playground | https://huggingface.co/misobarisic/playground
 
 # 🤔 How to use
 
