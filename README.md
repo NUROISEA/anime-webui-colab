@@ -2,21 +2,21 @@
 ## Main Models
 | Colab Link | Model | Model Page
 | --- | --- | --- |
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/anything_3_webui_colab.ipynb) | Anything V3 | https://huggingface.co/Linaqruf/anything-v3.0
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/eimis_anime_diffusion.ipynb) | Eimis Anime Diffusion | https://huggingface.co/eimiss/EimisAnimeDiffusion_1.0v
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/elysium_anime_unified_colab.ipynb) | Elysium Anime V1 - V3 | https://huggingface.co/hesw23168/SD-Elysium-Model
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/hentai_diffusion_unified_colab.ipynb) | Hentai Diffusion 16 - 17 | https://huggingface.co/Deltaadams/HentaiDiffusion
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/waifu_diffusion_webui_colab.ipynb) | Waifu Diffusion 1.3 - 1.3.5 | https://huggingface.co/hakurei/waifu-diffusion-v1-3
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/anything_3_webui_colab.ipynb) | Anything V3 | [Linaqruf/anything-v3.0](https://huggingface.co/Linaqruf/anything-v3.0)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/eimis_anime_diffusion.ipynb) | Eimis Anime Diffusion | [eimiss/EimisAnimeDiffusion_1.0v](https://huggingface.co/eimiss/EimisAnimeDiffusion_1.0v)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/elysium_anime_unified_colab.ipynb) | Elysium Anime V1 - V3 | [hesw23168/SD-Elysium-Model](https://huggingface.co/hesw23168/SD-Elysium-Model)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/hentai_diffusion_unified_colab.ipynb) | Hentai Diffusion 16 - 17 | [Deltaadams/HentaiDiffusion](https://huggingface.co/Deltaadams/HentaiDiffusion)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/waifu_diffusion_webui_colab.ipynb) | Waifu Diffusion 1.3 - 1.3.5 | [hakurei/waifu-diffusion-v1-3](https://huggingface.co/hakurei/waifu-diffusion-v1-3)
 
 ## Mixed Models
 | Colab Link | Model | Model Page
 | --- | --- | --- |
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/any_gape_mix.ipynb) | AnyGape Mix | https://huggingface.co/etherealxx/anygape-mix
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/anything_mix.ipynb) | Anything Mix | https://huggingface.co/NUROISEA/anything-mix
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/drbob2142_mix_models.ipynb) | DrBob2142's Mix Models | https://huggingface.co/DrBob2142/Mix-Models
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/misobarisic_playground.ipynb) | Misobaristic's Playground | https://huggingface.co/misobarisic/playground
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/momocha_mix.ipynb) | Momocha Mix | https://huggingface.co/NoCrypt/momocha-mix
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/orange_mixs.ipynb) | OrangeMixs | https://huggingface.co/WarriorMama777/OrangeMixs
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/any_gape_mix.ipynb) | AnyGape Mix | [etherealxx/anygape-mix](https://huggingface.co/etherealxx/anygape-mix)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/anything_mix.ipynb) | Anything Mix | [NUROISEA/anything-mix](https://huggingface.co/NUROISEA/anything-mix)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/drbob2142_mix_models.ipynb) | DrBob2142's Mix Models | [DrBob2142/Mix-Models](https://huggingface.co/DrBob2142/Mix-Models)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/misobarisic_playground.ipynb) | Misobaristic's Playground | [misobarisic/playground](https://huggingface.co/misobarisic/playground)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/momocha_mix.ipynb) | Momocha Mix | [NoCrypt/momocha-mix](https://huggingface.co/NoCrypt/momocha-mix)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/orange_mixs.ipynb) | OrangeMixs | [WarriorMama777/OrangeMixs](https://huggingface.co/WarriorMama777/OrangeMixs)
 
 # 🤔 How to use
 
@@ -35,10 +35,14 @@
 [camenduru/stable-diffusion-webui](https://github.com/camenduru/stable-diffusion-webui-colab)
 
 ## Stable Diffusion Web UI
-[https://github.com/AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui).
+[https://github.com/AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
 
 ## Documentation
 [https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki)
 
+## Extensions
+[DominikDoom/a1111-sd-webui-tagcomplete](https://github.com/DominikDoom/a1111-sd-webui-tagcomplete)
+[yfszzx/stable-diffusion-webui-images-browser](https://github.com/yfszzx/stable-diffusion-webui-images-browser)
+
 ## Models License
-https://huggingface.co/spaces/CompVis/stable-diffusion-license
+[spaces/CompVis/stable-diffusion-license](https://huggingface.co/spaces/CompVis/stable-diffusion-license)
