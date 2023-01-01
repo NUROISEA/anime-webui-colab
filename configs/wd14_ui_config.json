@@ -1,0 +1,4 @@
+{
+    "txt2img/Prompt/value": "masterpiece, best quality, high quality, absurdres, ",
+    "txt2img/Negative prompt/value": "worst quality, low quality, medium quality, deleted, lowres, comic, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, jpeg artifacts, signature, watermark, username, blurry"
+}
