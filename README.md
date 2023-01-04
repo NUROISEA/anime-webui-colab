@@ -18,6 +18,10 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/momocha_mix.ipynb) | Momocha Mix | [🤗NoCrypt/momocha-mix](https://huggingface.co/NoCrypt/momocha-mix)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/orange_mixs.ipynb) | OrangeMixs | [🤗WarriorMama777/OrangeMixs](https://huggingface.co/WarriorMama777/OrangeMixs)
 
+## Provide your own
+| Colab Link | Model | Model Page
+| --- | --- | --- |
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/provide_your_own_models.ipynb) | Nothing :) | Where ever you got your model
 # 🤔 How to use
 
 1. Pick which model to use, and click on "Open In Colab" at the tables above.
