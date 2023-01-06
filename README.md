@@ -17,11 +17,13 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/misobarisic_playground.ipynb) | Misobarisic's Playground | [🤗misobarisic/playground](https://huggingface.co/misobarisic/playground)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/momocha_mix.ipynb) | Momocha Mix | [🤗NoCrypt/momocha-mix](https://huggingface.co/NoCrypt/momocha-mix)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/orange_mixs.ipynb) | OrangeMixs | [🤗WarriorMama777/OrangeMixs](https://huggingface.co/WarriorMama777/OrangeMixs)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/protothing_200.ipynb) | ProtoThing_200 | [🤗NiteStormz/ProtoThing_200](https://huggingface.co/NiteStormz/ProtoThing_200)
 
 ## Provide your own
 | Colab Link | Model | Model Page
 | --- | --- | --- |
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/provide_your_own_models.ipynb) | Nothing :) | Where ever you got your model
+
 # 🤔 How to use
 
 1. Pick which model to use, and click on "Open In Colab" at the tables above.
@@ -31,7 +33,6 @@
 3. Once done with your sessions, you can stop the cell by clicking the stop button on the left of the cell
 4. You can now run the next cell to save your generations into a zip file, multiple options are available on where you can download it.
   5. If prompted to link your Google account, do so if you selected to save the zip file onto your Drive.
- 
 
 # 🧐 References
 
