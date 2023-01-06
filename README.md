@@ -49,5 +49,9 @@
 - [DominikDoom's a1111-sd-webui-tagcomplete](https://github.com/DominikDoom/a1111-sd-webui-tagcomplete)
 - [yfszzx's stable-diffusion-webui-images-browser](https://github.com/yfszzx/stable-diffusion-webui-images-browser)
 
+## Embeddings
+- [Nerfgun3's bad_prompt](https://huggingface.co/datasets/Nerfgun3/bad_prompt)
+- [nick-x-hacker's bad-artist](https://huggingface.co/nick-x-hacker/bad-artist)
+
 ## Models License
 https://huggingface.co/spaces/CompVis/stable-diffusion-license
