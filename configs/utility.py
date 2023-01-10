@@ -31,4 +31,4 @@ default_configs = [
 
 xformers_link = "https://github.com/camenduru/stable-diffusion-webui-colab/releases/download/0.0.15/xformers-0.0.15.dev0+189828c.d20221207-cp38-cp38-linux_x86_64.whl"
 
-webui_commit_hash = "5f4fa942b8ec3ed3b15a352903489d6f9e6eb46e"
+webui_commit_hash = "151233399c4b79934bdbb7c12a97eeb6499572fb"
