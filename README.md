@@ -13,6 +13,7 @@
 | --- | --- | --- | --- 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/animeinourworld.ipynb) | AnimeInOurWorld | [🤗NoCrypt/animeinourworld-model](https://huggingface.co/NoCrypt/animeinourworld-model) | 1
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/ligne_claire_anime_diffusion.ipynb) | Ligne Claire Anime | [🤗breakcore2/ligne_claire_anime_diffusion](https://huggingface.co/breakcore2/ligne_claire_anime_diffusion) | 1
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/open_anime_journey.ipynb) | OpenAnimeJourney | [🤗MehjourneyClosedAI/OpenAnimeJourney](https://huggingface.co/MehjourneyClosedAI/OpenAnimeJourney) | 1
 
 ## Mixed Models
 | Colab Link | Model | Model Page | # of Models 
