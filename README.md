@@ -15,6 +15,7 @@
 [![Open In Colab][colab-icon]][aiow] | AnimeInOurWorld | [🤗NoCrypt/animeinourworld-model](https://huggingface.co/NoCrypt/animeinourworld-model) | 1
 [![Open In Colab][colab-icon]][lca] | Ligne Claire Anime | [🤗breakcore2/ligne_claire_anime_diffusion](https://huggingface.co/breakcore2/ligne_claire_anime_diffusion) | 1
 [![Open In Colab][colab-icon]][oaj] | OpenAnimeJourney | [🤗MehjourneyClosedAI/OpenAnimeJourney](https://huggingface.co/MehjourneyClosedAI/OpenAnimeJourney) | 1
+[![Open In Colab][colab-icon]][pd13] | Plat Diffusion v1.3.0  | [🤗p1atdev/plat-diffusion](https://huggingface.co/p1atdev/plat-diffusion) | 1
 
 ## Mixed Models
 | Colab Link | Model | Model Page | # of Models 
@@ -79,6 +80,7 @@ https://huggingface.co/spaces/CompVis/stable-diffusion-license
 [aiow]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/animeinourworld.ipynb
 [lca]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/ligne_claire_anime_diffusion.ipynb
 [oaj]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/open_anime_journey.ipynb
+[pd13]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/plat-diffusion.ipynb
 
 [agmx]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/any_gape_mix.ipynb
 [amx]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/anything_mix.ipynb
