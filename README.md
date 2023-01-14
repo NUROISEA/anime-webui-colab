@@ -22,6 +22,7 @@
 [![Open In Colab][colab-icon]][agmx] | AnyGape Mix | [🤗etherealxx/anygape-mix](https://huggingface.co/etherealxx/anygape-mix) | 2
 [![Open In Colab][colab-icon]][amx] | Anything Mix | [🤗NUROISEA/anything-mix](https://huggingface.co/NUROISEA/anything-mix) | 9
 [![Open In Colab][colab-icon]][dbmx] | DrBob2142's Mix Models | [🤗DrBob2142/Mix-Models](https://huggingface.co/DrBob2142/Mix-Models) | 12 (5)*
+[![Open In Colab][colab-icon]][hddg] | HDDream-G | [🤗Horsebird/HDDream-G](https://huggingface.co/Horsebird/HDDream-G) | 1
 [![Open In Colab][colab-icon]][mbp] | Misobarisic's Playground | [🤗misobarisic/playground](https://huggingface.co/misobarisic/playground) | 10
 [![Open In Colab][colab-icon]][mcmx] | Momocha Mix | [🤗NoCrypt/momocha-mix](https://huggingface.co/NoCrypt/momocha-mix) | 2 (1)*
 [![Open In Colab][colab-icon]][omx] | OrangeMixs | [🤗WarriorMama777/OrangeMixs](https://huggingface.co/WarriorMama777/OrangeMixs) | 23 (6)*
@@ -82,6 +83,7 @@ https://huggingface.co/spaces/CompVis/stable-diffusion-license
 [agmx]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/any_gape_mix.ipynb
 [amx]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/anything_mix.ipynb
 [dbmx]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/drbob2142_mix_models.ipynb
+[hddg]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/hddream_g.ipynb
 [mbp]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/misobarisic_playground.ipynb
 [mcmx]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/momocha_mix.ipynb
 [omx]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/orange_mixs.ipynb
