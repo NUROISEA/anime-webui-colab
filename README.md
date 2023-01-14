@@ -3,6 +3,7 @@
 | Colab Link | Model| Model Page | # of Models 
 | --- | --- | --- | --- |
 [![Open In Colab][colab-icon]][av3] | Anything V3 | [🤗Linaqruf/anything-v3.0](https://huggingface.co/Linaqruf/anything-v3.0) | 1 
+[![Open In Colab][colab-icon]][bd] | Baka-Diffusion! | [🤗Hosioka/Baka-Diffusion](https://huggingface.co/Hosioka/Baka-Diffusion) | 1 
 [![Open In Colab][colab-icon]][ead] | Eimis Anime Diffusion | [🤗eimiss/EimisAnimeDiffusion_1.0v](https://huggingface.co/eimiss/EimisAnimeDiffusion_1.0v) | 1
 [![Open In Colab][colab-icon]][eam] | Elysium Anime v1 - v3 | [🤗hesw23168/SD-Elysium-Model](https://huggingface.co/hesw23168/SD-Elysium-Model) | 3 (1)*
 [![Open In Colab][colab-icon]][hd] | Hentai Diffusion 16 - 17 | [🤗Deltaadams/HentaiDiffusion](https://huggingface.co/Deltaadams/HentaiDiffusion) | 2 (1)*
@@ -68,6 +69,7 @@ https://huggingface.co/spaces/CompVis/stable-diffusion-license
 [colab-icon]: https://colab.research.google.com/assets/colab-badge.svg
 
 [av3]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/anything_3_webui_colab.ipynb
+[bd]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/baka_diffusion.ipynb
 [ead]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/eimis_anime_diffusion.ipynb
 [eam]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/elysium_anime_unified_colab.ipynb
 [hd]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/hentai_diffusion_unified_colab.ipynb
