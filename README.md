@@ -2,36 +2,36 @@
 ## Main Models
 | Colab Link | Model| Model Page | # of Models 
 | --- | --- | --- | --- |
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/anything_3_webui_colab.ipynb) | Anything V3 | [🤗Linaqruf/anything-v3.0](https://huggingface.co/Linaqruf/anything-v3.0) | 1 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/eimis_anime_diffusion.ipynb) | Eimis Anime Diffusion | [🤗eimiss/EimisAnimeDiffusion_1.0v](https://huggingface.co/eimiss/EimisAnimeDiffusion_1.0v) | 1
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/elysium_anime_unified_colab.ipynb) | Elysium Anime | [🤗hesw23168/SD-Elysium-Model](https://huggingface.co/hesw23168/SD-Elysium-Model) | 3 (1)*
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/hentai_diffusion_unified_colab.ipynb) | Hentai Diffusion | [🤗Deltaadams/HentaiDiffusion](https://huggingface.co/Deltaadams/HentaiDiffusion) | 2 (1)*
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/waifu_diffusion_webui_colab.ipynb) | Waifu Diffusion | [🤗hakurei/waifu-diffusion](https://huggingface.co/hakurei/waifu-diffusion) | 3 (1)*
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/anything_3_webui_colab.ipynb) | Anything V3 | [🤗Linaqruf/anything-v3.0](https://huggingface.co/Linaqruf/anything-v3.0) | 1 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/eimis_anime_diffusion.ipynb) | Eimis Anime Diffusion | [🤗eimiss/EimisAnimeDiffusion_1.0v](https://huggingface.co/eimiss/EimisAnimeDiffusion_1.0v) | 1
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/elysium_anime_unified_colab.ipynb) | Elysium Anime | [🤗hesw23168/SD-Elysium-Model](https://huggingface.co/hesw23168/SD-Elysium-Model) | 3 (1)*
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/hentai_diffusion_unified_colab.ipynb) | Hentai Diffusion | [🤗Deltaadams/HentaiDiffusion](https://huggingface.co/Deltaadams/HentaiDiffusion) | 2 (1)*
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/waifu_diffusion_webui_colab.ipynb) | Waifu Diffusion | [🤗hakurei/waifu-diffusion](https://huggingface.co/hakurei/waifu-diffusion) | 3 (1)*
 
 ## Finetunes
 | Colab Link | Model | Model Page | # of Models 
 | --- | --- | --- | --- 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/animeinourworld.ipynb) | AnimeInOurWorld | [🤗NoCrypt/animeinourworld-model](https://huggingface.co/NoCrypt/animeinourworld-model) | 1
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/ligne_claire_anime_diffusion.ipynb) | Ligne Claire Anime | [🤗breakcore2/ligne_claire_anime_diffusion](https://huggingface.co/breakcore2/ligne_claire_anime_diffusion) | 1
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/open_anime_journey.ipynb) | OpenAnimeJourney | [🤗MehjourneyClosedAI/OpenAnimeJourney](https://huggingface.co/MehjourneyClosedAI/OpenAnimeJourney) | 1
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/animeinourworld.ipynb) | AnimeInOurWorld | [🤗NoCrypt/animeinourworld-model](https://huggingface.co/NoCrypt/animeinourworld-model) | 1
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/ligne_claire_anime_diffusion.ipynb) | Ligne Claire Anime | [🤗breakcore2/ligne_claire_anime_diffusion](https://huggingface.co/breakcore2/ligne_claire_anime_diffusion) | 1
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/open_anime_journey.ipynb) | OpenAnimeJourney | [🤗MehjourneyClosedAI/OpenAnimeJourney](https://huggingface.co/MehjourneyClosedAI/OpenAnimeJourney) | 1
 
 ## Mixed Models
 | Colab Link | Model | Model Page | # of Models 
 | --- | --- | --- | --- |
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/any_gape_mix.ipynb) | AnyGape Mix | [🤗etherealxx/anygape-mix](https://huggingface.co/etherealxx/anygape-mix) | 2
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/anything_mix.ipynb) | Anything Mix | [🤗NUROISEA/anything-mix](https://huggingface.co/NUROISEA/anything-mix) | 9
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/drbob2142_mix_models.ipynb) | DrBob2142's Mix Models | [🤗DrBob2142/Mix-Models](https://huggingface.co/DrBob2142/Mix-Models) | 12 (5)*
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/misobarisic_playground.ipynb) | Misobarisic's Playground | [🤗misobarisic/playground](https://huggingface.co/misobarisic/playground) | 10
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/momocha_mix.ipynb) | Momocha Mix | [🤗NoCrypt/momocha-mix](https://huggingface.co/NoCrypt/momocha-mix) | 2 (1)*
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/orange_mixs.ipynb) | OrangeMixs | [🤗WarriorMama777/OrangeMixs](https://huggingface.co/WarriorMama777/OrangeMixs) | 23 (6)*
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/protothing_200.ipynb) | ProtoThing_200 | [🤗NiteStormz/ProtoThing_200](https://huggingface.co/NiteStormz/ProtoThing_200) | 1
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/any_gape_mix.ipynb) | AnyGape Mix | [🤗etherealxx/anygape-mix](https://huggingface.co/etherealxx/anygape-mix) | 2
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/anything_mix.ipynb) | Anything Mix | [🤗NUROISEA/anything-mix](https://huggingface.co/NUROISEA/anything-mix) | 9
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/drbob2142_mix_models.ipynb) | DrBob2142's Mix Models | [🤗DrBob2142/Mix-Models](https://huggingface.co/DrBob2142/Mix-Models) | 12 (5)*
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/misobarisic_playground.ipynb) | Misobarisic's Playground | [🤗misobarisic/playground](https://huggingface.co/misobarisic/playground) | 10
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/momocha_mix.ipynb) | Momocha Mix | [🤗NoCrypt/momocha-mix](https://huggingface.co/NoCrypt/momocha-mix) | 2 (1)*
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/orange_mixs.ipynb) | OrangeMixs | [🤗WarriorMama777/OrangeMixs](https://huggingface.co/WarriorMama777/OrangeMixs) | 23 (6)*
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/protothing_200.ipynb) | ProtoThing_200 | [🤗NiteStormz/ProtoThing_200](https://huggingface.co/NiteStormz/ProtoThing_200) | 1
 
 <small>* count if not including different epoch / variants / purged / fp16 versions</small>
 
 ## Provide your own
 | Colab Link | Model | Model Page
 | --- | --- | --- |
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/provide_your_own_models.ipynb) | Nothing :) | Where ever you got your model
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/provide_your_own_models.ipynb) | Nothing :) | Where ever you got your model
 
 # 🤔 How to use
 
