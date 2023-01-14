@@ -15,7 +15,7 @@
 [![Open In Colab][colab-icon]][bd]   | Baka-Diffusion! | [🤗Hosioka/Baka-Diffusion](https://huggingface.co/Hosioka/Baka-Diffusion) | 1 
 [![Open In Colab][colab-icon]][lca]  | Ligne Claire Anime | [🤗breakcore2/ligne_claire_anime_diffusion](https://huggingface.co/breakcore2/ligne_claire_anime_diffusion) | 1
 [![Open In Colab][colab-icon]][oaj]  | OpenAnimeJourney | [🤗MehjourneyClosedAI/OpenAnimeJourney](https://huggingface.co/MehjourneyClosedAI/OpenAnimeJourney) | 1
-[![Open In Colab][colab-icon]][pd13] | Plat Diffusion v1.3.0  | [🤗p1atdev/plat-diffusion](https://huggingface.co/p1atdev/plat-diffusion) | 1
+<!-- [![Open In Colab][colab-icon]][pd13] | Plat Diffusion v1.3.0  | [🤗p1atdev/plat-diffusion](https://huggingface.co/p1atdev/plat-diffusion) | 1 -->
 
 ## Mixed Models
 | Colab Link | Model | Model Page | # of Models 
