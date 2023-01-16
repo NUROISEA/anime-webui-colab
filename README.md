@@ -6,7 +6,7 @@
 [![Open In Colab][colab-icon]][ead] | Eimis Anime Diffusion | [🤗eimiss/EimisAnimeDiffusion_1.0v](https://huggingface.co/eimiss/EimisAnimeDiffusion_1.0v) | 1
 [![Open In Colab][colab-icon]][eam] | Elysium Anime v1 - v3 | [🤗hesw23168/SD-Elysium-Model](https://huggingface.co/hesw23168/SD-Elysium-Model) | 3 (1)*
 [![Open In Colab][colab-icon]][hd]  | Hentai Diffusion 16 - 17 | [🤗Deltaadams/HentaiDiffusion](https://huggingface.co/Deltaadams/HentaiDiffusion) | 2 (1)*
-[![Open In Colab][colab-icon]][wd]  | Waifu Diffusion v1.3 - v1.4 | [🤗hakurei/waifu-diffusion](https://huggingface.co/hakurei/waifu-diffusion) | 3 (1)*
+[![Open In Colab][colab-icon]][wd]  | Waifu Diffusion v1.3 - v1.4 | [🤗hakurei/waifu-diffusion](https://huggingface.co/hakurei/waifu-diffusion) | 4 (1)*
 
 ## Finetunes
 | Colab Link | Model | Model Page | # of Models 
@@ -20,6 +20,7 @@
 ## Mixed Models
 | Colab Link | Model | Model Page | # of Models 
 | --- | --- | --- | --- |
+[![Open In Colab][colab-icon]][7thl] | 7th_Layer | [🤗etherealxx/anygape-mix](https://huggingface.co/syaimu/7th_Layer) | 10 (4)*
 [![Open In Colab][colab-icon]][agmx] | AnyGape Mix | [🤗etherealxx/anygape-mix](https://huggingface.co/etherealxx/anygape-mix) | 2
 [![Open In Colab][colab-icon]][amx]  | Anything Mix | [🤗NUROISEA/anything-mix](https://huggingface.co/NUROISEA/anything-mix) | 9
 [![Open In Colab][colab-icon]][av4]  | Anything "V4" | [🤗andite/anything-v4.0](https://huggingface.co/andite/anything-v4.0) | 2 (1)*
@@ -83,6 +84,7 @@ https://huggingface.co/spaces/CompVis/stable-diffusion-license
 [oaj]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/open_anime_journey.ipynb
 [pd13]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/plat-diffusion.ipynb
 
+[7thl]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/7th_layer.ipynb
 [agmx]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/any_gape_mix.ipynb
 [amx]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/anything_mix.ipynb
 [av4]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/anything_v4.ipynb
