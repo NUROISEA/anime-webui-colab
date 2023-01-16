@@ -20,7 +20,7 @@
 ## Mixed Models
 | Colab Link | Model | Model Page | # of Models 
 | --- | --- | --- | --- |
-[![Open In Colab][colab-icon]][7thl] | 7th_Layer | [🤗etherealxx/anygape-mix](https://huggingface.co/syaimu/7th_Layer) | 10 (4)*
+[![Open In Colab][colab-icon]][7thl] | 7th_Layer | [🤗syaimu/7th_Layer](https://huggingface.co/syaimu/7th_Layer) | 10 (4)*
 [![Open In Colab][colab-icon]][agmx] | AnyGape Mix | [🤗etherealxx/anygape-mix](https://huggingface.co/etherealxx/anygape-mix) | 2
 [![Open In Colab][colab-icon]][amx]  | Anything Mix | [🤗NUROISEA/anything-mix](https://huggingface.co/NUROISEA/anything-mix) | 9
 [![Open In Colab][colab-icon]][av4]  | Anything "V4" | [🤗andite/anything-v4.0](https://huggingface.co/andite/anything-v4.0) | 2 (1)*
