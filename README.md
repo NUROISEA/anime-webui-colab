@@ -29,6 +29,7 @@
 <!-- [![Open In Colab][colab-icon]][pd13] | Plat Diffusion v1.3.0  | [🤗p1atdev/plat-diffusion](https://huggingface.co/p1atdev/plat-diffusion) | 1 -->
 
 <small>* Count of usable models in the colab</small>
+
 <small>^ Models in the colab are have some sort of variant that are noticably different</small>
 
 ## Provide your own
