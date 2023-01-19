@@ -1,15 +1,15 @@
 # 🚀 Colab
 ## Main Models
-| Colab Link | Model| Model Page | # of Models 
+| Colab Link | Model| Model Page | # of Models*
 | --- | --- | --- | --- |
 [![Open In Colab][colab-icon]][av3] | Anything V3 | [🤗Linaqruf/anything-v3.0](https://huggingface.co/Linaqruf/anything-v3.0) | 1 
 [![Open In Colab][colab-icon]][ead] | Eimis Anime Diffusion | [🤗eimiss/EimisAnimeDiffusion_1.0v](https://huggingface.co/eimiss/EimisAnimeDiffusion_1.0v) | 1
-[![Open In Colab][colab-icon]][eam] | Elysium Anime v1 - v3 | [🤗hesw23168/SD-Elysium-Model](https://huggingface.co/hesw23168/SD-Elysium-Model) | 3 (1)*
-[![Open In Colab][colab-icon]][hd]  | Hentai Diffusion 16 - 17 | [🤗Deltaadams/HentaiDiffusion](https://huggingface.co/Deltaadams/HentaiDiffusion) | 2 (1)*
-[![Open In Colab][colab-icon]][wd]  | Waifu Diffusion v1.3 - v1.4 | [🤗hakurei/waifu-diffusion](https://huggingface.co/hakurei/waifu-diffusion) | 4 (1)*
+[![Open In Colab][colab-icon]][eam] | Elysium Anime v1 - v3 | [🤗hesw23168/SD-Elysium-Model](https://huggingface.co/hesw23168/SD-Elysium-Model) | 3
+[![Open In Colab][colab-icon]][hd]  | Hentai Diffusion 16 - 17 | [🤗Deltaadams/HentaiDiffusion](https://huggingface.co/Deltaadams/HentaiDiffusion) | 2
+[![Open In Colab][colab-icon]][wd]  | Waifu Diffusion v1.3 - v1.4 | [🤗hakurei/waifu-diffusion](https://huggingface.co/hakurei/waifu-diffusion) | 4
 
 ## Finetunes
-| Colab Link | Model | Model Page | # of Models 
+| Colab Link | Model | Model Page | # of Models* 
 | --- | --- | --- | --- 
 [![Open In Colab][colab-icon]][aiow] | AnimeInOurWorld | [🤗NoCrypt/animeinourworld-model](https://huggingface.co/NoCrypt/animeinourworld-model) | 1
 [![Open In Colab][colab-icon]][bd]   | Baka-Diffusion! | [🤗Hosioka/Baka-Diffusion](https://huggingface.co/Hosioka/Baka-Diffusion) | 1 
@@ -18,20 +18,21 @@
 <!-- [![Open In Colab][colab-icon]][pd13] | Plat Diffusion v1.3.0  | [🤗p1atdev/plat-diffusion](https://huggingface.co/p1atdev/plat-diffusion) | 1 -->
 
 ## Mixed Models
-| Colab Link | Model | Model Page | # of Models 
+| Colab Link | Model | Model Page | # of Models*
 | --- | --- | --- | --- |
-[![Open In Colab][colab-icon]][7thl] | 7th_Layer | [🤗syaimu/7th_Layer](https://huggingface.co/syaimu/7th_Layer) | 10 (4)*
+[![Open In Colab][colab-icon]][7thl] | 7th_Layer | [🤗syaimu/7th_Layer](https://huggingface.co/syaimu/7th_Layer) | 10
 [![Open In Colab][colab-icon]][agmx] | AnyGape Mix | [🤗etherealxx/anygape-mix](https://huggingface.co/etherealxx/anygape-mix) | 2
 [![Open In Colab][colab-icon]][amx]  | Anything Mix | [🤗NUROISEA/anything-mix](https://huggingface.co/NUROISEA/anything-mix) | 9
-[![Open In Colab][colab-icon]][av4]  | Anything "V4" | [🤗andite/anything-v4.0](https://huggingface.co/andite/anything-v4.0) | 2 (1)*
-[![Open In Colab][colab-icon]][dbmx] | DrBob2142's Mix Models | [🤗DrBob2142/Mix-Models](https://huggingface.co/DrBob2142/Mix-Models) | 12 (5)*
+[![Open In Colab][colab-icon]][av4]  | Anything "V4" | [🤗andite/anything-v4.0](https://huggingface.co/andite/anything-v4.0) | 2
+[![Open In Colab][colab-icon]][dbmx] | DrBob2142's Mix Models | [🤗DrBob2142/Mix-Models](https://huggingface.co/DrBob2142/Mix-Models) | 12
 [![Open In Colab][colab-icon]][hddg] | HDDream-G | [🤗Horsebird/HDDream-G](https://huggingface.co/Horsebird/HDDream-G) | 1
+[![Open In Colab][colab-icon]][mnmx] | Midnight Mixes | [🤗DrBob2142/Midnight_Mixes](https://huggingface.co/DrBob2142/Midnight_Mixes) | 3
 [![Open In Colab][colab-icon]][mbp]  | Misobarisic's Playground | [🤗misobarisic/playground](https://huggingface.co/misobarisic/playground) | 10
-[![Open In Colab][colab-icon]][mcmx] | Momocha Mix | [🤗NoCrypt/momocha-mix](https://huggingface.co/NoCrypt/momocha-mix) | 2 (1)*
-[![Open In Colab][colab-icon]][omx]  | OrangeMixs | [🤗WarriorMama777/OrangeMixs](https://huggingface.co/WarriorMama777/OrangeMixs) | 23 (6)*
+[![Open In Colab][colab-icon]][mcmx] | Momocha Mix | [🤗NoCrypt/momocha-mix](https://huggingface.co/NoCrypt/momocha-mix) | 2
+[![Open In Colab][colab-icon]][omx]  | OrangeMixs | [🤗WarriorMama777/OrangeMixs](https://huggingface.co/WarriorMama777/OrangeMixs) | 23
 [![Open In Colab][colab-icon]][p200] | ProtoThing_200 | [🤗NiteStormz/ProtoThing_200](https://huggingface.co/NiteStormz/ProtoThing_200) | 1
 
-<small>* count if not including different epoch / variants / purged / fp16 versions</small>
+<small>* Count of usable models in the colab</small>
 
 ## Provide your own
 | Colab Link | Model | Model Page
