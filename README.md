@@ -6,7 +6,7 @@
 
 | Colab Link | Model | 🤔  | Model Page | Count*
 | ---        | ---   | :---: | ---        | ---: |
-[![Open In Colab][colab-icon]][7thl] | 7th_Layer | 🔥📚 | [🤗syaimu](https://huggingface.co/syaimu/7th_Layer) | 10
+[![Open In Colab][colab-icon]][7thl] | 7th_Layer | 🔥🔁📚 | [🤗syaimu](https://huggingface.co/syaimu/7th_Layer) | 10
 [![Open In Colab][colab-icon]][agmx] | AnyGape Mix | 🔁 | [🤗etherealxx](https://huggingface.co/etherealxx/anygape-mix) | 2
 [![Open In Colab][colab-icon]][aiow] | AnimeInOurWorld |  | [🤗NoCrypt](https://huggingface.co/NoCrypt/animeinourworld-model) | 1
 [![Open In Colab][colab-icon]][amx]  | Anything Mix | 🔁📚 | [🤗NUROISEA](https://huggingface.co/NUROISEA/anything-mix) | 9
