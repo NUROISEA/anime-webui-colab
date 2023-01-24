@@ -10,7 +10,7 @@
 [![Open In Colab][colab-icon]][agmx] | AnyGape Mix | 🔁 | [🤗etherealxx](https://huggingface.co/etherealxx/anygape-mix) | 2
 [![Open In Colab][colab-icon]][aiow] | AnimeInOurWorld |  | [🤗NoCrypt](https://huggingface.co/NoCrypt/animeinourworld-model) | 1
 [![Open In Colab][colab-icon]][amx]  | Anything Mix | 🔁📚 | [🤗NUROISEA](https://huggingface.co/NUROISEA/anything-mix) | 9
-[![Open In Colab][colab-icon]][av3]  | Anything V3 | 🔥 | [🤗Linaqruf](https://huggingface.co/Linaqruf/anything-v3.0) | 1 
+[![Open In Colab][colab-icon]][av3]  | Anything V3 | 🔥 | [🤗NUROISEA](https://huggingface.co/NUROISEA/av3-mirror) (mirror) | 1 
 [![Open In Colab][colab-icon]][av4]  | Anything "V4" | 🔥🔁📚 | [🤗andite](https://huggingface.co/andite/anything-v4.0) | 2
 [![Open In Colab][colab-icon]][bd]   | Baka-Diffusion! |  | [🤗Hosioka](https://huggingface.co/Hosioka/Baka-Diffusion) | 1 
 [![Open In Colab][colab-icon]][dbmx] | DrBob2142's Mix Models | 🔁📚 | [🤗DrBob2142](https://huggingface.co/DrBob2142/Mix-Models) | 12
