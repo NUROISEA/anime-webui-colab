@@ -24,7 +24,7 @@
 [![Open In Colab][colab-icon]][mnmx] | Midnight Mixes | 🔥🔁 | [🤗DrBob2142](https://huggingface.co/DrBob2142/Midnight_Mixes) | 3
 [![Open In Colab][colab-icon]][oaj]  | OpenAnimeJourney |  | [🤗MehjourneyClosedAI](https://huggingface.co/MehjourneyClosedAI/OpenAnimeJourney) | 1
 [![Open In Colab][colab-icon]][omx]  | OrangeMixs | 🔥🔁📚 | [🤗WarriorMama777](https://huggingface.co/WarriorMama777/OrangeMixs) | 23
-[![Open In Colab][colab-icon]][p200] | ProtoThing_200 | 🔁 | [🤗NiteStormz](https://huggingface.co/NiteStormz/ProtoThing_200) | 1
+[![Open In Colab][colab-icon]][p200] | ProtoThing_200 | 🔁 | [🤗NiteStormz](https://huggingface.co/NiteStormz/ProtoThing_200) | 2
 [![Open In Colab][colab-icon]][wany] | WaifuAnything | 🔁 | [🤗KuromiLayfe](https://huggingface.co/KuromiLayfe/WaifuAnything) | 1
 [![Open In Colab][colab-icon]][wd]   | Waifu Diffusion v1.3 - v1.4 | 📚 | [🤗hakurei](https://huggingface.co/hakurei/waifu-diffusion) | 4
 <!-- [![Open In Colab][colab-icon]][pd13] | Plat Diffusion v1.3.0  | [🤗p1atdev](https://huggingface.co/p1atdev/plat-diffusion) | 1 -->
