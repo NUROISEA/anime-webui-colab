@@ -25,8 +25,9 @@
 [![Open In Colab][colab-icon]][mnmx] | Midnight Mixes | 🔥🔁 | [🤗DrBob2142](https://huggingface.co/DrBob2142/Midnight_Mixes) | 3
 [![Open In Colab][colab-icon]][oaj]  | OpenAnimeJourney |  | [🤗MehjourneyClosedAI](https://huggingface.co/MehjourneyClosedAI/OpenAnimeJourney) | 1
 [![Open In Colab][colab-icon]][omx]  | OrangeMixs | 🔥🔁📚 | [🤗WarriorMama777](https://huggingface.co/WarriorMama777/OrangeMixs) | 23
-[![Open In Colab][colab-icon]][p200] | ProtoThing_200 | 🔁 | [🤗NiteStormz](https://huggingface.co/NiteStormz/ProtoThing_200) | 2
+[![Open In Colab][colab-icon]][p200] | ProtoThing_200 | 🔁📚 | [🤗NiteStormz](https://huggingface.co/NiteStormz/ProtoThing_200) | 2
 [![Open In Colab][colab-icon]][rsms] | Rasgeath's Self Made Sauce | 🔁 | [🤗Rasgeath](https://huggingface.co/Rasgeath/self_made_sauce) | 7
+[![Open In Colab][colab-icon]][sryk] | Shirayuki Model | 🔁 | [🤗hesw23168](https://huggingface.co/hesw23168/SD_Shirayuki_Model) | 1
 [![Open In Colab][colab-icon]][wany] | WaifuAnything | 🔁 | [🤗KuromiLayfe](https://huggingface.co/KuromiLayfe/WaifuAnything) | 1
 [![Open In Colab][colab-icon]][wd]   | Waifu Diffusion v1.3 - v1.4 | 📚 | [🤗hakurei](https://huggingface.co/hakurei/waifu-diffusion) | 4
 <!-- [![Open In Colab][colab-icon]][pd13] | Plat Diffusion v1.3.0  | [🤗p1atdev](https://huggingface.co/p1atdev/plat-diffusion) | 1 -->
@@ -94,6 +95,7 @@ https://huggingface.co/spaces/CompVis/stable-diffusion-license
 [p200]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/protothing_200.ipynb
 [pd13]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/plat-diffusion.ipynb
 [rsms]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/rasgeath_self_made_sauce.ipynb
+[sryk]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/shirayuki_model.ipynb
 [wany]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/waifuanything.ipynb
 [wd]:   https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/waifu_diffusion.ipynb
 
