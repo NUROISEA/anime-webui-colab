@@ -7,6 +7,7 @@
 | Colab Link | Model | 🤔  | Model Page | Count*
 | ---        | ---   | :---: | ---        | ---: |
 [![Open In Colab][colab-icon]][7thl] | 7th_Layer | 🔥🔁📚 | [🤗syaimu](https://huggingface.co/syaimu/7th_Layer) | 10
+[![Open In Colab][colab-icon]][8528] | 8528-diffusion | | [🤗852wa](https://huggingface.co/852wa/8528-diffusion) | 1
 [![Open In Colab][colab-icon]][agmx] | AnyGape Mix | 🔁 | [🤗etherealxx](https://huggingface.co/etherealxx/anygape-mix) | 2
 [![Open In Colab][colab-icon]][aiow] | AnimeInOurWorld |  | [🤗NoCrypt](https://huggingface.co/NoCrypt/animeinourworld-model) | 1
 [![Open In Colab][colab-icon]][amx]  | Anything Mix | 🔁📚 | [🤗NUROISEA](https://huggingface.co/NUROISEA/anything-mix) | 9
@@ -75,6 +76,7 @@ https://huggingface.co/spaces/CompVis/stable-diffusion-license
 [colab-icon]: https://colab.research.google.com/assets/colab-badge.svg
 
 [7thl]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/7th_layer.ipynb
+[8528]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/8528-diffusion.ipynb
 [agmx]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/any_gape_mix.ipynb
 [aiow]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/animeinourworld.ipynb
 [amx]:  https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/anything_mix.ipynb
