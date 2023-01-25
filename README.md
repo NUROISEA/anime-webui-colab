@@ -18,7 +18,7 @@
 [![Open In Colab][colab-icon]][ead]  | Eimis Anime Diffusion |  | [🤗eimiss](https://huggingface.co/eimiss/EimisAnimeDiffusion_1.0v) | 1
 [![Open In Colab][colab-icon]][eam]  | Elysium Anime v1 - v3 | 📚 | [🤗hesw23168](https://huggingface.co/hesw23168/SD-Elysium-Model) | 3
 [![Open In Colab][colab-icon]][evry] | Everything | 🔁 | [🤗DrBob2142](https://huggingface.co/DrBob2142/Everything) | 3
-[![Open In Colab][colab-icon]][evt3] | Evt_V3 | 🔁 | [🤗haor](https://huggingface.co/haor/Evt_V3) | 1
+[![Open In Colab][colab-icon]][evt3] | Evt_V3 |  | [🤗haor](https://huggingface.co/haor/Evt_V3) | 1
 [![Open In Colab][colab-icon]][hd]   | Hentai Diffusion 16 - 19 | 📚 | [🤗Deltaadams](https://huggingface.co/Deltaadams/HentaiDiffusion) | 4
 [![Open In Colab][colab-icon]][hddg] | HDDream-G | 🔁 | [🤗Horsebird](https://huggingface.co/Horsebird/HDDream-G) | 1
 [![Open In Colab][colab-icon]][lca]  | Ligne Claire Anime | 🔥 | [🤗breakcore2](https://huggingface.co/breakcore2/ligne_claire_anime_diffusion) | 1
