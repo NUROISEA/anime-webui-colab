@@ -15,7 +15,7 @@ models_downloaded = []
 
 default_extensions = [
     "https://github.com/yfszzx/stable-diffusion-webui-images-browser",
-    "https://github.com/DominikDoom/a1111-sd-webui-tagcomplete",
+    "-b 23.01.14 https://github.com/NUROISEA/a1111-sd-webui-tagcomplete",
 ]
 
 default_embeddings = [
