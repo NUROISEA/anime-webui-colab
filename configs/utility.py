@@ -14,8 +14,8 @@ has_run = False
 models_downloaded = []
 
 default_extensions = [
-    "https://github.com/yfszzx/stable-diffusion-webui-images-browser",
-    "-b 23.01.14 https://github.com/NUROISEA/a1111-sd-webui-tagcomplete",
+    "-b 22.12.10 https://github.com/NUROISEA/stable-diffusion-webui-images-browser",
+    "-b 23.1.14 https://github.com/NUROISEA/a1111-sd-webui-tagcomplete",
 ]
 
 default_embeddings = [
