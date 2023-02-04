@@ -23,7 +23,7 @@
 [![Open In Colab][colab-icon]][hddg] | HDDream-G | 🔁 | [🤗Horsebird](https://huggingface.co/Horsebird/HDDream-G) | 1
 [![Open In Colab][colab-icon]][lca]  | Ligne Claire Anime | 🔥 | [🤗breakcore2](https://huggingface.co/breakcore2/ligne_claire_anime_diffusion) | 1
 [![Open In Colab][colab-icon]][mbp]  | Misobarisic's Playground |  🔁📚 | [🤗misobarisic](https://huggingface.co/misobarisic/playground) | 10
-[![Open In Colab][colab-icon]][mcmx] | Momocha Mix | 🔁 | [🤗NoCrypt](https://huggingface.co/NoCrypt/momocha-mix) | 2
+[![Open In Colab][colab-icon]][mcmx] | Momocha Mix | 🔁 | [🤗NoCrypt](https://huggingface.co/NoCrypt/momocha-mix) | 1
 [![Open In Colab][colab-icon]][mnmx] | Midnight Mixes | 🔥🔁 | [🤗DrBob2142](https://huggingface.co/DrBob2142/Midnight_Mixes) | 3
 [![Open In Colab][colab-icon]][oaj]  | OpenAnimeJourney |  | [🤗MehjourneyClosedAI](https://huggingface.co/MehjourneyClosedAI/OpenAnimeJourney) | 1
 [![Open In Colab][colab-icon]][omx]  | OrangeMixs | 🔥🔁📚 | [🤗WarriorMama777](https://huggingface.co/WarriorMama777/OrangeMixs) | 23
