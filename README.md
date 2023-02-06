@@ -8,9 +8,9 @@
 | ---        | ---   | :---: | ---        | ---: |
 [![Open In Colab][colab-icon]][7thl] | 7th_Layer | 🔥🔁📚 | [🤗syaimu](https://huggingface.co/syaimu/7th_Layer) | 10
 [![Open In Colab][colab-icon]][8528] | 8528-diffusion | | [🤗852wa](https://huggingface.co/852wa/8528-diffusion) | 1
-[![Open In Colab][colab-icon]][agmx] | AnyGape Mix | 🔁 | [🤗etherealxx](https://huggingface.co/etherealxx/anygape-mix) | 2
+[![Open In Colab][colab-icon]][agmx] | AnyGape Mix | 🔁 | [🤗etherealxx](https://huggingface.co/etherealxx/anygape-mix) | 1
 [![Open In Colab][colab-icon]][aiow] | AnimeInOurWorld |  | [🤗NoCrypt](https://huggingface.co/NoCrypt/animeinourworld-model) | 1
-[![Open In Colab][colab-icon]][amx]  | Anything Mix | 🔁📚 | [🤗NUROISEA](https://huggingface.co/NUROISEA/anything-mix) | 9
+[![Open In Colab][colab-icon]][amx]  | Anything Mix | 🔁📚 | [🤗NUROISEA](https://huggingface.co/NUROISEA/anything-mix) | 7
 [![Open In Colab][colab-icon]][av3]  | Anything V3 | 🔥 | [🤗NUROISEA](https://huggingface.co/NUROISEA/av3-mirror) (mirror) | 1 
 [![Open In Colab][colab-icon]][av4]  | Anything "V4" | 🔥🔁📚 | [🤗andite](https://huggingface.co/andite/anything-v4.0) | 2
 [![Open In Colab][colab-icon]][bd]   | Baka-Diffusion! |  | [🤗Hosioka](https://huggingface.co/Hosioka/Baka-Diffusion) | 1 
@@ -22,7 +22,7 @@
 [![Open In Colab][colab-icon]][hd]   | Hentai Diffusion 16 - 19 | 📚 | [🤗Deltaadams](https://huggingface.co/Deltaadams/HentaiDiffusion) | 4
 [![Open In Colab][colab-icon]][hddg] | HDDream-G | 🔁 | [🤗Horsebird](https://huggingface.co/Horsebird/HDDream-G) | 1
 [![Open In Colab][colab-icon]][lca]  | Ligne Claire Anime | 🔥 | [🤗breakcore2](https://huggingface.co/breakcore2/ligne_claire_anime_diffusion) | 1
-[![Open In Colab][colab-icon]][mbp]  | Misobarisic's Playground |  🔁📚 | [🤗misobarisic](https://huggingface.co/misobarisic/playground) | 10
+[![Open In Colab][colab-icon]][mbp]  | Misobarisic's Playground |  🔁📚 | [🤗misobarisic](https://huggingface.co/misobarisic/playground) | 7
 [![Open In Colab][colab-icon]][mcmx] | Momocha Mix | 🔁 | [🤗NoCrypt](https://huggingface.co/NoCrypt/momocha-mix) | 1
 [![Open In Colab][colab-icon]][mnmx] | Midnight Mixes | 🔥🔁 | [🤗DrBob2142](https://huggingface.co/DrBob2142/Midnight_Mixes) | 3
 [![Open In Colab][colab-icon]][oaj]  | OpenAnimeJourney |  | [🤗MehjourneyClosedAI](https://huggingface.co/MehjourneyClosedAI/OpenAnimeJourney) | 1
