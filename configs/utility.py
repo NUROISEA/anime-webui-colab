@@ -15,7 +15,7 @@ models_downloaded = []
 
 default_extensions = [
     "-b 22.12.10 https://github.com/NUROISEA/stable-diffusion-webui-images-browser",
-    "-b 23.1.14 https://github.com/NUROISEA/a1111-sd-webui-tagcomplete",
+    "-b 23.01.14 https://github.com/NUROISEA/a1111-sd-webui-tagcomplete",
 ]
 
 default_embeddings = [
@@ -31,4 +31,4 @@ default_configs = [
 
 xformers_link = "https://github.com/camenduru/stable-diffusion-webui-colab/releases/download/0.0.15/xformers-0.0.15.dev0+189828c.d20221207-cp38-cp38-linux_x86_64.whl"
 
-webui_commit_hash = "151233399c4b79934bdbb7c12a97eeb6499572fb"
+webui_branch = "23.02.01"
