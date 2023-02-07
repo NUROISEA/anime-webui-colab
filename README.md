@@ -28,7 +28,7 @@
 [![Open In Colab][colab-icon]][oaj]  | OpenAnimeJourney |  | [🤗MehjourneyClosedAI](https://huggingface.co/MehjourneyClosedAI/OpenAnimeJourney) | 1
 [![Open In Colab][colab-icon]][omx]  | OrangeMixs | 🔥🔁📚 | [🤗WarriorMama777](https://huggingface.co/WarriorMama777/OrangeMixs) | 23
 [![Open In Colab][colab-icon]][p200] | ProtoThing_200 | 🔁📚 | [🤗NiteStormz](https://huggingface.co/NiteStormz/ProtoThing_200) | 2
-[![Open In Colab][colab-icon]][pd13] | Plat Diffusion v1.3.1  | [🤗p1atdev](https://huggingface.co/p1atdev/plat-diffusion) | 1
+[![Open In Colab][colab-icon]][pd13] | Plat Diffusion v1.3.1  | | [🤗p1atdev](https://huggingface.co/p1atdev/plat-diffusion) | 1
 [![Open In Colab][colab-icon]][ptmx] | Pastel Mix  | 🔥🔁 | [🤗andite](https://huggingface.co/andite/pastel-mix) | 1
 [![Open In Colab][colab-icon]][rsms] | Rasgeath's Self Made Sauce | 🔁 | [🤗Rasgeath](https://huggingface.co/Rasgeath/self_made_sauce) | 7
 [![Open In Colab][colab-icon]][sryk] | Shirayuki Model | 🔁 | [🤗hesw23168](https://huggingface.co/hesw23168/SD_Shirayuki_Model) | 1
@@ -69,6 +69,7 @@
 - [yfszzx's stable-diffusion-webui-images-browser](https://github.com/yfszzx/stable-diffusion-webui-images-browser)
 
 ## Embeddings
+- [gsdf's EasyNegative](https://huggingface.co/datasets/gsdf/EasyNegative)
 - [Nerfgun3's bad_prompt](https://huggingface.co/datasets/Nerfgun3/bad_prompt)
 - [nick-x-hacker's bad-artist](https://huggingface.co/nick-x-hacker/bad-artist)
 
