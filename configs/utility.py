@@ -29,6 +29,6 @@ default_configs = [
     "https://github.com/NUROISEA/anime-webui-colab/raw/main/configs/styles.csv",
 ]
 
-xformers_link = "https://github.com/camenduru/stable-diffusion-webui-colab/releases/download/0.0.15/xformers-0.0.15.dev0+189828c.d20221207-cp38-cp38-linux_x86_64.whl"
+xformers_link = "https://github.com/camenduru/stable-diffusion-webui-colab/releases/download/0.0.16/xformers-0.0.16+814314d.d20230118-cp38-cp38-linux_x86_64.whl"
 
 webui_branch = "23.02.01"
