@@ -1,8 +1,7 @@
 # 🚀 Colab
 ## Models
-| 🔥 | 🔁 | 📚 |
-| --- | --- | --- |
-| My fave | Mixed | Varied^
+
+> Head over to [Showcase][showcase] to see what the models might look like! :D
 
 | Colab Link | Model | 🤔  | Model Page | Count*
 | ---        | ---   | :---: | ---        | ---: |
@@ -37,9 +36,15 @@
 [![Open In Colab][colab-icon]][wd]   | Waifu Diffusion v1.3 - v1.4 | 📚 | [🤗hakurei](https://huggingface.co/hakurei/waifu-diffusion) | 4
 <!-- [![Open In Colab][colab-icon]][code] | name  | emojis | [🤗author](https://huggingface.co/author/model) | count -->
 
+| 🔥 | 🔁 | 📚 |
+| --- | --- | --- |
+| My fave | Mixed | Varied^
+
 <small>* Count of usable models in the colab</small>
 
 <small>^ Models in the colab are have some sort of variant that are noticably different</small>
+
+[showcase]: https://github.com/NUROISEA/anime-webui-colab/wiki/Showcase
 
 ## Provide your own
 | Colab Link | Description
