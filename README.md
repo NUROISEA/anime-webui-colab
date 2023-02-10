@@ -1,5 +1,5 @@
 # 🚀 Colab
-## 📒Notebooks
+## 📒 Notebooks
 
 Head over to **🖼[Showcase][showcase]✨** to see what the models might look like! :D
 
@@ -46,7 +46,7 @@ Head over to **🖼[Showcase][showcase]✨** to see what the models might look l
 
 [showcase]: https://github.com/NUROISEA/anime-webui-colab/wiki/Showcase
 
-## 🔧Provide your own
+## 🔧 Provide your own
 | Colab Link | Description
 | --- | --- |
 [![Open In Colab][colab-icon]][own-model] | You provide the download links for the model and VAE
