@@ -14,7 +14,7 @@
 [![Open In Colab][colab-icon]][av3]  | Anything V3 | 🔥 | [🤗NUROISEA](https://huggingface.co/NUROISEA/av3-mirror) (mirror) | 1 
 [![Open In Colab][colab-icon]][av4]  | Anything "V4" | 🔥🔁📚 | [🤗andite](https://huggingface.co/andite/anything-v4.0) | 2
 [![Open In Colab][colab-icon]][bd]   | Baka-Diffusion! |  | [🤗Hosioka](https://huggingface.co/Hosioka/Baka-Diffusion) | 1 
-[![Open In Colab][colab-icon]][crtf] | Counterfeit  | 🔁📚 | [🤗gsdf](https://huggingface.co/gsdf/Counterfeit-V2.5) | 5
+[![Open In Colab][colab-icon]][crft] | Counterfeit  | 🔁📚 | [🤗gsdf](https://huggingface.co/gsdf/Counterfeit-V2.5) | 5
 [![Open In Colab][colab-icon]][dbmx] | DrBob2142's Mix Models | 🔁📚 | [🤗DrBob2142](https://huggingface.co/DrBob2142/Mix-Models) | 12
 [![Open In Colab][colab-icon]][ead]  | Eimis Anime Diffusion |  | [🤗eimiss](https://huggingface.co/eimiss/EimisAnimeDiffusion_1.0v) | 1
 [![Open In Colab][colab-icon]][eam]  | Elysium Anime v1 - v3 | 📚 | [🤗hesw23168](https://huggingface.co/hesw23168/SD-Elysium-Model) | 3
