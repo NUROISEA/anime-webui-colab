@@ -25,6 +25,7 @@ Head over to **🖼[Showcase][showcase]✨** to see what the models might look l
 [![Open In Colab][colab-icon]][mbp]  | Misobarisic's Playground |  🔁📚 | [🤗misobarisic](https://huggingface.co/misobarisic/playground) | 7
 [![Open In Colab][colab-icon]][mcmx] | Momocha Mix | 🔁 | [🤗NoCrypt](https://huggingface.co/NoCrypt/momocha-mix) | 1
 [![Open In Colab][colab-icon]][mnmx] | Midnight Mixes | 🔥🔁 | [🤗DrBob2142](https://huggingface.co/DrBob2142/Midnight_Mixes) | 3
+[![Open In Colab][colab-icon]][mpv3] | MIX-Pro-V3  | 🔥🔁 | [🇨 P317cm](https://civitai.com/models/7241/mix-pro-v3) | 1
 [![Open In Colab][colab-icon]][oaj]  | OpenAnimeJourney |  | [🤗MehjourneyClosedAI](https://huggingface.co/MehjourneyClosedAI/OpenAnimeJourney) | 1
 [![Open In Colab][colab-icon]][omx]  | OrangeMixs | 🔥🔁📚 | [🤗WarriorMama777](https://huggingface.co/WarriorMama777/OrangeMixs) | 23
 [![Open In Colab][colab-icon]][p200] | ProtoThing_200 | 🔁📚 | [🤗NiteStormz](https://huggingface.co/NiteStormz/ProtoThing_200) | 2
@@ -36,9 +37,9 @@ Head over to **🖼[Showcase][showcase]✨** to see what the models might look l
 [![Open In Colab][colab-icon]][wd]   | Waifu Diffusion v1.3 - v1.4 | 📚 | [🤗hakurei](https://huggingface.co/hakurei/waifu-diffusion) | 4
 <!-- [![Open In Colab][colab-icon]][code] | name  | emojis | [🤗author](https://huggingface.co/author/model) | count -->
 
-| 🔥 | 🔁 | 📚 |
-| --- | --- | --- |
-| My fave | Mixed | Varied^
+| 🔥 | 🔁 | 📚 | 🤗 | 🇨 |
+| --- | --- | --- | --- | --- |
+| My fave | Mixed | Varied^ | HuggingFace | Civitai
 
 <small>* Count of usable models in the colab</small>
 
@@ -104,6 +105,7 @@ https://huggingface.co/spaces/CompVis/stable-diffusion-license
 [mbp]:  https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/misobarisic_playground.ipynb
 [mcmx]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/momocha_mix.ipynb
 [mnmx]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/midnight_mixes.ipynb
+[mpv3]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/mix-pro-v3.ipynb
 [oaj]:  https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/open_anime_journey.ipynb
 [omx]:  https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/orange_mixs.ipynb
 [p200]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/protothing_200.ipynb
