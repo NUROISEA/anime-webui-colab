@@ -39,6 +39,9 @@ default_arguments = " ".join([
     "--lowram",
     "--no-hashing",
     "--enable-insecure-extension-access",
+    "--no-half-vae",
+    "--disable-safe-unpickle",
+    "--opt-channelslast",
 ])
 
 def _fetch_patch_list():
