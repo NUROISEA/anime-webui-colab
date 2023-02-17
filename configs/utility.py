@@ -40,3 +40,12 @@ default_arguments = " ".join([
     "--no-hashing",
     "--enable-insecure-extension-access",
 ])
+
+def _fetch_patch_list():
+    import requests
+    url = "https://github.com/NUROISEA/anime-webui-colab/raw/main/configs/patch_list.txt"
+    response = requests.get(url)
+    data = response.text
+    return data.splitlines()
+
+patch_list = _fetch_patch_list()
