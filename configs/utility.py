@@ -33,3 +33,10 @@ default_configs = [
 xformers_link = "https://github.com/camenduru/stable-diffusion-webui-colab/releases/download/0.0.16/xformers-0.0.16+814314d.d20230118-cp38-cp38-linux_x86_64.whl"
 
 webui_branch = "23.02.04"
+
+default_arguments = " ".join([
+    "--xformers",
+    "--lowram",
+    "--no-hashing",
+    "--enable-insecure-extension-access",
+])
