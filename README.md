@@ -72,6 +72,7 @@ Head over to **🖼[Showcase][showcase]✨** to see what the models might look l
 [stable-diffusion-webui wiki](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki)
 
 ## Extensions
+- [alemelis' sd-webui-ar](https://github.com/alemelis/sd-webui-ar)
 - [DominikDoom's a1111-sd-webui-tagcomplete](https://github.com/DominikDoom/a1111-sd-webui-tagcomplete)
 - [yfszzx's stable-diffusion-webui-images-browser](https://github.com/yfszzx/stable-diffusion-webui-images-browser)
 
