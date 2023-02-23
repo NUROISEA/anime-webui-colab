@@ -17,6 +17,7 @@ default_extensions = [
     "-b 22.12.10 https://github.com/NUROISEA/stable-diffusion-webui-images-browser",
     "-b 23.01.14 https://github.com/NUROISEA/a1111-sd-webui-tagcomplete",
     "-b 23.02.20 https://github.com/NUROISEA/sd-webui-ar",
+    "-b 23.02.19 https://github.com/NUROISEA/stable-diffusion-webui-two-shot",
 ]
 
 default_embeddings = [
