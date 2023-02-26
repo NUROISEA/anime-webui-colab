@@ -57,9 +57,9 @@ def arguments(model, vae, ng_token, tunnel="gradio", ng_region="auto"):
     if tunnel == "gradio":
         args.append("--share")
     elif tunnel == "ngrok":
-        args.append(f"--ngrok {ngrok_token}")
-        if ngrok_region != "auto":
-            args.append(f"--ngrok {ngrok_token}")
+        args.append(f"--ngrok {ng_token}")
+        if ng_region != "auto":
+            args.append(f"--ngrok {ng_token}")
     else:
         args.append(f"--{tunnel}")
     
