@@ -59,7 +59,7 @@ def arguments(model, vae, ng_token, tunnel="gradio", ng_region="auto"):
     elif tunnel == "ngrok":
         args.append(f"--ngrok {ng_token}")
         if ng_region != "auto":
-            args.append(f"--ngrok {ng_token}")
+            args.append(f"--ngrok {ng_region}")
     else:
         args.append(f"--{tunnel}")
     
