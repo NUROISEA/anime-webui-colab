@@ -18,6 +18,7 @@ default_extensions = [
     "-b 23.01.14 https://github.com/NUROISEA/a1111-sd-webui-tagcomplete",
     "-b 23.02.20 https://github.com/NUROISEA/sd-webui-ar",
     "-b 23.02.19 https://github.com/NUROISEA/stable-diffusion-webui-two-shot",
+    "-b v1.6 https://github.com/camenduru/sd-webui-tunnels",
 ]
 
 default_embeddings = [
@@ -45,6 +46,25 @@ default_arguments = " ".join([
     "--disable-safe-unpickle",
     "--opt-channelslast",
 ])
+
+def arguments(model, vae, ng_token, tunnel="gradio", ng_region="auto"):
+    args = [
+        default_arguments,
+        f"--ckpt {model}",
+        f"--vae-path {vae}",
+    ]
+
+    if tunnel == "gradio":
+        args.append("--share")
+    elif tunnel == "ngrok":
+        args.append(f"--ngrok {ngrok_token}")
+        if ngrok_region != "auto":
+            args.append(f"--ngrok {ngrok_token}")
+    else:
+        args.append(f"--{tunnel}")
+    
+    return args
+
 
 def _fetch_patch_list():
     import requests
