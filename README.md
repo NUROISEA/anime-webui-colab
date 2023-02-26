@@ -76,6 +76,8 @@ Head over to **🖼[Showcase][showcase]✨** to see what the models might look l
 - [DominikDoom's a1111-sd-webui-tagcomplete](https://github.com/DominikDoom/a1111-sd-webui-tagcomplete)
 - [opparco's stable-diffusion-webui-two-shot](https://github.com/opparco/stable-diffusion-webui-two-shot)
 - [yfszzx's stable-diffusion-webui-images-browser](https://github.com/yfszzx/stable-diffusion-webui-images-browser)
+- [Bing-su's sd-webui-tunnels](https://github.com/Bing-su/sd-webui-tunnels)
+  - Fork: [camenduru's sd-webui-tunnels](https://github.com/camenduru/sd-webui-tunnels)
 
 ## Embeddings
 - [gsdf's EasyNegative](https://huggingface.co/datasets/gsdf/EasyNegative)

@@ -47,12 +47,14 @@ default_arguments = " ".join([
     "--opt-channelslast",
 ])
 
-def arguments(model, vae, ng_token, tunnel="gradio", ng_region="auto"):
+def arguments(model, tunnel, ng_token, ng_region, vae=""):
     args = [
         default_arguments,
         f"--ckpt {model}",
-        f"--vae-path {vae}",
     ]
+
+    if vae != "":
+        args.append(f"--vae-path {vae}")
 
     if tunnel == "gradio":
         args.append("--share")
