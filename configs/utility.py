@@ -18,7 +18,7 @@ default_extensions = [
     "-b 23.01.14 https://github.com/NUROISEA/a1111-sd-webui-tagcomplete",
     "-b 23.02.20 https://github.com/NUROISEA/sd-webui-ar",
     "-b 23.02.19 https://github.com/NUROISEA/stable-diffusion-webui-two-shot",
-    "-b v1.6 https://github.com/camenduru/sd-webui-tunnels",
+    "-b v1.6-stable https://github.com/NUROISEA/sd-webui-tunnels",
 ]
 
 default_embeddings = [
