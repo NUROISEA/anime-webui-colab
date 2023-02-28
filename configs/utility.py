@@ -47,14 +47,13 @@ default_arguments = " ".join([
     "--opt-channelslast",
 ])
 
-def arguments(model, tunnel, ng_token, ng_region, vae=""):
+def arguments(model="", vae="", tunnel="gradio", ng_token="", ng_region="auto", extra_args=""):
     args = [
         default_arguments,
-        f"--ckpt {model}",
+        f"--ckpt {model}" if model else "",
+      	f"--vae-path {vae}" if vae else "",
+      	extra_args if extra_args else "",
     ]
-
-    if vae != "":
-        args.append(f"--vae-path {vae}")
 
     if tunnel == "gradio":
         args.append("--share")
@@ -65,8 +64,8 @@ def arguments(model, tunnel, ng_token, ng_region, vae=""):
     else:
         args.append(f"--{tunnel}")
     
-    return args
-
+    args_clean = list(filter(None, map(str.strip, args))) # thanks, chatgpt!
+    return args_clean
 
 def _fetch_patch_list():
     import requests
