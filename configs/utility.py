@@ -19,6 +19,7 @@ default_extensions = [
     "-b 23.02.20 https://github.com/NUROISEA/sd-webui-ar",
     "-b 23.02.19 https://github.com/NUROISEA/stable-diffusion-webui-two-shot",
     "-b v1.6-stable https://github.com/NUROISEA/sd-webui-tunnels",
+    "-b ariasubnewcivit https://github.com/etherealxx/batchlinks-webui",
 ]
 
 default_embeddings = [
