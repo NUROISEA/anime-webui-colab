@@ -46,6 +46,7 @@ default_arguments = " ".join([
     "--no-half-vae",
     "--disable-safe-unpickle",
     "--opt-channelslast",
+    "--gradio-queue",
 ])
 
 def arguments(model="", vae="", tunnel="gradio", ng_token="", ng_region="auto", extra_args=""):
