@@ -76,3 +76,31 @@ def _fetch_patch_list():
     return data.splitlines()
 
 patch_list = _fetch_patch_list()
+
+mounted_gdrive = False
+
+def output_to_gdrive(on_drive=False, drive_folder="AI/Generated"):
+    if not mounted_gdrive:
+        from google.colab import drive
+        drive.mount('/content/drive')
+        mounted_gdrive = True
+
+    drive_ouput_path = f"/content/drive/MyDrive/{drive_folder}/"
+    
+    config_path = "/content/stable-diffusion-webui/config.json"
+    
+    save_path = drive_ouput_path if on_drive else ""
+
+    config_dictionary = {
+        "outdir_txt2img_samples": f"{save_path}outputs/txt2img-images",
+        "outdir_img2img_samples": f"{save_path}outputs/img2img-images",
+        "outdir_extras_samples": f"{save_path}outputs/extras-images",
+        "outdir_txt2img_grids": f"{save_path}outputs/txt2img-grids",
+        "outdir_img2img_grids": f"{save_path}outputs/img2img-grids",
+        "outdir_save": f"{save_path}outputs/saved",
+    }
+
+    dictionary_to_json(config_path, config_dictionary)
+
+    print("\nGenerations will be saved to Google Drive.\nThis will make the saving cell pointless (for now).\n" if on_drive else "")
+
