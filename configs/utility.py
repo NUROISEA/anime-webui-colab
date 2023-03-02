@@ -53,8 +53,8 @@ def arguments(model="", vae="", tunnel="gradio", ng_token="", ng_region="auto", 
   args = [
     default_arguments,
     f"--ckpt {model}" if model else "",
-      f"--vae-path {vae}" if vae else "",
-      extra_args if extra_args else "",
+    f"--vae-path {vae}" if vae else "",
+    extra_args if extra_args else "",
   ]
 
   if tunnel == "gradio":
