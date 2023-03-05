@@ -128,7 +128,7 @@ def aria2_download(link, folder, file_name):
     ]
     installed_aria2 = True
 
-  commands += [ f'aria2 {aria2_flags} {link} -d {folder} -o {file_name}' ]
+  commands += [ f'aria2c {aria2_flags} {link} -d {folder} -o {file_name}' ]
   return " && ".join(commands)
 
 # abstracting downloaders so the notebook code will be a lot cleaner
