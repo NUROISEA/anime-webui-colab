@@ -119,16 +119,19 @@ extensions_folder = f"{web_ui_folder}/extensions"
 def aria2_download(link, folder, file_name):
   global installed_aria2
   commands = []
-  aria2_flags = "--summary-interval=10 --console-log-level=error -c -x 16 -s 16 -k 1M"
+  aria2_flags = "--summary-interval=5 --console-log-level=error -c -x 16 -s 16 -k 1M"
   
   if not installed_aria2:
     commands += [
       'echo "\nInstalling aria2...\n"',
-      'apt -y install -qq aria2'
+      'apt -y install -qq aria2 &> /dev/null', #because that wall of text is disgusting 
     ]
     installed_aria2 = True
 
-  commands += [ f'aria2c {aria2_flags} {link} -d {folder} -o {file_name}' ]
+  commands += [
+    f'echo "\nDownloading {file_name} to {folder}...\nDownload status will be printed every 5 seconds.\n"',
+    f'aria2c {aria2_flags} {link} -d {folder} -o {file_name}' 
+  ]
   return " && ".join(commands)
 
 # abstracting downloaders so the notebook code will be a lot cleaner
@@ -137,11 +140,9 @@ def aria2_download(link, folder, file_name):
 def download_model(link):
   global models_folder
   file_name = link.split('/')[-1]
-  print(f"Downloading {file_name}...")
   return aria2_download(link, models_folder, file_name)
 
 def download_vae(link):
   global vae_folder
   file_name = link.split('/')[-1]
-  print(f"Downloading {file_name}...")
   return aria2_download(link, vae_folder, file_name)
