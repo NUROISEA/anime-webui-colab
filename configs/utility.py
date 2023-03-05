@@ -107,3 +107,41 @@ def output_to_gdrive(on_drive=False, drive_folder="AI/Generated"):
 
   print("\nGenerations will be saved to Google Drive.\nThis will make the saving cell pointless (for now).\n" if on_drive else "")
 
+installed_aria2 = False
+
+# copy pasted code, will update all notebooks later
+web_ui_folder = "/content/stable-diffusion-webui"
+models_folder = f"{web_ui_folder}/models/Stable-diffusion"
+vae_folder = f"{web_ui_folder}/models/VAE"
+embeddings_folder = f"{web_ui_folder}/embeddings"
+extensions_folder = f"{web_ui_folder}/extensions"
+
+def aria2_download(link, folder, file_name):
+  global installed_aria2
+  commands = []
+  aria2_flags = "--summary-interval=10 --console-log-level=error -c -x 16 -s 16 -k 1M"
+  
+  if not installed_aria2:
+    commands += [
+      'echo "\nInstalling aria2...\n"',
+      'apt -y install -qq aria2'
+    ]
+    installed_aria2 = True
+
+  commands += [ f'aria2 {aria2_flags} {link} -d {folder} -o {file_name}' ]
+  return " && ".join(commands)
+
+# abstracting downloaders so the notebook code will be a lot cleaner
+# just plonk the function and the link
+# more will get added
+def download_model(link):
+  global models_folder
+  file_name = link.split('/')[-1]
+  print(f"Downloading {file_name}...")
+  return aria2_download(link, models_folder, file_name)
+
+def download_vae(link):
+  global vae_folder
+  file_name = link.split('/')[-1]
+  print(f"Downloading {file_name}...")
+  return aria2_download(link, vae_folder, file_name)
