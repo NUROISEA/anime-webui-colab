@@ -10,6 +10,18 @@ def dictionary_to_json(json_file, data_dictionary):
     json.dump(json_data, f)
 
 has_run = False
+mounted_gdrive = False
+installed_aria2 = False
+
+xformers_link = "https://github.com/camenduru/stable-diffusion-webui-colab/releases/download/0.0.16/xformers-0.0.16+814314d.d20230118-cp38-cp38-linux_x86_64.whl"
+webui_branch = "23.02.04"
+
+# copy pasted code, will update all notebooks later
+web_ui_folder = "/content/stable-diffusion-webui"
+models_folder = f"{web_ui_folder}/models/Stable-diffusion"
+vae_folder = f"{web_ui_folder}/models/VAE"
+embeddings_folder = f"{web_ui_folder}/embeddings"
+extensions_folder = f"{web_ui_folder}/extensions"
 
 models_downloaded = []
 
@@ -34,10 +46,6 @@ default_configs = [
   "https://github.com/NUROISEA/anime-webui-colab/raw/main/configs/styles.csv",
 ]
 
-xformers_link = "https://github.com/camenduru/stable-diffusion-webui-colab/releases/download/0.0.16/xformers-0.0.16+814314d.d20230118-cp38-cp38-linux_x86_64.whl"
-
-webui_branch = "23.02.04"
-
 default_arguments = " ".join([
   "--xformers",
   "--lowram",
@@ -52,8 +60,8 @@ default_arguments = " ".join([
 def arguments(model="", vae="", tunnel="gradio", ng_token="", ng_region="auto", extra_args=""):
   args = [
     default_arguments,
-    f"--ckpt {model}" if model else "",
-    f"--vae-path {vae}" if vae else "",
+    f"--ckpt \"{model}\"" if model else "",
+    f"--vae-path \"{vae}\"" if vae else "",
     extra_args if extra_args else "",
   ]
 
@@ -77,8 +85,6 @@ def _fetch_patch_list():
   return data.splitlines()
 
 patch_list = _fetch_patch_list()
-
-mounted_gdrive = False
 
 def output_to_gdrive(on_drive=False, drive_folder="AI/Generated"):
   global mounted_gdrive
@@ -107,15 +113,6 @@ def output_to_gdrive(on_drive=False, drive_folder="AI/Generated"):
 
   print("\nGenerations will be saved to Google Drive.\nThis will make the saving cell pointless (for now).\n" if on_drive else "")
 
-installed_aria2 = False
-
-# copy pasted code, will update all notebooks later
-web_ui_folder = "/content/stable-diffusion-webui"
-models_folder = f"{web_ui_folder}/models/Stable-diffusion"
-vae_folder = f"{web_ui_folder}/models/VAE"
-embeddings_folder = f"{web_ui_folder}/embeddings"
-extensions_folder = f"{web_ui_folder}/extensions"
-
 def aria2_download(link, folder, file_name):
   global installed_aria2
   commands = []
@@ -123,14 +120,14 @@ def aria2_download(link, folder, file_name):
   
   if not installed_aria2:
     commands += [
-      'echo "\nInstalling aria2...\n"',
+      'echo "Installing aria2..."',
       'apt -y install -qq aria2 &> /dev/null', #because that wall of text is disgusting 
     ]
     installed_aria2 = True
 
   commands += [
-    f'echo "\nDownloading {file_name} to {folder}...\nDownload status will be printed every 5 seconds.\n"',
-    f'aria2c {aria2_flags} {link} -d {folder} -o {file_name}' 
+    f'echo "Downloading {file_name} to {folder}...\nDownload status will be printed every 5 seconds."',
+    f'aria2c {aria2_flags} "{link}" -d "{folder}" -o "{file_name}"' 
   ]
   return " && ".join(commands)
 
