@@ -82,7 +82,8 @@ mounted_gdrive = False
 
 def output_to_gdrive(on_drive=False, drive_folder="AI/Generated"):
   global mounted_gdrive
-  if not mounted_gdrive:
+
+  if not mounted_gdrive and on_drive:
     from google.colab import drive
     drive.mount('/content/drive')
     mounted_gdrive = True
