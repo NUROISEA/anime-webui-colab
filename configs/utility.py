@@ -91,6 +91,8 @@ def output_to_gdrive(on_drive=False, drive_folder="AI/Generated"):
 
   if not mounted_gdrive and on_drive:
     from google.colab import drive
+    print('🏇 Mounting to Google Drive...')
+    print('👋 Please allow the notebook to connect 😁')
     drive.mount('/content/drive')
     mounted_gdrive = True
 
