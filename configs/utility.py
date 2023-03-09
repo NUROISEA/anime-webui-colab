@@ -133,6 +133,9 @@ def aria2_download(link, folder, file_name, force_redownload=False):
     f'echo "Downloading {file_name} to {folder}...\nDownload status will be printed every 5 seconds."',
     f'aria2c {aria2_flags} "{link}" -d "{folder}" -o "{file_name}"' 
   ]
+
+  models_downloaded += [ link ]
+
   return " && ".join(commands)
 
 # abstracting downloaders so the notebook code will be a lot cleaner
