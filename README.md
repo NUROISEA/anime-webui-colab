@@ -6,7 +6,7 @@ Head over to **🖼[Showcase][showcase]✨** to see what the models might look l
 | Colab Link | Model | 🤔  | Model Page | Count*
 | ---        | ---   | :---: | ---        | ---: |
 [![Open In Colab][colab-icon]][7thl] | 7th_Layer | 🔥🔁📚 | [🤗syaimu](https://huggingface.co/syaimu/7th_Layer) | 10
-[![Open In Colab][colab-icon]][8528] | 8528-diffusion | | [🤗852wa](https://huggingface.co/852wa/8528-diffusion) | 1
+<!-- [![Open In Colab][colab-icon]][8528] | 8528-diffusion | | [🤗852wa](https://huggingface.co/852wa/8528-diffusion) | 1 -->
 [![Open In Colab][colab-icon]][agmx] | AnyGape Mix | 🔁 | [🤗etherealxx](https://huggingface.co/etherealxx/anygape-mix) | 1
 [![Open In Colab][colab-icon]][aiow] | AnimeInOurWorld |  | [🤗NoCrypt](https://huggingface.co/NoCrypt/animeinourworld-model) | 1
 [![Open In Colab][colab-icon]][amx]  | Anything Mix | 🔁📚 | [🤗NUROISEA](https://huggingface.co/NUROISEA/anything-mix) | 7
