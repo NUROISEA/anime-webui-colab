@@ -113,8 +113,12 @@ def output_to_gdrive(on_drive=False, drive_folder="AI/Generated"):
 
   print("\nGenerations will be saved to Google Drive.\nThis will make the saving cell pointless (for now).\n" if on_drive else "")
 
-def aria2_download(link, folder, file_name):
-  global installed_aria2
+def aria2_download(link, folder, file_name, force_redownload=False):
+  global installed_aria2, models_downloaded
+
+  if link in models_downloaded and not force_redownload:
+    return f'echo "{file_name} already downloaded. Skipping..."'
+
   commands = []
   aria2_flags = "--summary-interval=5 --console-log-level=error -c -x 16 -s 16 -k 1M"
   
@@ -134,12 +138,12 @@ def aria2_download(link, folder, file_name):
 # abstracting downloaders so the notebook code will be a lot cleaner
 # just plonk the function and the link
 # more will get added
-def download_model(link):
+def download_model(link, force_redownload=False):
   global models_folder
   file_name = link.split('/')[-1]
-  return aria2_download(link, models_folder, file_name)
+  return aria2_download(link, models_folder, file_name, force_redownload)
 
-def download_vae(link):
+def download_vae(link, force_redownload=False):
   global vae_folder
   file_name = link.split('/')[-1]
-  return aria2_download(link, vae_folder, file_name)
+  return aria2_download(link, vae_folder, file_name, force_redownload)
