@@ -30,8 +30,8 @@ default_extensions = [
   "-b 23.03.01 https://github.com/NUROISEA/a1111-sd-webui-tagcomplete",
   "-b 23.02.20 https://github.com/NUROISEA/sd-webui-ar",
   "-b 23.02.19 https://github.com/NUROISEA/stable-diffusion-webui-two-shot",
-  "-b v1.6-stable https://github.com/NUROISEA/sd-webui-tunnels",
-  "-b ariasubnewcivit https://github.com/etherealxx/batchlinks-webui",
+  "-b 23.02.27 https://github.com/NUROISEA/sd-webui-tunnels",
+  "-b 23.03.08 https://github.com/NUROISEA/batchlinks-webui",
 ]
 
 default_embeddings = [
@@ -111,7 +111,7 @@ def output_to_gdrive(on_drive=False, drive_folder="AI/Generated"):
 
   dictionary_to_json(config_path, config_dictionary)
 
-  print("\nGenerations will be saved to Google Drive.\nThis will make the saving cell pointless (for now).\n" if on_drive else "")
+  print("\n💾 Generations will be saved to Google Drive. \n😢 This will make the saving cell pointless (for now).\n" if on_drive else "")
 
 def aria2_download(link, folder, file_name, force_redownload=False):
   global installed_aria2, models_downloaded
@@ -123,14 +123,15 @@ def aria2_download(link, folder, file_name, force_redownload=False):
   aria2_flags = "--summary-interval=5 --console-log-level=error -c -x 16 -s 16 -k 1M"
   
   if not installed_aria2:
+    print("🚀 Installing aria2...")
     commands += [
-      'echo "Installing aria2..."',
       'apt -y install -qq aria2 &> /dev/null', #because that wall of text is disgusting 
     ]
     installed_aria2 = True
 
+  print(f"⏬ Downloading {file_name} to {folder}...")
+  print("⌚ Download status will be printed every 5 seconds.")
   commands += [
-    f'echo "Downloading {file_name} to {folder}...\nDownload status will be printed every 5 seconds."',
     f'aria2c {aria2_flags} "{link}" -d "{folder}" -o "{file_name}"' 
   ]
 
