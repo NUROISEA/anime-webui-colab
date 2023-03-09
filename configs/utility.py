@@ -13,7 +13,7 @@ has_run = False
 mounted_gdrive = False
 installed_aria2 = False
 
-xformers_link = "--pre xformers && pip install -q --pre triton" # janky patch lets go
+xformers_link = "pip install -q --pre xformers && pip install -q --pre triton"
 webui_branch = "23.02.04"
 
 # copy pasted code, will update all notebooks later
