@@ -13,7 +13,7 @@ has_run = False
 mounted_gdrive = False
 installed_aria2 = False
 
-xformers_link = "https://github.com/camenduru/stable-diffusion-webui-colab/releases/download/0.0.16/xformers-0.0.16+814314d.d20230118-cp38-cp38-linux_x86_64.whl"
+xformers_link = "--pre xformers && pip install -q --pre triton" # janky patch lets go
 webui_branch = "23.02.04"
 
 # copy pasted code, will update all notebooks later
