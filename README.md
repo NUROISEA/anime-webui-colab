@@ -28,7 +28,7 @@ Head over to **🖼[Showcase][showcase]✨** to see what the models might look l
 [![Open In Colab][colab-icon]][mnmx] | Midnight Mixes | 🔥🔁 | [🤗DrBob2142](https://huggingface.co/DrBob2142/Midnight_Mixes) | 3
 [![Open In Colab][colab-icon]][mpv3] | MIX-Pro-V3  | 🔥🔁 | [👔P317cm](https://civitai.com/models/7241/mix-pro-v3) | 1
 [![Open In Colab][colab-icon]][oaj]  | OpenAnimeJourney |  | [🤗MehjourneyClosedAI](https://huggingface.co/MehjourneyClosedAI/OpenAnimeJourney) | 1
-[![Open In Colab][colab-icon]][omx]  | OrangeMixs | 🔥🔁📚 | [🤗WarriorMama777](https://huggingface.co/WarriorMama777/OrangeMixs) | 27
+[![Open In Colab][colab-icon]][omx]  | OrangeMixs | 🔥🔁📚 | [🤗WarriorMama777](https://huggingface.co/WarriorMama777/OrangeMixs) | 28
 [![Open In Colab][colab-icon]][p200] | ProtoThing_200 | 🔁📚 | [🤗NiteStormz](https://huggingface.co/NiteStormz/ProtoThing_200) | 2
 [![Open In Colab][colab-icon]][pd13] | Plat Diffusion v1.3.1  | | [🤗p1atdev](https://huggingface.co/p1atdev/plat-diffusion) | 1
 [![Open In Colab][colab-icon]][ptmx] | Pastel Mix  | 🔥🔁 | [🤗andite](https://huggingface.co/andite/pastel-mix) | 1
