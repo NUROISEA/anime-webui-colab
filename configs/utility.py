@@ -15,7 +15,7 @@ def log_usage(key, ouput_info=False):
   output = subprocess.check_output(["curl", f"https://api.countapi.xyz/hit/{namespace}/{key}"])
   result = json.loads(output)
   value = result["value"]
-  print(f"📢 This notebook has been ran {result} times! Log epoch: 2023.03.13")
+  print(f"📢 This notebook has been ran {value} times! Log epoch: 2023.03.13")
 
 has_run = False
 mounted_gdrive = False
