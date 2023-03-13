@@ -1,7 +1,7 @@
 # 🚀 Colab
 ## 📒 Notebooks
 
-Head over to **🖼[Showcase][showcase]✨** to see what the models might look like! :D
+Head over to **🖼[Showcase (not updated)][showcase]✨** to see what the models might look like! :D (currently not being updated, going to be superseeded by [**this one** (WIP)](https://anime-webui-colab.github.io/showcase/) in the future 😁)
 
 | Colab Link | Model | 🤔  | Model Page | Count*
 | ---        | ---   | :---: | ---        | ---: |
@@ -33,6 +33,7 @@ Head over to **🖼[Showcase][showcase]✨** to see what the models might look l
 [![Open In Colab][colab-icon]][pd13] | Plat Diffusion v1.3.1  | | [🤗p1atdev](https://huggingface.co/p1atdev/plat-diffusion) | 1
 [![Open In Colab][colab-icon]][ptmx] | Pastel Mix  | 🔥🔁 | [🤗andite](https://huggingface.co/andite/pastel-mix) | 1
 [![Open In Colab][colab-icon]][rsms] | Rasgeath's Self Made Sauce | 🔁 | [🤗Rasgeath](https://huggingface.co/Rasgeath/self_made_sauce) | 7
+[![Open In Colab][colab-icon]][s000] | soul0000  | 🔥🔁 | [🤗TheRaphael0000](https://huggingface.co/TheRaphael0000/mixes0000) | 1
 [![Open In Colab][colab-icon]][sryk] | Shirayuki Model | 🔁 | [🤗hesw23168](https://huggingface.co/hesw23168/SD_Shirayuki_Model) | 1
 [![Open In Colab][colab-icon]][wany] | WaifuAnything | 🔁 | [🤗KuromiLayfe](https://huggingface.co/KuromiLayfe/WaifuAnything) | 1
 [![Open In Colab][colab-icon]][wd]   | Waifu Diffusion v1.3 - v1.4 | 📚 | [🤗hakurei](https://huggingface.co/hakurei/waifu-diffusion) | 4
@@ -119,6 +120,7 @@ https://huggingface.co/spaces/CompVis/stable-diffusion-license
 [pd13]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/plat-diffusion.ipynb
 [ptmx]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/pastel_mix.ipynb
 [rsms]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/rasgeath_self_made_sauce.ipynb
+[s000]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/soul0000.ipynb
 [sryk]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/shirayuki_model.ipynb
 [wany]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/waifuanything.ipynb
 [wd]:   https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/waifu_diffusion.ipynb
