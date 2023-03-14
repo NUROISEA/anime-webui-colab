@@ -15,7 +15,7 @@ def log_usage(key, ouput_info=False):
   output = subprocess.check_output(["curl", f"https://api.countapi.xyz/hit/{namespace}/{key}"])
   result = json.loads(output)
   value = result["value"]
-  print(f"📢 This notebook has been ran {value} times! Log epoch: 2023.03.13")
+  #print(f"📢 This notebook has been ran {value} times! Log epoch: 2023.03.13")
 
 has_run = False
 mounted_gdrive = False
@@ -81,6 +81,8 @@ def arguments(model="", vae="", tunnel="gradio", ng_token="", ng_region="auto", 
       args.append(f"--ngrok-region {ng_region}")
   else:
     args.append(f"--{tunnel}")
+
+  log_usage(f"tunnel-{tunnel}")
   
   args_clean = list(filter(None, map(str.strip, args))) # thanks, chatgpt!
   return args_clean
@@ -103,6 +105,7 @@ def output_to_gdrive(on_drive=False, drive_folder="AI/Generated"):
     print('👋 Please allow the notebook to connect 😁')
     drive.mount('/content/drive')
     mounted_gdrive = True
+    log_usage("gdrive-output")
 
   drive_ouput_path = f"/content/drive/MyDrive/{drive_folder}/"
   
