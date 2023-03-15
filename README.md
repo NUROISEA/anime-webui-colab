@@ -77,10 +77,13 @@ Head over to **🖼[Showcase (not updated)][showcase]✨** to see what the model
 - [alemelis' sd-webui-ar](https://github.com/alemelis/sd-webui-ar)
 - [Bing-su's sd-webui-tunnels](https://github.com/Bing-su/sd-webui-tunnels)
   - Fork: [camenduru's sd-webui-tunnels](https://github.com/camenduru/sd-webui-tunnels)
+- [deforum-art's deforum-for-automatic1111-webui](https://github.com/deforum-art/deforum-for-automatic1111-webui)
 - [DominikDoom's a1111-sd-webui-tagcomplete](https://github.com/DominikDoom/a1111-sd-webui-tagcomplete)
 - [etherealxx's batchlinks-webui](https://github.com/etherealxx/batchlinks-webui)
+- [Mikubill's sd-webui-controlnet](https://github.com/Mikubill/sd-webui-controlnet)
 - [opparco's stable-diffusion-webui-two-shot](https://github.com/opparco/stable-diffusion-webui-two-shot)
 - [yfszzx's stable-diffusion-webui-images-browser](https://github.com/yfszzx/stable-diffusion-webui-images-browser)
+  - Fork: [AlUlkesh's stable-diffusion-webui-images-browser](https://github.com/AlUlkesh/stable-diffusion-webui-images-browser)
 
 ## Embeddings
 - [gsdf's EasyNegative](https://huggingface.co/datasets/gsdf/EasyNegative)
@@ -88,7 +91,7 @@ Head over to **🖼[Showcase (not updated)][showcase]✨** to see what the model
 - [nick-x-hacker's bad-artist](https://huggingface.co/nick-x-hacker/bad-artist)
 
 ## Models License
-https://huggingface.co/spaces/CompVis/stable-diffusion-license
+<https://huggingface.co/spaces/CompVis/stable-diffusion-license>
 
 [colab-icon]: https://colab.research.google.com/assets/colab-badge.svg
 
