@@ -11,11 +11,14 @@ def dictionary_to_json(json_file, data_dictionary):
     json.dump(json_data, f)
 
 def log_usage(key, ouput_info=False):
-  namespace = "nuroisea-anime-webui-colab"
-  output = subprocess.check_output(["curl", f"https://api.countapi.xyz/hit/{namespace}/{key}"])
-  result = json.loads(output)
-  value = result["value"]
-  #print(f"📢 This notebook has been ran {value} times! Log epoch: 2023.03.13")
+  if key not in logged_keys:
+    namespace = "nuroisea-anime-webui-colab"
+    output = subprocess.check_output(["curl", f"https://api.countapi.xyz/hit/{namespace}/{key}"])
+    # result = json.loads(output)
+    # value = result["value"]
+    logged_keys.append(key)
+
+logged_keys = []
 
 has_run = False
 mounted_gdrive = False
