@@ -37,14 +37,14 @@ extensions_folder = f"{web_ui_folder}/extensions"
 models_downloaded = []
 
 default_extensions = [
-  "-b 23.03.01 https://github.com/NUROISEA/a1111-sd-webui-tagcomplete",
-  "-b 23.03.08 https://github.com/NUROISEA/batchlinks-webui",
-  "-b 23.03.15 https://github.com/NUROISEA/deforum-for-automatic1111-webui",
-  "-b 23.02.20 https://github.com/NUROISEA/sd-webui-ar",
-  "-b 23.03.14 https://github.com/NUROISEA/sd-webui-controlnet",
-  "-b 23.02.27 https://github.com/NUROISEA/sd-webui-tunnels",
-  "-b 23.03.03 https://github.com/NUROISEA/stable-diffusion-webui-images-browser",
-  "-b 23.02.19 https://github.com/NUROISEA/stable-diffusion-webui-two-shot",
+  "-b 23.03.01 https://github.com/anime-webui-colab/a1111-sd-webui-tagcomplete",
+  "-b 23.03.08 https://github.com/anime-webui-colab/batchlinks-webui",
+  "-b 23.03.15 https://github.com/anime-webui-colab/deforum-for-automatic1111-webui",
+  "-b 23.02.20 https://github.com/anime-webui-colab/sd-webui-ar",
+  "-b 23.03.14 https://github.com/anime-webui-colab/sd-webui-controlnet",
+  "-b 23.02.27 https://github.com/anime-webui-colab/sd-webui-tunnels",
+  "-b 23.03.03 https://github.com/anime-webui-colab/stable-diffusion-webui-images-browser",
+  "-b 23.02.19 https://github.com/anime-webui-colab/stable-diffusion-webui-two-shot",
 ]
 
 default_embeddings = [
