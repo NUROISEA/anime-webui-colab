@@ -43,7 +43,7 @@ default_extensions = [
   "-b 23.02.20 https://github.com/anime-webui-colab/sd-webui-ar",
   "-b 23.03.14 https://github.com/anime-webui-colab/sd-webui-controlnet",
   "-b 23.02.27 https://github.com/anime-webui-colab/sd-webui-tunnels",
-  "-b 23.03.03 https://github.com/anime-webui-colab/stable-diffusion-webui-images-browser",
+  "-b 23.03.02 https://github.com/anime-webui-colab/stable-diffusion-webui-images-browser",
   "-b 23.02.19 https://github.com/anime-webui-colab/stable-diffusion-webui-two-shot",
 ]
 
