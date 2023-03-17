@@ -24,9 +24,9 @@ Head over to **🖼[Showcase (not updated)][showcase]✨** to see what the model
 [![Open In Colab][colab-icon]][hedf] | Hentai Diffusion | 📚 | [🤗Deltaadams](https://huggingface.co/Deltaadams/HentaiDiffusion) | 5
 [![Open In Colab][colab-icon]][lca]  | Ligne Claire Anime | 🔥 | [🤗breakcore2](https://huggingface.co/breakcore2/ligne_claire_anime_diffusion) | 1
 [![Open In Colab][colab-icon]][mbp]  | Misobarisic's Playground |  🔁📚 | [🤗misobarisic](https://huggingface.co/misobarisic/playground) | 7
-[![Open In Colab][colab-icon]][mcmx] | Momocha Mix | 🔁 | [🤗NoCrypt](https://huggingface.co/NoCrypt/momocha-mix) | 1
+[![Open In Colab][colab-icon]][mip3] | MIX-Pro-V3  | 🔥🔁 | [👔P317cm](https://civitai.com/models/7241/mix-pro-v3) | 1
 [![Open In Colab][colab-icon]][mnmx] | Midnight Mixes | 🔥🔁 | [🤗DrBob2142](https://huggingface.co/DrBob2142/Midnight_Mixes) | 3
-[![Open In Colab][colab-icon]][mpv3] | MIX-Pro-V3  | 🔥🔁 | [👔P317cm](https://civitai.com/models/7241/mix-pro-v3) | 1
+[![Open In Colab][colab-icon]][momx] | Momocha Mix | 🔁 | [🤗NoCrypt](https://huggingface.co/NoCrypt/momocha-mix) | 1
 [![Open In Colab][colab-icon]][oaj]  | OpenAnimeJourney |  | [🤗MehjourneyClosedAI](https://huggingface.co/MehjourneyClosedAI/OpenAnimeJourney) | 1
 [![Open In Colab][colab-icon]][omx]  | OrangeMixs | 🔥🔁📚 | [🤗WarriorMama777](https://huggingface.co/WarriorMama777/OrangeMixs) | 28
 [![Open In Colab][colab-icon]][p200] | ProtoThing_200 | 🔁📚 | [🤗NiteStormz](https://huggingface.co/NiteStormz/ProtoThing_200) | 2
@@ -114,9 +114,9 @@ Head over to **🖼[Showcase (not updated)][showcase]✨** to see what the model
 [hedf]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/hentai_diffusion.ipynb
 [lca]:  https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/ligne_claire_anime_diffusion.ipynb
 [mbp]:  https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/misobarisic_playground.ipynb
-[mcmx]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/momocha_mix.ipynb
+[mip3]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/mix-pro-v3.ipynb
 [mnmx]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/midnight_mixes.ipynb
-[mpv3]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/mix-pro-v3.ipynb
+[momx]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/momocha_mix.ipynb
 [oaj]:  https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/open_anime_journey.ipynb
 [omx]:  https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/orange_mixs.ipynb
 [p200]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/protothing_200.ipynb
