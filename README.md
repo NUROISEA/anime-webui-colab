@@ -29,9 +29,9 @@ Head over to **🖼[Showcase (not updated)][showcase]✨** to see what the model
 [![Open In Colab][colab-icon]][momx] | Momocha Mix | 🔁 | [🤗NoCrypt](https://huggingface.co/NoCrypt/momocha-mix) | 1
 [![Open In Colab][colab-icon]][oaj]  | OpenAnimeJourney |  | [🤗MehjourneyClosedAI](https://huggingface.co/MehjourneyClosedAI/OpenAnimeJourney) | 1
 [![Open In Colab][colab-icon]][omx]  | OrangeMixs | 🔥🔁📚 | [🤗WarriorMama777](https://huggingface.co/WarriorMama777/OrangeMixs) | 28
-[![Open In Colab][colab-icon]][p200] | ProtoThing_200 | 🔁📚 | [🤗NiteStormz](https://huggingface.co/NiteStormz/ProtoThing_200) | 2
-[![Open In Colab][colab-icon]][pd13] | Plat Diffusion  | | [🤗p1atdev](https://huggingface.co/p1atdev/plat-diffusion) | 1
 [![Open In Colab][colab-icon]][ptmx] | Pastel Mix  | 🔥🔁 | [🤗andite](https://huggingface.co/andite/pastel-mix) | 1
+[![Open In Colab][colab-icon]][pd13] | Plat Diffusion  | | [🤗p1atdev](https://huggingface.co/p1atdev/plat-diffusion) | 1
+[![Open In Colab][colab-icon]][p200] | ProtoThing_200 | 🔁📚 | [🤗NiteStormz](https://huggingface.co/NiteStormz/ProtoThing_200) | 2
 [![Open In Colab][colab-icon]][rsms] | Rasgeath's Self Made Sauce | 🔁 | [🤗Rasgeath](https://huggingface.co/Rasgeath/self_made_sauce) | 7
 [![Open In Colab][colab-icon]][s000] | soul0000  | 🔥🔁 | [🤗TheRaphael0000](https://huggingface.co/TheRaphael0000/mixes0000) | 1
 [![Open In Colab][colab-icon]][sryk] | Shirayuki Model | 🔁 | [🤗hesw23168](https://huggingface.co/hesw23168/SD_Shirayuki_Model) | 1
@@ -80,8 +80,11 @@ Head over to **🖼[Showcase (not updated)][showcase]✨** to see what the model
 - [deforum-art's deforum-for-automatic1111-webui](https://github.com/deforum-art/deforum-for-automatic1111-webui)
 - [DominikDoom's a1111-sd-webui-tagcomplete](https://github.com/DominikDoom/a1111-sd-webui-tagcomplete)
 - [etherealxx's batchlinks-webui](https://github.com/etherealxx/batchlinks-webui)
+- [hnmr293's sd-webui-cutoff](https://github.com/hnmr293/sd-webui-cutoff)
 - [Mikubill's sd-webui-controlnet](https://github.com/Mikubill/sd-webui-controlnet)
+- [NoCrypt's sd-fast-pnginfo](https://github.com/NoCrypt/sd-fast-pnginfo)
 - [opparco's stable-diffusion-webui-two-shot](https://github.com/opparco/stable-diffusion-webui-two-shot)
+- [space-nuko's sd-webui-session-organizer](https://github.com/space-nuko/sd-webui-session-organizer)
 - [yfszzx's stable-diffusion-webui-images-browser](https://github.com/yfszzx/stable-diffusion-webui-images-browser)
   - Fork: [AlUlkesh's stable-diffusion-webui-images-browser](https://github.com/AlUlkesh/stable-diffusion-webui-images-browser)
 
