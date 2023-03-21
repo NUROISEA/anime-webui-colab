@@ -45,7 +45,7 @@ default_extensions = [
   "-b 23.03.08 https://github.com/anime-webui-colab/ext-batchlinks",
   "-b 23.03.14 https://github.com/anime-webui-colab/ext-controlnet",
   "-b 23.03.20 https://github.com/anime-webui-colab/ext-cutoff",
-  "-b 23.03.15 https://github.com/anime-webui-colab/ext-deforum",
+  #"-b 23.03.15 https://github.com/anime-webui-colab/ext-deforum",
   "-b 23.03.09 https://github.com/anime-webui-colab/ext-fast-pnginfo",
   "-b 23.03.02 https://github.com/anime-webui-colab/ext-images-browser",
   "-b 23.02.19 https://github.com/anime-webui-colab/ext-latent-couple-two-shot",
