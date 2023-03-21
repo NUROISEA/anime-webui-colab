@@ -24,7 +24,11 @@ has_run = False
 mounted_gdrive = False
 installed_aria2 = False
 
-xformers_link = "pip install -q --pre xformers && pip install -q --pre triton"
+pip_commands = [
+  "pip install -q --pre xformers==0.0.17.dev476 -U",
+  "pip install -q --pre triton",
+]
+xformers_link = " && ".join(pip_commands)
 webui_branch = "23.03.14"
 
 # copy pasted code, will update all notebooks later
