@@ -108,17 +108,15 @@ def _fetch_patch_list():
 
 patch_list = _fetch_patch_list()
 
-def output_to_gdrive(on_drive=False, drive_folder="AI/Generated"):
+def mount_drive(on_drive=False):
   global mounted_gdrive
-
   if not mounted_gdrive and on_drive:
     from google.colab import drive
-    print('🏇 Mounting to Google Drive...')
-    print('👋 Please allow the notebook to connect 😁')
+    print('📂 Connecting to Google Drive...')
     drive.mount('/content/drive')
     mounted_gdrive = True
-    log_usage("gdrive-output")
 
+def output_to_gdrive(on_drive=False, drive_folder="AI/Generated"):
   drive_ouput_path = f"/content/drive/MyDrive/{drive_folder}/"
   
   config_path = "/content/stable-diffusion-webui/config.json"
@@ -136,7 +134,10 @@ def output_to_gdrive(on_drive=False, drive_folder="AI/Generated"):
 
   dictionary_to_json(config_path, config_dictionary)
 
-  print("\n💾 Generations will be saved to Google Drive. \n😢 This will make the saving cell pointless (for now).\n" if on_drive else "")
+  if on_drive:
+    log_usage('gdrive-output')
+    print("💾 Generations will be saved to Google Drive.")
+    print("😢 This will make the saving cell pointless (for now).")
 
 def aria2_download(link, folder, file_name, force_redownload=False):
   global installed_aria2, models_downloaded
