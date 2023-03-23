@@ -151,7 +151,7 @@ def aria2_download(link, folder, file_name, force_redownload=False):
   if not installed_aria2:
     print("🚀 Installing aria2...")
     commands += [
-      'apt -y install -qq aria2 &> /dev/null', #because that wall of text is disgusting 
+      'apt -y install -qq aria2 &> /dev/null', #because that wall of text is disgusting
     ]
     installed_aria2 = True
 
@@ -168,9 +168,18 @@ def aria2_download(link, folder, file_name, force_redownload=False):
 # abstracting downloaders so the notebook code will be a lot cleaner
 # just plonk the function and the link
 # more will get added
-def download_model(link, force_redownload=False):
+def download_model(link, yaml_link="", force_redownload=False, ):
   global models_folder
   file_name = link.split('/')[-1]
+  
+  if yaml_link not in models_downloaded and yaml_link != "":
+    yaml_get = subprocess.run(f"wget -q {yaml_link} -P {models_folder}/", capture_output=True)
+    
+    if yaml_get.returncode != 0:
+      return "echo '🚨 Fetching the model's yaml file failed.'"
+    
+    models_downloaded += [ yaml_link ]
+  
   return aria2_download(link, models_folder, file_name, force_redownload)
 
 def download_vae(link, force_redownload=False):
