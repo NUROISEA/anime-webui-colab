@@ -168,10 +168,22 @@ def aria2_download(link, folder, file_name, force_redownload=False):
 # abstracting downloaders so the notebook code will be a lot cleaner
 # just plonk the function and the link
 # more will get added
-def download_model(link, force_redownload=False):
-  global models_folder
-  file_name = link.split('/')[-1]
-  return aria2_download(link, models_folder, file_name, force_redownload)
+def download_model(link, yaml_link="", force_redownload=False):
+  # TODO: this function isn't elegant :/
+  global models_folder, models_downloaded
+  file_name = link.split('/')[-1]  
+  commands = []
+
+  if yaml_link not in models_downloaded and yaml_link != "":
+    commands += [ f"wget -q {yaml_link} -P {models_folder}/" ]    
+    models_downloaded += [ yaml_link ]
+  
+  # i am cringing at this
+  commands += [
+    aria2_download(link, models_folder, file_name, force_redownload)
+  ]
+
+  return " && ".join(commands)
 
 def download_vae(link, force_redownload=False):
   global vae_folder
