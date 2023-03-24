@@ -36,7 +36,7 @@ Head over to **🖼[Showcase (not updated)][showcase]✨** to see what the model
 [![Open In Colab][colab-icon]][sryk] | Shirayuki Model | 🔁 | [🤗hesw23168](https://huggingface.co/hesw23168/SD_Shirayuki_Model) | 1
 [![Open In Colab][colab-icon]][s000] | soul0000  | 🔥🔁 | [🤗TheRaphael0000](https://huggingface.co/TheRaphael0000/mixes0000) | 1
 [![Open In Colab][colab-icon]][wany] | WaifuAnything | 🔁 | [🤗KuromiLayfe](https://huggingface.co/KuromiLayfe/WaifuAnything) | 1
-[![Open In Colab][colab-icon]][wd]   | Waifu Diffusion | 📚 | [🤗hakurei](https://huggingface.co/hakurei/waifu-diffusion) | 4
+[![Open In Colab][colab-icon]][wd]   | Waifu Diffusion | 📚 | [🤗hakurei](https://huggingface.co/hakurei/waifu-diffusion) | 7
 <!-- [![Open In Colab][colab-icon]][code] | name  | emojis | [🤗author](https://huggingface.co/author/model) | count -->
 
 | 🔥 | 🔁 | 📚 | 🤗 | 👔 |
