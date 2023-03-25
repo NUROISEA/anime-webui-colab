@@ -29,7 +29,7 @@ def install_webui(option):
 
   log_usage(f'webui-version-{option}')
 
-  git_clone_command = f"git clone {version_dictionary[option]} {web_ui_folder}"
+  git_clone_command = f"git clone -q {version_dictionary[option]} {web_ui_folder}"
   return git_clone_command
 
 def extensions_list(option):
@@ -53,7 +53,8 @@ def extensions_list(option):
       f'-b 23.02.27 https://github.com/anime-webui-colab/ext-tunnels {f}/tunnels',
     ],
     'latest': [
-      f'https://github.com/alemelis/sd-webui-ar {f}/aspect-ratio-preset',
+      # using my own fork again to not lose my presets
+      f'-b 23.02.20 https://github.com/anime-webui-colab/ext-aspect-ratio-preset {f}/aspect-ratio-preset',
       f'https://github.com/etherealxx/batchlinks-webui {f}/batchlinks',
       f'https://github.com/Mikubill/sd-webui-controlnet {f}/controlnet',
       f'https://github.com/hnmr293/sd-webui-cutoff {f}/cutoff',
@@ -70,6 +71,7 @@ def extensions_list(option):
       f'https://github.com/deforum-art/deforum-for-automatic1111-webui {f}/deforum',
       f'https://github.com/adieyal/sd-dynamic-prompts {f}/dynamic-prompts',
       f'https://github.com/ashen-sensored/sd-webui-runtime-block-merge {f}/runtime-block-merge',
+      f'https://github.com/ashen-sensored/stable-diffusion-webui-two-shot {f}/latent-couple-two-shot-regions'
     ],
   }
   
@@ -90,7 +92,7 @@ installed_aria2 = False
 
 pip_commands = [
   'pip install -q https://github.com/camenduru/stable-diffusion-webui-colab/releases/download/0.0.17/xformers-0.0.17+b6be33a.d20230315-cp39-cp39-linux_x86_64.whl',
-  'pip install -q --pre triton',
+  'pip install -q triton==2.0.0',
 ]
 xformers_link = ' && '.join(pip_commands)
 
