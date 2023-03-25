@@ -24,11 +24,15 @@ def install_webui(option):
   version_dictionary = {
     'stable':     f'-b {webui_branch} https://github.com/anime-webui-colab/stable-diffusion-webui',
     'latest':      'https://github.com/AUTOMATIC1111/stable-diffusion-webui',
-    'ui-redesign': 'https://github.com/anime-webui-colab/stable-diffusion-webui'
+    'ui-redesign': 'https://github.com/anapnoe/stable-diffusion-webui-ux'
   }
 
   log_usage(f'webui-version-{option}')
 
+  if option == 'ui-redesign':
+    print("✨ You are now using anapnoe's fork of the web UI! Layouts are different!")
+  
+  print('🌟 Installing stable-diffusion-webui...')
   git_clone_command = f"git clone -q {version_dictionary[option]} {web_ui_folder}"
   return git_clone_command
 

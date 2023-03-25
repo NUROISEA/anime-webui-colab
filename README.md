@@ -69,21 +69,25 @@ Head over to **🖼[Showcase (not updated)][showcase]✨** to see what the model
 
 ## Stable Diffusion Web UI
 [AUTOMATIC1111's stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
+- Fork: [anapnoe's stable-diffusion-webui](https://github.com/anapnoe/stable-diffusion-webui-ux) (`ui-redesign` option)
 
 ## Documentation
 [stable-diffusion-webui wiki](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki)
 
 ## Extensions
+- [adieyal's sd-dynamic-prompts](https://github.com/adieyal/sd-dynamic-prompts) (`experimental` option)
 - [alemelis' sd-webui-ar](https://github.com/alemelis/sd-webui-ar)
+- [ashen-sensored's sd-webui-runtime-block-merge](https://github.com/ashen-sensored/sd-webui-runtime-block-merge) (`experimental` option)
 - [Bing-su's sd-webui-tunnels](https://github.com/Bing-su/sd-webui-tunnels)
   - Fork: [camenduru's sd-webui-tunnels](https://github.com/camenduru/sd-webui-tunnels)
-- [deforum-art's deforum-for-automatic1111-webui](https://github.com/deforum-art/deforum-for-automatic1111-webui)
+- [deforum-art's deforum-for-automatic1111-webui](https://github.com/deforum-art/deforum-for-automatic1111-webui) (`experimental` option)
 - [DominikDoom's a1111-sd-webui-tagcomplete](https://github.com/DominikDoom/a1111-sd-webui-tagcomplete)
 - [etherealxx's batchlinks-webui](https://github.com/etherealxx/batchlinks-webui)
 - [hnmr293's sd-webui-cutoff](https://github.com/hnmr293/sd-webui-cutoff)
 - [Mikubill's sd-webui-controlnet](https://github.com/Mikubill/sd-webui-controlnet)
 - [NoCrypt's sd-fast-pnginfo](https://github.com/NoCrypt/sd-fast-pnginfo)
 - [opparco's stable-diffusion-webui-two-shot](https://github.com/opparco/stable-diffusion-webui-two-shot)
+  - Fork: [ashen-sensored's stable-diffusion-webui-two-shot](https://github.com/ashen-sensored/stable-diffusion-webui-two-shot) (`experimental` option)
 - [space-nuko's sd-webui-session-organizer](https://github.com/space-nuko/sd-webui-session-organizer)
 - [yfszzx's stable-diffusion-webui-images-browser](https://github.com/yfszzx/stable-diffusion-webui-images-browser)
   - Fork: [AlUlkesh's stable-diffusion-webui-images-browser](https://github.com/AlUlkesh/stable-diffusion-webui-images-browser)
