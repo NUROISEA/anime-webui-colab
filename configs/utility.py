@@ -43,6 +43,13 @@ def extensions_list(option):
   f = extensions_folder
 
   extensions = {
+    'none': [],
+    'lite': [
+      f'-b 23.03.23 https://github.com/anime-webui-colab/ext-batchlinks {f}/batchlinks',
+      f'-b 23.03.02 https://github.com/anime-webui-colab/ext-images-browser {f}/images-browser',
+      f'-b 23.03.01 https://github.com/anime-webui-colab/ext-tagcomplete {f}/tagcomplete',
+      f'-b 23.02.27 https://github.com/anime-webui-colab/ext-tunnels {f}/tunnels',
+    ],
     'stable': [
       # now i just realized that i didnt need to rename the repos themselves.... i hate my self
       f'-b 23.02.20 https://github.com/anime-webui-colab/ext-aspect-ratio-preset {f}/aspect-ratio-preset',
@@ -72,10 +79,10 @@ def extensions_list(option):
     ],
     'experimental': [
       # this will change a lot, dont expect anything permanent here
-      f'https://github.com/deforum-art/deforum-for-automatic1111-webui {f}/deforum',
-      f'https://github.com/adieyal/sd-dynamic-prompts {f}/dynamic-prompts',
-      f'https://github.com/ashen-sensored/sd-webui-runtime-block-merge {f}/runtime-block-merge',
-      f'https://github.com/ashen-sensored/stable-diffusion-webui-two-shot {f}/latent-couple-two-shot-regions'
+      f'https://github.com/deforum-art/deforum-for-automatic1111-webui {f}/exp-deforum',
+      f'https://github.com/adieyal/sd-dynamic-prompts {f}/exp-dynamic-prompts',
+      f'https://github.com/ashen-sensored/sd-webui-runtime-block-merge {f}/exp-runtime-block-merge',
+      f'https://github.com/ashen-sensored/stable-diffusion-webui-two-shot {f}/exp-latent-couple-two-shot-regions'
     ],
   }
   
@@ -83,8 +90,14 @@ def extensions_list(option):
 
   if option == 'experimental':
     print('😲 You are now installing some extensions I deem experimental for this colab!')
+    print('😮 Experimental extensions are prefixed with "exp"')
     return extensions['latest'] + extensions['experimental']
   else:
+    if option == 'none':
+      print('😶 No extensions would be installed. Pure vanilla web UI')
+    elif option == 'lite':
+      print('🙂 No "advanced" extensions would be installed. Only installing the bare minimum.')
+
     return extensions[option]
 
 logged_keys = []
@@ -109,19 +122,7 @@ extensions_folder = f'{web_ui_folder}/extensions'
 
 models_downloaded = []
 
-default_extensions = [
-  '-b 23.02.20 https://github.com/anime-webui-colab/ext-aspect-ratio-preset',
-  '-b 23.03.23 https://github.com/anime-webui-colab/ext-batchlinks',
-  '-b 23.03.14 https://github.com/anime-webui-colab/ext-controlnet',
-  '-b 23.03.20 https://github.com/anime-webui-colab/ext-cutoff',
-  #'-b 23.03.15 https://github.com/anime-webui-colab/ext-deforum',
-  '-b 23.03.09 https://github.com/anime-webui-colab/ext-fast-pnginfo',
-  '-b 23.03.02 https://github.com/anime-webui-colab/ext-images-browser',
-  '-b 23.02.19 https://github.com/anime-webui-colab/ext-latent-couple-two-shot',
-  '-b 23.03.19 https://github.com/anime-webui-colab/ext-session-organizer',
-  '-b 23.03.01 https://github.com/anime-webui-colab/ext-tagcomplete',
-  '-b 23.02.27 https://github.com/anime-webui-colab/ext-tunnels',
-]
+default_extensions = extensions_list('stable')
 
 default_embeddings = [
   'https://huggingface.co/nick-x-hacker/bad-artist/resolve/main/bad-artist.pt',
