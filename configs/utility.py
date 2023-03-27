@@ -45,7 +45,7 @@ def extensions_list(option):
   extensions = {
     'none': [],
     'lite': [
-      f'-b 23.03.23 https://github.com/anime-webui-colab/ext-batchlinks {f}/batchlinks',
+      f'-b 23.03.26 https://github.com/anime-webui-colab/ext-batchlinks {f}/batchlinks',
       f'-b 23.03.02 https://github.com/anime-webui-colab/ext-images-browser {f}/images-browser',
       f'-b 23.03.01 https://github.com/anime-webui-colab/ext-tagcomplete {f}/tagcomplete',
       f'-b 23.02.27 https://github.com/anime-webui-colab/ext-tunnels {f}/tunnels',
@@ -53,7 +53,7 @@ def extensions_list(option):
     'stable': [
       # now i just realized that i didnt need to rename the repos themselves.... i hate my self
       f'-b 23.02.20 https://github.com/anime-webui-colab/ext-aspect-ratio-preset {f}/aspect-ratio-preset',
-      f'-b 23.03.23 https://github.com/anime-webui-colab/ext-batchlinks {f}/batchlinks',
+      f'-b 23.03.26 https://github.com/anime-webui-colab/ext-batchlinks {f}/batchlinks',
       f'-b 23.03.14 https://github.com/anime-webui-colab/ext-controlnet {f}/controlnet',
       f'-b 23.03.20 https://github.com/anime-webui-colab/ext-cutoff {f}/cutoff',
       f'-b 23.03.09 https://github.com/anime-webui-colab/ext-fast-pnginfo {f}/fast-pnginfo',
