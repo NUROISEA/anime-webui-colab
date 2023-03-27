@@ -147,9 +147,9 @@ default_arguments = ' '.join([
   '--gradio-queue',
 ])
 
-def arguments(model='', vae='', tunnel='gradio', ng_token='', ng_region='auto', extra_args=''):
+def arguments(model='', vae='', tunnel='gradio', ng_token='', ng_region='auto', extra_args='', default_override=''):
   args = [
-    default_arguments,
+    default_arguments if not default_override else default_override,
     f'--ckpt \"{model}\"' if model else '',
     f'--vae-path \"{vae}\"' if vae else '',
     extra_args if extra_args else '',
