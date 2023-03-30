@@ -1,5 +1,6 @@
 import json
 import subprocess
+from datetime import datetime,timezone
 
 def dictionary_to_json(json_file, data_dictionary):
   with open(json_file, 'r') as f:
@@ -12,10 +13,18 @@ def dictionary_to_json(json_file, data_dictionary):
 
 def log_usage(key):
   if key not in logged_keys:
+    now_utc = datetime.now(timezone.utc)
+
     namespace = 'nuroisea-anime-webui-colab'
-    output = subprocess.check_output(['curl', f'https://api.countapi.xyz/hit/{namespace}/{key}'])
-    # result = json.loads(output)
-    # value = result['value']
+    count_url = f'https://api.countapi.xyz/hit/{namespace}/{key}'
+
+    monthly_prefix = now_utc.strftime('m%y%m')
+    weekly_prefix = now_utc.strftime('w%y%V')
+
+    total_log = subprocess.check_output(['curl', count_url])
+    monthly_log = subprocess.check_output(['curl', f'{count_url}-{monthly_prefix}'])
+    weekly_log = subprocess.check_output(['curl', f'{count_url}-{weekly_prefix}'])
+
     logged_keys.append(key)
 
 def install_webui(option):
