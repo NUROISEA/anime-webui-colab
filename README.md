@@ -1,7 +1,7 @@
 # 🚀 Colab
 ## 📒 Notebooks
 
-Head over to **🖼[Showcase (not updated)][showcase]✨** to see what the models might look like! :D (currently not being updated, going to be superseeded by [**this one** (WIP)](https://anime-webui-colab.github.io/showcase/model-list) in the future 😁)
+Head over to **🖼[Showcase (🚧WIP🚧)][showcase]✨** to see what the models might look like! :D
 
 | Colab Link | Model | 🤔  | Model Page | Count*
 | ---        | ---   | :---: | ---        | ---: |
@@ -50,7 +50,7 @@ Head over to **🖼[Showcase (not updated)][showcase]✨** to see what the model
 
 <small>^ Models in the colab are have some sort of variant that are noticably different</small>
 
-[showcase]: https://github.com/NUROISEA/anime-webui-colab/wiki/Showcase
+[showcase]: https://anime-webui-colab.github.io/showcase/model-list
 
 ## 🔧 Provide your own
 | Colab Link | Description
