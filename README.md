@@ -1,7 +1,7 @@
 # 🚀 Colab
 ## 📒 Notebooks
 
-Head over to **🖼[Showcase (not updated)][showcase]✨** to see what the models might look like! :D (currently not being updated, going to be superseeded by [**this one** (WIP)](https://anime-webui-colab.github.io/showcase/) in the future 😁)
+Head over to **🖼[Showcase (not updated)][showcase]✨** to see what the models might look like! :D (currently not being updated, going to be superseeded by [**this one** (WIP)](https://anime-webui-colab.github.io/showcase/model-list) in the future 😁)
 
 | Colab Link | Model | 🤔  | Model Page | Count*
 | ---        | ---   | :---: | ---        | ---: |
@@ -24,16 +24,16 @@ Head over to **🖼[Showcase (not updated)][showcase]✨** to see what the model
 [![Open In Colab][colab-icon]][hddg] | HDDream-G | 🔁 | [🤗Horsebird](https://huggingface.co/Horsebird/HDDream-G) | 1
 [![Open In Colab][colab-icon]][hedf] | Hentai Diffusion | 📚 | [🤗Deltaadams](https://huggingface.co/Deltaadams/HentaiDiffusion) | 5
 [![Open In Colab][colab-icon]][lca]  | Ligne Claire Anime | 🔥 | [🤗breakcore2](https://huggingface.co/breakcore2/ligne_claire_anime_diffusion) | 1
+[![Open In Colab][colab-icon]][mnmx] | Midnight Mixes | 🔥🔁 | [🤗DrBob2142](https://huggingface.co/DrBob2142/Midnight_Mixes) | 3
 [![Open In Colab][colab-icon]][mbp]  | Misobarisic's Playground |  🔁📚 | [🤗misobarisic](https://huggingface.co/misobarisic/playground) | 7
 [![Open In Colab][colab-icon]][mix3] | MIX-Pro-V3/V3.5  | 🔥🔁 | [👔P317cm](https://civitai.com/models/7241/mix-pro-v3) | 2
 [![Open In Colab][colab-icon]][mixc] | Mixing Cauldron | 🔁📚 | [🤗NUROISEA](https://huggingface.co/NUROISEA/mixing-cauldron) | 6
-[![Open In Colab][colab-icon]][mnmx] | Midnight Mixes | 🔥🔁 | [🤗DrBob2142](https://huggingface.co/DrBob2142/Midnight_Mixes) | 3
 [![Open In Colab][colab-icon]][momx] | Momocha Mix | 🔁 | [🤗NoCrypt](https://huggingface.co/NoCrypt/momocha-mix) | 1
 [![Open In Colab][colab-icon]][oaj]  | OpenAnimeJourney |  | [🤗MehjourneyClosedAI](https://huggingface.co/MehjourneyClosedAI/OpenAnimeJourney) | 1
 [![Open In Colab][colab-icon]][omx]  | OrangeMixs | 🔁📚 | [🤗WarriorMama777](https://huggingface.co/WarriorMama777/OrangeMixs) | 27
 [![Open In Colab][colab-icon]][ptmx] | Pastel Mix | 🔥🔁 | [🤗andite](https://huggingface.co/andite/pastel-mix) | 1
-[![Open In Colab][colab-icon]][p200] | ProtoThing_200 | 🔁📚 | [🤗NiteStormz](https://huggingface.co/NiteStormz/ProtoThing_200) | 3
 [![Open In Colab][colab-icon]][pd13] | Plat Diffusion  | | [🤗p1atdev](https://huggingface.co/p1atdev/plat-diffusion) | 1
+[![Open In Colab][colab-icon]][p200] | ProtoThing_200 | 🔁📚 | [🤗NiteStormz](https://huggingface.co/NiteStormz/ProtoThing_200) | 3
 [![Open In Colab][colab-icon]][rsms] | Rasgeath's Self Made Sauce | 🔁 | [🤗Rasgeath](https://huggingface.co/Rasgeath/self_made_sauce) | 7
 [![Open In Colab][colab-icon]][sryk] | Shirayuki Model | 🔁 | [🤗hesw23168](https://huggingface.co/hesw23168/SD_Shirayuki_Model) | 1
 [![Open In Colab][colab-icon]][some] | Something | 🔁 | [🤗NoCrypt](https://huggingface.co/NoCrypt/SomethingV2_2) | 1
@@ -78,22 +78,29 @@ Head over to **🖼[Showcase (not updated)][showcase]✨** to see what the model
 [stable-diffusion-webui wiki](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki)
 
 ## Extensions
-- [adieyal's sd-dynamic-prompts](https://github.com/adieyal/sd-dynamic-prompts) (`experimental` option)
-- [alemelis' sd-webui-ar](https://github.com/alemelis/sd-webui-ar)
-- [ashen-sensored's sd-webui-runtime-block-merge](https://github.com/ashen-sensored/sd-webui-runtime-block-merge) (`experimental` option)
+### Lite
 - [Bing-su's sd-webui-tunnels](https://github.com/Bing-su/sd-webui-tunnels)
   - Fork: [camenduru's sd-webui-tunnels](https://github.com/camenduru/sd-webui-tunnels)
-- [deforum-art's deforum-for-automatic1111-webui](https://github.com/deforum-art/deforum-for-automatic1111-webui) (`experimental` option)
 - [DominikDoom's a1111-sd-webui-tagcomplete](https://github.com/DominikDoom/a1111-sd-webui-tagcomplete)
 - [etherealxx's batchlinks-webui](https://github.com/etherealxx/batchlinks-webui)
+- [yfszzx's stable-diffusion-webui-images-browser](https://github.com/yfszzx/stable-diffusion-webui-images-browser)
+  - Fork: [AlUlkesh's stable-diffusion-webui-images-browser](https://github.com/AlUlkesh/stable-diffusion-webui-images-browser)
+### Stable/Latest
+- Everything in Lite
+- [alemelis' sd-webui-ar](https://github.com/alemelis/sd-webui-ar)
 - [hnmr293's sd-webui-cutoff](https://github.com/hnmr293/sd-webui-cutoff)
 - [Mikubill's sd-webui-controlnet](https://github.com/Mikubill/sd-webui-controlnet)
 - [NoCrypt's sd-fast-pnginfo](https://github.com/NoCrypt/sd-fast-pnginfo)
 - [opparco's stable-diffusion-webui-two-shot](https://github.com/opparco/stable-diffusion-webui-two-shot)
-  - Fork: [ashen-sensored's stable-diffusion-webui-two-shot](https://github.com/ashen-sensored/stable-diffusion-webui-two-shot) (`experimental` option)
 - [space-nuko's sd-webui-session-organizer](https://github.com/space-nuko/sd-webui-session-organizer)
-- [yfszzx's stable-diffusion-webui-images-browser](https://github.com/yfszzx/stable-diffusion-webui-images-browser)
-  - Fork: [AlUlkesh's stable-diffusion-webui-images-browser](https://github.com/AlUlkesh/stable-diffusion-webui-images-browser)
+### Experimental
+- Everything in Stable/Latest
+- [adieyal's sd-dynamic-prompts](https://github.com/adieyal/sd-dynamic-prompts)
+- [ashen-sensored's sd-webui-runtime-block-merge](https://github.com/ashen-sensored/sd-webui-runtime-block-merge)
+- [deforum-art's deforum-for-automatic1111-webui](https://github.com/deforum-art/deforum-for-automatic1111-webui)
+- [ashen-sensored's stable-diffusion-webui-two-shot](https://github.com/ashen-sensored/stable-diffusion-webui-two-shot)
+
+
 
 ## Embeddings
 - [gsdf's EasyNegative](https://huggingface.co/datasets/gsdf/EasyNegative)
