@@ -118,7 +118,7 @@ mounted_gdrive = False
 installed_aria2 = False
 
 pip_commands = [
-  'pip install -q https://github.com/camenduru/stable-diffusion-webui-colab/releases/download/0.0.17/xformers-0.0.17+b6be33a.d20230315-cp39-cp39-linux_x86_64.whl',
+  'pip install -q xformers==0.0.17',
   'pip install -q triton==2.0.0',
 ]
 xformers_link = ' && '.join(pip_commands)
