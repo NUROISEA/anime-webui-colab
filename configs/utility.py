@@ -45,7 +45,7 @@ def install_webui(option):
   git_clone_command = f"git clone -q {version_dictionary[option]} {web_ui_folder}"
   return git_clone_command
 
-def extensions_list(option):
+def extensions_list(option, not_logged=False):
   global extensions_folder
 
   # folder, just f to not clutter the strings
@@ -94,8 +94,9 @@ def extensions_list(option):
       f'https://github.com/ashen-sensored/stable-diffusion-webui-two-shot {f}/exp-latent-couple-two-shot-regions'
     ],
   }
-  
-  log_usage(f'extensions-version-{option}')
+
+  if not not_logged:
+    log_usage(f'extensions-version-{option}')
 
   if option == 'experimental':
     print('😲 You are now installing some extensions I deem experimental for this colab!')
@@ -131,7 +132,7 @@ extensions_folder = f'{web_ui_folder}/extensions'
 
 models_downloaded = []
 
-default_extensions = extensions_list('stable')
+default_extensions = extensions_list('stable', not_logged=True)
 
 default_embeddings = [
   'https://huggingface.co/nick-x-hacker/bad-artist/resolve/main/bad-artist.pt',
