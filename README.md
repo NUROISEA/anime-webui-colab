@@ -31,6 +31,7 @@ Head over to 🖼[ ***Showcase*** ][showcase]✨ to see what the models might lo
 [![Open In Colab][colab-icon]][every] | Everything | 🔁 | [🤗DrBob2142](https://huggingface.co/DrBob2142/Everything) | 3
 [![Open In Colab][colab-icon]][evtv3] | Evt_V3 |  | [🤗haor](https://huggingface.co/haor/Evt_V3) | 1
 [![Open In Colab][colab-icon]][expmi] | ExpMix_Line  | 🔥🔁 | [👔mods13](https://civitai.com/models/12865/expmixline) | 2
+[![Open In Colab][colab-icon]][grape] | Grapefruit | 🔁📚 | [🤗iZELX1](https://huggingface.co/iZELX1/Grapefruit) | 6
 [![Open In Colab][colab-icon]][hddre] | HDDream-G | 🔁 | [🤗Horsebird](https://huggingface.co/Horsebird/HDDream-G) | 1
 [![Open In Colab][colab-icon]][henta] | Hentai Diffusion | 📚 | [🤗Deltaadams](https://huggingface.co/Deltaadams/HentaiDiffusion) | 5
 [![Open In Colab][colab-icon]][ligne] | Ligne Claire Anime | 🔥 | [🤗breakcore2](https://huggingface.co/breakcore2/ligne_claire_anime_diffusion) | 1
@@ -66,8 +67,6 @@ Head over to 🖼[ ***Showcase*** ][showcase]✨ to see what the models might lo
 | Colab Link | Description
 | --- | --- |
 [![Open In Colab][colab-icon]][own-model] | You provide the download links for the model and VAE
-
-
 
 # 🧐 References
 
@@ -130,6 +129,7 @@ Head over to 🖼[ ***Showcase*** ][showcase]✨ to see what the models might lo
 [every]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/everything.ipynb
 [evtv3]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/evt_v3.ipynb
 [expmi]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/expmix_line.ipynb
+[grape]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/grapefruit.ipynb
 [hddre]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/hddream_g.ipynb
 [henta]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/hentai_diffusion.ipynb
 [ligne]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/ligne_claire_anime_diffusion.ipynb
