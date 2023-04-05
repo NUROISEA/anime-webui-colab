@@ -16,7 +16,7 @@ Head over to 🖼[ ***Showcase*** ][showcase]✨ to see what the models might lo
 | Colab Link | Model | 🤔 | Model Page | Count*
 | ---        | ---   | :---: | ---        | ---: |
 [![Open In Colab][colab-icon]][7thla] | 7th_Layer | 🔥🔁📚 | [🤗syaimu](https://huggingface.co/syaimu/7th_Layer) | 10
-[![Open In Colab][colab-icon]][8528d] | 8528-diffusion | | [🤗ckpt](https://huggingface.co/ckpt/8528-diffusion) (mirror) | 1 
+[![Open In Colab][colab-icon]][8528d] | 8528-diffusion | 🔁 | [🤗ckpt](https://huggingface.co/ckpt/8528-diffusion) (mirror) | 1 
 [![Open In Colab][colab-icon]][anime] | AnimeInOurWorld |  | [🤗NoCrypt](https://huggingface.co/NoCrypt/animeinourworld-model) | 1
 [![Open In Colab][colab-icon]][anyga] | AnyGape Mix | 🔁 | [🤗etherealxx](https://huggingface.co/etherealxx/anygape-mix) | 1
 [![Open In Colab][colab-icon]][anymx] | Anything Mix | 🔁📚 | [🤗NUROISEA](https://huggingface.co/NUROISEA/anything-mix) | 7
@@ -25,9 +25,10 @@ Head over to 🖼[ ***Showcase*** ][showcase]✨ to see what the models might lo
 [![Open In Colab][colab-icon]][bakad] | Baka-Diffusion! |  | [🤗Hosioka](https://huggingface.co/Hosioka/Baka-Diffusion) | 1 
 [![Open In Colab][colab-icon]][chame] | ChameleonAI Mix | 🔁 | [👔ChameleonAI](https://civitai.com/models/19785/chameleonai-mix) | 1
 [![Open In Colab][colab-icon]][count] | Counterfeit | 🔁📚 | [🤗gsdf](https://huggingface.co/gsdf/Counterfeit-V2.5) | 5
+[![Open In Colab][colab-icon]][darks] | Dark Sushi Mix 大颗寿司Mix | 🔁 | [👔Aitasai](https://civitai.com/models/24779) | 2
 [![Open In Colab][colab-icon]][drbob] | DrBob2142's Mix Models | 🔁📚 | [🤗DrBob2142](https://huggingface.co/DrBob2142/Mix-Models) | 12
 [![Open In Colab][colab-icon]][eimis] | Eimis Anime Diffusion |  | [🤗eimiss](https://huggingface.co/eimiss/EimisAnimeDiffusion_1.0v) | 1
-[![Open In Colab][colab-icon]][elysi] | Elysium Anime | 📚 | [🤗hesw23168](https://huggingface.co/hesw23168/SD-Elysium-Model) | 3
+[![Open In Colab][colab-icon]][elysi] | Elysium Anime | 🔁📚 | [🤗hesw23168](https://huggingface.co/hesw23168/SD-Elysium-Model) | 3
 [![Open In Colab][colab-icon]][every] | Everything | 🔁 | [🤗DrBob2142](https://huggingface.co/DrBob2142/Everything) | 3
 [![Open In Colab][colab-icon]][evtv3] | Evt_V3 |  | [🤗haor](https://huggingface.co/haor/Evt_V3) | 1
 [![Open In Colab][colab-icon]][expmi] | ExpMix_Line  | 🔥🔁 | [👔mods13](https://civitai.com/models/12865/expmixline) | 2
@@ -49,8 +50,10 @@ Head over to 🖼[ ***Showcase*** ][showcase]✨ to see what the models might lo
 [![Open In Colab][colab-icon]][shira] | Shirayuki Model | 🔁 | [🤗hesw23168](https://huggingface.co/hesw23168/SD_Shirayuki_Model) | 1
 [![Open In Colab][colab-icon]][somet] | Something | 🔁 | [🤗NoCrypt](https://huggingface.co/NoCrypt/SomethingV2_2) | 1
 [![Open In Colab][colab-icon]][soul0] | soul0000 | 🔥🔁 | [🤗TheRaphael0000](https://huggingface.co/TheRaphael0000/mixes0000) | 1
+[![Open In Colab][colab-icon]][voxo-] | VOXO | 🔁📚 | [🤗junjuice0](https://huggingface.co/junjuice0/VOXO) | 2
 [![Open In Colab][colab-icon]][waifa] | Waifu Anything | 🔁 | [🤗KuromiLayfe](https://huggingface.co/KuromiLayfe/WaifuAnything) | 1
 [![Open In Colab][colab-icon]][waifd] | Waifu Diffusion | 📚 | [🤗hakurei](https://huggingface.co/hakurei/waifu-diffusion) | 7
+
 <!-- [![Open In Colab][colab-icon]][code] | name | emojis | [🤗author](https://huggingface.co/author/model) | count -->
 
 | 🔥 | 🔁 | 📚 | 🤗 | 👔 |
@@ -106,7 +109,7 @@ Head over to 🖼[ ***Showcase*** ][showcase]✨ to see what the models might lo
 ## Embeddings
 - [gsdf's EasyNegative](https://huggingface.co/datasets/gsdf/EasyNegative)
 - [Nerfgun3's bad_prompt](https://huggingface.co/datasets/Nerfgun3/bad_prompt)
-- [nick-x-hacker's bad-artist](https://huggingface.co/nick-x-hacker/bad-artist)
+- [nick-x-hacker's bad-artist and bad-artist-anime](https://huggingface.co/nick-x-hacker/bad-artist)
 
 ## Models License
 <https://huggingface.co/spaces/CompVis/stable-diffusion-license>
@@ -123,6 +126,7 @@ Head over to 🖼[ ***Showcase*** ][showcase]✨ to see what the models might lo
 [bakad]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/baka_diffusion.ipynb
 [chame]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/chameleonai-mix.ipynb
 [count]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/counterfeit.ipynb
+[darks]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/dark_sushi_mix.ipynb
 [drbob]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/drbob2142_mix_models.ipynb
 [eimis]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/eimis_anime_diffusion.ipynb
 [elysi]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/elysium_anime.ipynb
@@ -147,6 +151,7 @@ Head over to 🖼[ ***Showcase*** ][showcase]✨ to see what the models might lo
 [shira]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/shirayuki_model.ipynb
 [somet]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/something.ipynb
 [soul0]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/soul0000.ipynb
+[voxo-]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/voxo.ipynb
 [waifa]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/waifuanything.ipynb
 [waifd]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/waifu_diffusion.ipynb
 
