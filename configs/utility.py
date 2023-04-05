@@ -136,6 +136,7 @@ default_extensions = extensions_list('stable', not_logged=True)
 
 default_embeddings = [
   'https://huggingface.co/nick-x-hacker/bad-artist/resolve/main/bad-artist.pt',
+  'https://huggingface.co/nick-x-hacker/bad-artist/resolve/main/bad-artist-anime.pt',
   'https://huggingface.co/datasets/Nerfgun3/bad_prompt/resolve/main/bad_prompt_version2.pt',
   'https://huggingface.co/datasets/gsdf/EasyNegative/resolve/main/EasyNegative.safetensors',
 ]
