@@ -88,10 +88,11 @@ def extensions_list(option, not_logged=False):
     ],
     'experimental': [
       # this will change a lot, dont expect anything permanent here
+      f'https://github.com/dustysys/ddetailer {f}/exp-ddetailer',
       f'https://github.com/deforum-art/deforum-for-automatic1111-webui {f}/exp-deforum',
       f'https://github.com/adieyal/sd-dynamic-prompts {f}/exp-dynamic-prompts',
-      f'https://github.com/ashen-sensored/sd-webui-runtime-block-merge {f}/exp-runtime-block-merge',
-      f'https://github.com/ashen-sensored/stable-diffusion-webui-two-shot {f}/exp-latent-couple-two-shot-regions'
+      f'https://github.com/muerrilla/stable-diffusion-NPW {f}/exp-negative-prompt-weight',
+      f'https://github.com/ashen-sensored/stable-diffusion-webui-two-shot {f}/exp-latent-couple-two-shot-regions',
     ],
   }
 

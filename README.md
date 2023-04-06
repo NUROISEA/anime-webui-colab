@@ -102,9 +102,10 @@ Head over to 🖼[ ***Showcase*** ][showcase]✨ to see what the models might lo
 ### Experimental
 - Everything in Stable/Latest
 - [adieyal's sd-dynamic-prompts](https://github.com/adieyal/sd-dynamic-prompts)
-- [ashen-sensored's sd-webui-runtime-block-merge](https://github.com/ashen-sensored/sd-webui-runtime-block-merge)
-- [deforum-art's deforum-for-automatic1111-webui](https://github.com/deforum-art/deforum-for-automatic1111-webui)
 - [ashen-sensored's stable-diffusion-webui-two-shot](https://github.com/ashen-sensored/stable-diffusion-webui-two-shot)
+- [deforum-art's deforum-for-automatic1111-webui](https://github.com/deforum-art/deforum-for-automatic1111-webui)
+- [dustysys' ddetailer](https://github.com/dustysys/ddetailer)
+- [muerrilla's stable-diffusion-NPW](https://github.com/muerrilla/stable-diffusion-NPW)
 
 ## Embeddings
 - [gsdf's EasyNegative](https://huggingface.co/datasets/gsdf/EasyNegative)
