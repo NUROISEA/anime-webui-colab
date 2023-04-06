@@ -49,7 +49,7 @@ Head over to 🖼[ ***Showcase*** ][showcase]✨ to see what the models might lo
 [![Open In Colab][colab-icon]][rasge] | Rasgeath's Self Made Sauce | 🔁 | [🤗Rasgeath](https://huggingface.co/Rasgeath/self_made_sauce) | 7
 [![Open In Colab][colab-icon]][shira] | Shirayuki Model | 🔁 | [🤗hesw23168](https://huggingface.co/hesw23168/SD_Shirayuki_Model) | 1
 [![Open In Colab][colab-icon]][somet] | Something | 🔁 | [🤗NoCrypt](https://huggingface.co/NoCrypt/SomethingV2_2) | 1
-[![Open In Colab][colab-icon]][soul0] | soul0000 | 🔥🔁 | [🤗TheRaphael0000](https://huggingface.co/TheRaphael0000/mixes0000) | 1
+[![Open In Colab][colab-icon]][soul0] | soul0000 | 🔥🔁 | [🤗TheRaphael0000](https://huggingface.co/TheRaphael0000/mixes0000) | 2
 [![Open In Colab][colab-icon]][voxo-] | VOXO | 🔁📚 | [🤗junjuice0](https://huggingface.co/junjuice0/VOXO) | 2
 [![Open In Colab][colab-icon]][waifa] | Waifu Anything | 🔁 | [🤗KuromiLayfe](https://huggingface.co/KuromiLayfe/WaifuAnything) | 1
 [![Open In Colab][colab-icon]][waifd] | Waifu Diffusion | 📚 | [🤗hakurei](https://huggingface.co/hakurei/waifu-diffusion) | 7
