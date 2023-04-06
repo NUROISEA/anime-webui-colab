@@ -39,7 +39,7 @@ Head over to 🖼[ ***Showcase*** ][showcase]✨ to see what the models might lo
 [![Open In Colab][colab-icon]][midni] | Midnight Mixes | 🔥🔁 | [🤗DrBob2142](https://huggingface.co/DrBob2142/Midnight_Mixes) | 3
 [![Open In Colab][colab-icon]][misob] | Misobarisic's Playground |  🔁📚 | [🤗misobarisic](https://huggingface.co/misobarisic/playground) | 7
 [![Open In Colab][colab-icon]][mixin] | Mixing Cauldron | 🔁📚 | [🤗NUROISEA](https://huggingface.co/NUROISEA/mixing-cauldron) | 6
-[![Open In Colab][colab-icon]][mixpr] | MIX-Pro-V3/V3.5  | 🔥🔁 | [👔P317cm](https://civitai.com/models/7241/mix-pro-v3) | 2
+[![Open In Colab][colab-icon]][mixpr] | MIX-Pro | 🔥🔁 | [👔P317cm](https://civitai.com/models/7241/mix-pro-v3) | 3
 [![Open In Colab][colab-icon]][momoc] | Momocha Mix | 🔁 | [🤗NoCrypt](https://huggingface.co/NoCrypt/momocha-mix) | 1
 [![Open In Colab][colab-icon]][opena] | OpenAnimeJourney |  | [🤗MehjourneyClosedAI](https://huggingface.co/MehjourneyClosedAI/OpenAnimeJourney) | 1
 [![Open In Colab][colab-icon]][orang] | OrangeMixs | 🔁📚 | [🤗WarriorMama777](https://huggingface.co/WarriorMama777/OrangeMixs) | 27
