@@ -218,5 +218,40 @@
     "image_browser_scan_exif": true,
     "image_browser_mod_shift": false,
     "image_browser_mod_ctrl_shift": false,
-    "image_browser_enable_maint": true
+    "image_browser_enable_maint": true,
+    "state": [
+        "tabs"
+    ],
+    "state_txt2img": [
+        "prompt",
+        "negative_prompt",
+        "sampling",
+        "sampling_steps",
+        "width",
+        "height",
+        "batch_count",
+        "batch_size",
+        "cfg_scale",
+        "seed",
+        "hires_denoising_strength"
+    ],
+    "state_img2img": [
+        "prompt",
+        "negative_prompt",
+        "sampling",
+        "sampling_steps",
+        "resize_mode",
+        "width",
+        "height",
+        "tiling",
+        "restore_faces",
+        "batch_count",
+        "batch_size",
+        "cfg_scale",
+        "seed",
+        "denoising_strength"
+    ],
+    "state_extensions": [
+        "control-net"
+    ]
 }

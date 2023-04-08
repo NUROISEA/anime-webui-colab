@@ -89,6 +89,7 @@ Head over to 🖼[ ***Showcase*** ][showcase]✨ to see what the models might lo
   - Fork: [camenduru's sd-webui-tunnels](https://github.com/camenduru/sd-webui-tunnels)
 - [DominikDoom's a1111-sd-webui-tagcomplete](https://github.com/DominikDoom/a1111-sd-webui-tagcomplete)
 - [etherealxx's batchlinks-webui](https://github.com/etherealxx/batchlinks-webui)
+- [ilian6806's stable-diffusion-webui-state](https://github.com/ilian6806/stable-diffusion-webui-state)
 - [yfszzx's stable-diffusion-webui-images-browser](https://github.com/yfszzx/stable-diffusion-webui-images-browser)
   - Fork: [AlUlkesh's stable-diffusion-webui-images-browser](https://github.com/AlUlkesh/stable-diffusion-webui-images-browser)
 ### Stable/Latest
