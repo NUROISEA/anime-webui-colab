@@ -270,3 +270,5 @@ def download_vae(link):
   global vae_folder
   file_name = link.split('/')[-1]
   return aria2_download(link, vae_folder, file_name)
+
+print('👍 Utility script imported.')
