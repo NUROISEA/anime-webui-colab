@@ -54,27 +54,27 @@ def extensions_list(option, not_logged=False):
   extensions = {
     'none': [],
     'lite': [
-      f'-b 23.03.26 https://github.com/anime-webui-colab/ext-batchlinks {f}/batchlinks',
-      f'-b 23.03.02 https://github.com/anime-webui-colab/ext-images-browser {f}/images-browser',
-      f'-b 23.03.01 https://github.com/anime-webui-colab/ext-tagcomplete {f}/tagcomplete',
+      f'-b 23.03.30 https://github.com/anime-webui-colab/ext-batchlinks {f}/batchlinks',
+      f'-b 23.03.21 https://github.com/anime-webui-colab/ext-images-browser {f}/images-browser',
+      f'-b 23.04.05 https://github.com/anime-webui-colab/ext-tagcomplete {f}/tagcomplete',
       f'-b 23.02.27 https://github.com/anime-webui-colab/ext-tunnels {f}/tunnels',
     ],
     'stable': [
       # now i just realized that i didnt need to rename the repos themselves.... i hate my self
-      f'-b 23.02.20 https://github.com/anime-webui-colab/ext-aspect-ratio-preset {f}/aspect-ratio-preset',
-      f'-b 23.03.26 https://github.com/anime-webui-colab/ext-batchlinks {f}/batchlinks',
-      f'-b 23.03.14 https://github.com/anime-webui-colab/ext-controlnet {f}/controlnet',
-      f'-b 23.03.20 https://github.com/anime-webui-colab/ext-cutoff {f}/cutoff',
+      f'-b 23.03.31 https://github.com/anime-webui-colab/ext-aspect-ratio-preset {f}/aspect-ratio-preset',
+      f'-b 23.03.30 https://github.com/anime-webui-colab/ext-batchlinks {f}/batchlinks',
+      f'-b 23.03.23 https://github.com/anime-webui-colab/ext-controlnet {f}/controlnet',
+      f'-b 23.03.22 https://github.com/anime-webui-colab/ext-cutoff {f}/cutoff',
       f'-b 23.03.09 https://github.com/anime-webui-colab/ext-fast-pnginfo {f}/fast-pnginfo',
-      f'-b 23.03.02 https://github.com/anime-webui-colab/ext-images-browser {f}/images-browser',
+      f'-b 23.03.21 https://github.com/anime-webui-colab/ext-images-browser {f}/images-browser',
       f'-b 23.02.19 https://github.com/anime-webui-colab/ext-latent-couple-two-shot {f}/latent-couple-two-shot',
       f'-b 23.03.19 https://github.com/anime-webui-colab/ext-session-organizer {f}/session-organizer',
-      f'-b 23.03.01 https://github.com/anime-webui-colab/ext-tagcomplete {f}/tagcomplete',
+      f'-b 23.04.05 https://github.com/anime-webui-colab/ext-tagcomplete {f}/tagcomplete',
       f'-b 23.02.27 https://github.com/anime-webui-colab/ext-tunnels {f}/tunnels',
     ],
     'latest': [
       # using my own fork again to not lose my presets
-      f'-b 23.02.20 https://github.com/anime-webui-colab/ext-aspect-ratio-preset {f}/aspect-ratio-preset',
+      f'-b 23.03.31 https://github.com/anime-webui-colab/ext-aspect-ratio-preset {f}/aspect-ratio-preset',
       f'https://github.com/etherealxx/batchlinks-webui {f}/batchlinks',
       f'https://github.com/Mikubill/sd-webui-controlnet {f}/controlnet',
       f'https://github.com/hnmr293/sd-webui-cutoff {f}/cutoff',
