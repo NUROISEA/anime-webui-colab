@@ -57,6 +57,7 @@ def extensions_list(option, not_logged=False):
       f'-b 23.03.30 https://github.com/anime-webui-colab/ext-batchlinks {f}/batchlinks',
       f'-b 23.03.21 https://github.com/anime-webui-colab/ext-images-browser {f}/images-browser',
       f'-b 23.03.31 https://github.com/anime-webui-colab/ext-state {f}/state',
+      f'-b 23.04.06 https://github.com/anime-webui-colab/ext-stealth-pnginfo {f}/stealth-pnginfo',
       f'-b 23.04.05 https://github.com/anime-webui-colab/ext-tagcomplete {f}/tagcomplete',
       f'-b 23.02.27 https://github.com/anime-webui-colab/ext-tunnels {f}/tunnels',
     ],
@@ -71,6 +72,7 @@ def extensions_list(option, not_logged=False):
       f'-b 23.02.19 https://github.com/anime-webui-colab/ext-latent-couple-two-shot {f}/latent-couple-two-shot',
       f'-b 23.03.19 https://github.com/anime-webui-colab/ext-session-organizer {f}/session-organizer',
       f'-b 23.03.31 https://github.com/anime-webui-colab/ext-state {f}/state',
+      f'-b 23.04.06 https://github.com/anime-webui-colab/ext-stealth-pnginfo {f}/stealth-pnginfo',
       f'-b 23.04.05 https://github.com/anime-webui-colab/ext-tagcomplete {f}/tagcomplete',
       f'-b 23.02.27 https://github.com/anime-webui-colab/ext-tunnels {f}/tunnels',
     ],
@@ -85,6 +87,7 @@ def extensions_list(option, not_logged=False):
       f'https://github.com/opparco/stable-diffusion-webui-two-shot {f}/latent-couple-two-shot',
       f'https://github.com/space-nuko/sd-webui-session-organizer {f}/session-organizer',
       f'https://github.com/ilian6806/stable-diffusion-webui-state {f}/state',
+      f'https://github.com/ashen-sensored/sd_webui_stealth_pnginfo {f}/stealth-pnginfo',
       f'https://github.com/DominikDoom/a1111-sd-webui-tagcomplete {f}/tagcomplete',
       # wait why? because the upstream is optimized for their colab, this is the one i refuse to update
       f'-b 23.02.27 https://github.com/anime-webui-colab/ext-tunnels {f}/tunnels',

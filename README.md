@@ -85,6 +85,7 @@ Head over to 🖼[ ***Showcase*** ][showcase]✨ to see what the models might lo
 
 ## Extensions
 ### Lite
+- [ashen-sensored's sd_webui_stealth_pnginfo](https://github.com/ashen-sensored/sd_webui_stealth_pnginfo)
 - [Bing-su's sd-webui-tunnels](https://github.com/Bing-su/sd-webui-tunnels)
   - Fork: [camenduru's sd-webui-tunnels](https://github.com/camenduru/sd-webui-tunnels)
 - [DominikDoom's a1111-sd-webui-tagcomplete](https://github.com/DominikDoom/a1111-sd-webui-tagcomplete)
