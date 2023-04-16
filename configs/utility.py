@@ -275,6 +275,9 @@ def download_model(link, yaml_link=''):
   return ' && '.join(commands)
 
 def download_vae(link):
+  if link == '':
+    return 'echo "Continuing without VAE..."'
+
   global vae_folder
   file_name = link.split('/')[-1]
   return aria2_download(link, vae_folder, file_name)
