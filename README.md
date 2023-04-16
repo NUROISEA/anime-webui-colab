@@ -23,6 +23,7 @@ Head over to 🖼[ ***Showcase*** ][showcase]✨ to see what the models might lo
 [![Open In Colab][colab-icon]][anyv3] | Anything V3 | 🔥 | [🤗NUROISEA](https://huggingface.co/NUROISEA/av3-mirror) (mirror) | 1 
 [![Open In Colab][colab-icon]][anyv4] | Anything V4 | 🔥🔁📚 | [🤗andite](https://huggingface.co/andite/anything-v4.0) | 2
 [![Open In Colab][colab-icon]][bakad] | Baka-Diffusion! |  | [🤗Hosioka](https://huggingface.co/Hosioka/Baka-Diffusion) | 1 
+[![Open In Colab][colab-icon]][camel] | CamelliaMix | 🔁📚 | [🤗Powidl43](https://huggingface.co/Powidl43/CamelliaMix) (mirror) | 8
 [![Open In Colab][colab-icon]][chame] | ChameleonAI Mix | 🔁 | [👔ChameleonAI](https://civitai.com/models/19785/chameleonai-mix) | 1
 [![Open In Colab][colab-icon]][count] | Counterfeit | 🔁📚 | [🤗gsdf](https://huggingface.co/gsdf/Counterfeit-V2.5) | 5
 [![Open In Colab][colab-icon]][darks] | Dark Sushi Mix 大颗寿司Mix | 🔁 | [👔Aitasai](https://civitai.com/models/24779) | 2
@@ -127,6 +128,7 @@ Head over to 🖼[ ***Showcase*** ][showcase]✨ to see what the models might lo
 [anyv3]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/anything_v3.ipynb
 [anyv4]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/anything_v4.ipynb
 [bakad]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/baka_diffusion.ipynb
+[camel]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/camelliamix.ipynb
 [chame]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/chameleonai-mix.ipynb
 [count]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/counterfeit.ipynb
 [darks]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/dark_sushi_mix.ipynb
