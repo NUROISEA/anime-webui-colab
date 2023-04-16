@@ -1,4 +1,5 @@
 import json
+import os
 import subprocess
 from datetime import datetime,timezone
 
@@ -277,5 +278,7 @@ def download_vae(link):
   global vae_folder
   file_name = link.split('/')[-1]
   return aria2_download(link, vae_folder, file_name)
+
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
 print('👍 Utility script imported.')
