@@ -15,53 +15,61 @@ Head over to 🖼[ ***Showcase*** ][showcase]✨ to see what the models might lo
 
 | Colab Link | Model | 🤔 | Model Page | Count*
 | ---        | ---   | :---: | ---        | ---: |
-[![Open In Colab][colab-icon]][7thla] | 7th_Layer | 🔥🔁📚 | [🤗syaimu](https://huggingface.co/syaimu/7th_Layer) | 10
+[![Open In Colab][colab-icon]][7thla] | 7th_Layer <br>(👑`7th_anime_v2_A`) | 🔥🔁📚 | [🤗syaimu](https://huggingface.co/syaimu/7th_Layer) | 10
 [![Open In Colab][colab-icon]][8528d] | 8528-diffusion | 🔁 | [🤗ckpt](https://huggingface.co/ckpt/8528-diffusion) (mirror) | 1 
 [![Open In Colab][colab-icon]][anime] | AnimeInOurWorld |  | [🤗NoCrypt](https://huggingface.co/NoCrypt/animeinourworld-model) | 1
 [![Open In Colab][colab-icon]][anyga] | AnyGape Mix | 🔁 | [🤗etherealxx](https://huggingface.co/etherealxx/anygape-mix) | 1
-[![Open In Colab][colab-icon]][anymx] | Anything Mix | 🔁📚 | [🤗NUROISEA](https://huggingface.co/NUROISEA/anything-mix) | 7
+[![Open In Colab][colab-icon]][anymx] | Anything Mix <br>(👑`blossom-extract`) | 🔁📚 | [🤗NUROISEA](https://huggingface.co/NUROISEA/anything-mix) | 7
 [![Open In Colab][colab-icon]][anyv3] | Anything V3 | 🔥 | [🤗NUROISEA](https://huggingface.co/NUROISEA/av3-mirror) (mirror) | 1 
-[![Open In Colab][colab-icon]][anyv4] | Anything V4 | 🔥🔁📚 | [🤗andite](https://huggingface.co/andite/anything-v4.0) | 2
+[![Open In Colab][colab-icon]][anyv4] | Anything V4 <br>(👑`v4`)| 🔥🔁📚 | [🤗andite](https://huggingface.co/andite/anything-v4.0) | 2
 [![Open In Colab][colab-icon]][bakad] | Baka-Diffusion! |  | [🤗Hosioka](https://huggingface.co/Hosioka/Baka-Diffusion) | 1 
-[![Open In Colab][colab-icon]][camel] | CamelliaMix | 🔁📚 | [🤗Powidl43](https://huggingface.co/Powidl43/CamelliaMix) (mirror) | 8
+[![Open In Colab][colab-icon]][camel] | CamelliaMix <br>(👑`v2`)| 🔁📚 | [🤗Powidl43](https://huggingface.co/Powidl43/CamelliaMix) (mirror) | 8
 [![Open In Colab][colab-icon]][chame] | ChameleonAI Mix | 🔁 | [👔ChameleonAI](https://civitai.com/models/19785/chameleonai-mix) | 1
-[![Open In Colab][colab-icon]][count] | Counterfeit | 🔁📚 | [🤗gsdf](https://huggingface.co/gsdf/Counterfeit-V2.5) | 5
-[![Open In Colab][colab-icon]][darks] | Dark Sushi Mix 大颗寿司Mix | 🔁 | [👔Aitasai](https://civitai.com/models/24779) | 2
-[![Open In Colab][colab-icon]][drbob] | DrBob2142's Mix Models | 🔁📚 | [🤗DrBob2142](https://huggingface.co/DrBob2142/Mix-Models) | 12
+[![Open In Colab][colab-icon]][count] | Counterfeit <br>(👑`v2.1`) | 🔁📚 | [🤗gsdf](https://huggingface.co/gsdf/Counterfeit-V2.5) | 5
+[![Open In Colab][colab-icon]][darks] | Dark Sushi Mix <br>(👑`brighter`) | 🔁 | [👔Aitasai](https://civitai.com/models/24779) | 2
+[![Open In Colab][colab-icon]][drbob] | DrBob2142's Mix Models <br>(👑`Midnight Mix`)| 🔁📚 | [🤗DrBob2142](https://huggingface.co/DrBob2142/Mix-Models) | 12
 [![Open In Colab][colab-icon]][eimis] | Eimis Anime Diffusion |  | [🤗eimiss](https://huggingface.co/eimiss/EimisAnimeDiffusion_1.0v) | 1
-[![Open In Colab][colab-icon]][elysi] | Elysium Anime | 🔁📚 | [🤗hesw23168](https://huggingface.co/hesw23168/SD-Elysium-Model) | 3
+[![Open In Colab][colab-icon]][elysi] | Elysium Anime <br>(👑`v2`)| 🔁📚 | [🤗hesw23168](https://huggingface.co/hesw23168/SD-Elysium-Model) | 3
 [![Open In Colab][colab-icon]][every] | Everything | 🔁 | [🤗DrBob2142](https://huggingface.co/DrBob2142/Everything) | 3
 [![Open In Colab][colab-icon]][evtv3] | Evt_V3 |  | [🤗haor](https://huggingface.co/haor/Evt_V3) | 1
-[![Open In Colab][colab-icon]][expmi] | ExpMix_Line  | 🔥🔁 | [👔mods13](https://civitai.com/models/12865/expmixline) | 2
+[![Open In Colab][colab-icon]][expmi] | ExpMix_Line <br>(👑`v2`)| 🔥🔁 | [👔mods13](https://civitai.com/models/12865/expmixline) | 2
 [![Open In Colab][colab-icon]][grape] | Grapefruit | 🔁📚 | [🤗iZELX1](https://huggingface.co/iZELX1/Grapefruit) | 6
 [![Open In Colab][colab-icon]][hddre] | HDDream-G | 🔁 | [🤗Horsebird](https://huggingface.co/Horsebird/HDDream-G) | 1
-[![Open In Colab][colab-icon]][henta] | Hentai Diffusion | 📚 | [🤗Deltaadams](https://huggingface.co/Deltaadams/HentaiDiffusion) | 5
+[![Open In Colab][colab-icon]][henta] | Hentai Diffusion <br>(👑`22`) | 📚 | [🤗Deltaadams](https://huggingface.co/Deltaadams/HentaiDiffusion) | 5
 [![Open In Colab][colab-icon]][ligne] | Ligne Claire Anime | 🔥 | [🤗breakcore2](https://huggingface.co/breakcore2/ligne_claire_anime_diffusion) | 1
 [![Open In Colab][colab-icon]][midni] | Midnight Mixes | 🔥🔁 | [🤗DrBob2142](https://huggingface.co/DrBob2142/Midnight_Mixes) | 3
 [![Open In Colab][colab-icon]][misob] | Misobarisic's Playground |  🔁📚 | [🤗misobarisic](https://huggingface.co/misobarisic/playground) | 7
-[![Open In Colab][colab-icon]][mixin] | Mixing Cauldron | 🔁📚 | [🤗NUROISEA](https://huggingface.co/NUROISEA/mixing-cauldron) | 6
-[![Open In Colab][colab-icon]][mixpr] | MIX-Pro | 🔥🔁 | [👔P317cm](https://civitai.com/models/7241/mix-pro-v3) | 4
+[![Open In Colab][colab-icon]][mix00] | mixes0000 <br>(👑`soul0000`) | 🔥🔁 | [🤗TheRaphael0000](https://huggingface.co/TheRaphael0000/mixes0000) | 2
+[![Open In Colab][colab-icon]][mixin] | Mixing Cauldron <br>(👑`exsoular`) | 🔁📚 | [🤗NUROISEA](https://huggingface.co/NUROISEA/mixing-cauldron) | 6
+[![Open In Colab][colab-icon]][mixpr] | MIX-Pro <br>(👑`V3`)| 🔥🔁 | [👔P317cm](https://civitai.com/models/7241/mix-pro-v3) | 4
 [![Open In Colab][colab-icon]][momoc] | Momocha Mix | 🔁 | [🤗NoCrypt](https://huggingface.co/NoCrypt/momocha-mix) | 1
 [![Open In Colab][colab-icon]][opena] | OpenAnimeJourney |  | [🤗MehjourneyClosedAI](https://huggingface.co/MehjourneyClosedAI/OpenAnimeJourney) | 1
-[![Open In Colab][colab-icon]][orang] | OrangeMixs | 🔁📚 | [🤗WarriorMama777](https://huggingface.co/WarriorMama777/OrangeMixs) | 27
+[![Open In Colab][colab-icon]][orang] | OrangeMixs <br>(👑`BloodNightOrange`) | 🔁📚 | [🤗WarriorMama777](https://huggingface.co/WarriorMama777/OrangeMixs) | 27
 [![Open In Colab][colab-icon]][paste] | Pastel Mix | 🔥🔁 | [🤗andite](https://huggingface.co/andite/pastel-mix) | 1
 [![Open In Colab][colab-icon]][platd] | Plat Diffusion | | [🤗p1atdev](https://huggingface.co/p1atdev/plat-diffusion) | 1
 [![Open In Colab][colab-icon]][proto] | ProtoThing_200 | 🔁📚 | [🤗NiteStormz](https://huggingface.co/NiteStormz/ProtoThing_200) | 3
-[![Open In Colab][colab-icon]][rasge] | Rasgeath's Self Made Sauce | 🔁 | [🤗Rasgeath](https://huggingface.co/Rasgeath/self_made_sauce) | 7
+[![Open In Colab][colab-icon]][rasge] | Rasgeath's Self Made Sauce <br>(👑`Kani-anime`)| 🔁 | [🤗Rasgeath](https://huggingface.co/Rasgeath/self_made_sauce) | 7
 [![Open In Colab][colab-icon]][shira] | Shirayuki Model | 🔁 | [🤗hesw23168](https://huggingface.co/hesw23168/SD_Shirayuki_Model) | 1
 [![Open In Colab][colab-icon]][somet] | Something | 🔁 | [🤗NoCrypt](https://huggingface.co/NoCrypt/SomethingV2_2) | 1
-[![Open In Colab][colab-icon]][soul0] | soul0000 | 🔥🔁 | [🤗TheRaphael0000](https://huggingface.co/TheRaphael0000/mixes0000) | 2
 [![Open In Colab][colab-icon]][voxo-] | VOXO | 🔁📚 | [🤗junjuice0](https://huggingface.co/junjuice0/VOXO) | 2
 [![Open In Colab][colab-icon]][waifa] | Waifu Anything | 🔁 | [🤗KuromiLayfe](https://huggingface.co/KuromiLayfe/WaifuAnything) | 1
-[![Open In Colab][colab-icon]][waifd] | Waifu Diffusion | 📚 | [🤗hakurei](https://huggingface.co/hakurei/waifu-diffusion) | 7
+[![Open In Colab][colab-icon]][waifd] | Waifu Diffusion <br>(👑`1.5 beta 2`) | 📚 | [🤗hakurei](https://huggingface.co/hakurei/waifu-diffusion) | 7
 
 <!-- [![Open In Colab][colab-icon]][code] | name | emojis | [🤗author](https://huggingface.co/author/model) | count -->
 
-| 🔥 | 🔁 | 📚 | 🤗 | 👔 |
-| --- | --- | --- | --- | --- |
-| My fave | Mixed | Varied^ | HuggingFace | Civi**tai**
+### 🏷 Legends
+| Emoji | Meaning |
+| --- | --- |
+| (👑`<model>`) | Notable model** |
+| 🔥 | Personal favorite |
+| 🔁 | Mixed models |
+| 📚 | Varied^ |
+| 🤗 | HuggingFace |
+| 👔 | Civitai |
 
 <small>* Count of usable models in the colab</small>
+
+<small>** Only applies to colabs with >1 models. Personal tastes</small>
 
 <small>^ Models in the colab are have some sort of variant that are noticably different</small>
 
@@ -144,6 +152,7 @@ Head over to 🖼[ ***Showcase*** ][showcase]✨ to see what the models might lo
 [ligne]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/ligne_claire_anime_diffusion.ipynb
 [midni]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/midnight_mixes.ipynb
 [misob]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/misobarisic_playground.ipynb
+[mix00]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/soul0000.ipynb
 [mixin]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/mixing-cauldron.ipynb
 [mixpr]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/mix-pro-v3.ipynb
 [momoc]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/momocha_mix.ipynb
@@ -155,7 +164,6 @@ Head over to 🖼[ ***Showcase*** ][showcase]✨ to see what the models might lo
 [rasge]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/rasgeath_self_made_sauce.ipynb
 [shira]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/shirayuki_model.ipynb
 [somet]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/something.ipynb
-[soul0]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/soul0000.ipynb
 [voxo-]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/voxo.ipynb
 [waifa]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/waifuanything.ipynb
 [waifd]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/waifu_diffusion.ipynb
