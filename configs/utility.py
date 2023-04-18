@@ -233,7 +233,7 @@ def aria2_download(link, folder, file_name, force_redownload=False):
     return f'echo "{file_name} already downloaded. Skipping..."'
 
   commands = []
-  aria2_flags = '--summary-interval=5 --console-log-level=error -c -x 16 -s 16 -k 1M'
+  aria2_flags = '--quiet --console-log-level=error -c -x 16 -s 16 -k 1M'
   
   if not installed_aria2:
     print('🚀 Installing aria2...')
@@ -243,7 +243,7 @@ def aria2_download(link, folder, file_name, force_redownload=False):
     installed_aria2 = True
 
   print(f'⏬ Downloading {file_name} to {folder}...')
-  print('⌚ Download status will be printed every 5 seconds.')
+  #print('⌚ Download status will be printed every 5 seconds.')
   commands += [
     f'aria2c {aria2_flags} "{link}" -d "{folder}" -o "{file_name}"'
   ]
@@ -259,7 +259,7 @@ def download_model(link, yaml_link=''):
   commands = []
 
   if yaml_link not in models_downloaded and yaml_link != '':
-    commands += [ f'wget -q {yaml_link} -P {models_folder}/' ]
+    commands += [ f'wget -q "{yaml_link}" -P "{models_folder}/"' ]
     models_downloaded += [ yaml_link ]
   
   # i am cringing at this
