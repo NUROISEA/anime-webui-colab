@@ -3,6 +3,28 @@ import os
 import subprocess
 from datetime import datetime,timezone
 
+logged_keys = []
+webui_branch = '23.03.14'
+
+has_run = False
+mounted_gdrive = False
+installed_aria2 = False
+
+pip_commands = [
+  'pip install -q xformers==0.0.17',
+  'pip install -q triton==2.0.0',
+]
+xformers_link = ' && '.join(pip_commands)
+
+# copy pasted code, will update all notebooks later
+web_ui_folder = '/content/stable-diffusion-webui'
+models_folder = f'{web_ui_folder}/models/Stable-diffusion'
+vae_folder = f'{web_ui_folder}/models/VAE'
+embeddings_folder = f'{web_ui_folder}/embeddings'
+extensions_folder = f'{web_ui_folder}/extensions'
+
+models_downloaded = []
+
 def dictionary_to_json(json_file, data_dictionary):
   with open(json_file, 'r') as f:
     json_data = json.load(f)
@@ -46,7 +68,7 @@ def install_webui(option):
   git_clone_command = f"git clone -q {version_dictionary[option]} {web_ui_folder}"
   return git_clone_command
 
-def extensions_list(option, not_logged=False):
+def extensions_list(option):
   global extensions_folder
 
   # folder, just f to not clutter the strings
@@ -103,9 +125,6 @@ def extensions_list(option, not_logged=False):
     ],
   }
 
-  if not not_logged:
-    log_usage(f'extensions-version-{option}')
-
   if option == 'experimental':
     print('😲 You are now installing some extensions I deem experimental for this colab!')
     print('😮 Experimental extensions are prefixed with "exp"')
@@ -118,55 +137,43 @@ def extensions_list(option, not_logged=False):
 
     return extensions[option]
 
-logged_keys = []
-webui_branch = '23.03.14'
+def embeddings_list():
+  print('🛏 Fetching embeddings...')
+  return [
+    'https://huggingface.co/nick-x-hacker/bad-artist/resolve/main/bad-artist.pt',
+    'https://huggingface.co/nick-x-hacker/bad-artist/resolve/main/bad-artist-anime.pt',
+    'https://huggingface.co/datasets/Nerfgun3/bad_prompt/resolve/main/bad_prompt_version2.pt',
+    'https://huggingface.co/datasets/gsdf/EasyNegative/resolve/main/EasyNegative.safetensors',
+  ]
 
-has_run = False
-mounted_gdrive = False
-installed_aria2 = False
+def configs_list():
+  print('🔧 Fetching configs...')
+  return [
+    'https://github.com/NUROISEA/anime-webui-colab/raw/main/configs/config.json',
+    'https://github.com/NUROISEA/anime-webui-colab/raw/main/configs/ui-config.json',
+    'https://github.com/NUROISEA/anime-webui-colab/raw/main/configs/styles.csv',
+  ]
 
-pip_commands = [
-  'pip install -q xformers==0.0.17',
-  'pip install -q triton==2.0.0',
-]
-xformers_link = ' && '.join(pip_commands)
-
-# copy pasted code, will update all notebooks later
-web_ui_folder = '/content/stable-diffusion-webui'
-models_folder = f'{web_ui_folder}/models/Stable-diffusion'
-vae_folder = f'{web_ui_folder}/models/VAE'
-embeddings_folder = f'{web_ui_folder}/embeddings'
-extensions_folder = f'{web_ui_folder}/extensions'
-
-models_downloaded = []
-
-default_extensions = extensions_list('stable', not_logged=True)
-
-default_embeddings = [
-  'https://huggingface.co/nick-x-hacker/bad-artist/resolve/main/bad-artist.pt',
-  'https://huggingface.co/nick-x-hacker/bad-artist/resolve/main/bad-artist-anime.pt',
-  'https://huggingface.co/datasets/Nerfgun3/bad_prompt/resolve/main/bad_prompt_version2.pt',
-  'https://huggingface.co/datasets/gsdf/EasyNegative/resolve/main/EasyNegative.safetensors',
-]
-
-default_configs = [
-  'https://github.com/NUROISEA/anime-webui-colab/raw/main/configs/config.json',
-  'https://github.com/NUROISEA/anime-webui-colab/raw/main/configs/ui-config.json',
-  'https://github.com/NUROISEA/anime-webui-colab/raw/main/configs/styles.csv',
-]
-
-default_arguments = ' '.join([
-  '--xformers',
-  '--lowram',
-  '--no-hashing',
-  '--enable-insecure-extension-access',
-  '--no-half-vae',
-  '--disable-safe-unpickle',
-  '--opt-channelslast',
-  '--gradio-queue',
-])
+def patch_list():
+  import requests
+  url = 'https://github.com/NUROISEA/anime-webui-colab/raw/main/configs/patch_list.txt'
+  response = requests.get(url)
+  data = response.text
+  print('🩹 Applying colab patches...')
+  return data.splitlines()
 
 def arguments(model='', vae='', tunnel='gradio', ng_token='', ng_region='auto', extra_args='', default_override=''):
+  default_arguments = ' '.join([
+    '--xformers',
+    '--lowram',
+    '--no-hashing',
+    '--enable-insecure-extension-access',
+    '--no-half-vae',
+    '--disable-safe-unpickle',
+    '--opt-channelslast',
+    '--gradio-queue',
+  ])
+  
   args = [
     default_arguments if not default_override else default_override,
     f'--ckpt \"{model}\"' if model else '',
@@ -187,15 +194,6 @@ def arguments(model='', vae='', tunnel='gradio', ng_token='', ng_region='auto', 
   
   args_clean = list(filter(None, map(str.strip, args))) # thanks, chatgpt!
   return args_clean
-
-def _fetch_patch_list():
-  import requests
-  url = 'https://github.com/NUROISEA/anime-webui-colab/raw/main/configs/patch_list.txt'
-  response = requests.get(url)
-  data = response.text
-  return data.splitlines()
-
-patch_list = _fetch_patch_list()
 
 def mount_drive(on_drive=False):
   global mounted_gdrive
@@ -254,9 +252,6 @@ def aria2_download(link, folder, file_name, force_redownload=False):
 
   return ' && '.join(commands)
 
-# abstracting downloaders so the notebook code will be a lot cleaner
-# just plonk the function and the link
-# more will get added
 def download_model(link, yaml_link=''):
   # TODO: this function isn't elegant :/
   global models_folder, models_downloaded
