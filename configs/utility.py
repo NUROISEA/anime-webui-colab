@@ -23,6 +23,7 @@ vae_folder = f'{web_ui_folder}/models/VAE'
 embeddings_folder = f'{web_ui_folder}/embeddings'
 extensions_folder = f'{web_ui_folder}/extensions'
 controlnet_folder = f'{extensions_folder}/controlnet'
+controlnet_models_folder = f'{controlnet_folder}/models'
 
 models_downloaded = []
 
@@ -349,9 +350,9 @@ def download_vae(link):
   return aria2_download(link, vae_folder, file_name)
 
 def download_controlnet(link):
-  global controlnet_folder
+  global controlnet_models_folder
   file_name = link.split('/')[-1]
-  return aria2_download(link, controlnet_folder, file_name)
+  return aria2_download(link, controlnet_models_folder, file_name)
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
