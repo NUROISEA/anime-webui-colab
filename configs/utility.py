@@ -71,11 +71,18 @@ def install_webui(option):
 def extensions_list(option):
   global extensions_folder
 
+  # sorter via folder name
+  def sort_ext(string):
+    words = string.split()
+    return words[-1]
+
   # folder, just f to not clutter the strings
   f = extensions_folder
+  ext_list = []
+
+  log_usage(f'extensions-version-{option}')
 
   extensions = {
-    'none': [],
     'lite': [
       f'-b 23.03.30 https://github.com/anime-webui-colab/ext-batchlinks {f}/batchlinks',
       f'-b 23.03.16 https://github.com/anime-webui-colab/ext-images-browser {f}/images-browser',
@@ -85,19 +92,12 @@ def extensions_list(option):
       f'-b 23.02.27 https://github.com/anime-webui-colab/ext-tunnels {f}/tunnels',
     ],
     'stable': [
-      # now i just realized that i didnt need to rename the repos themselves.... i hate my self
       f'-b 23.03.31 https://github.com/anime-webui-colab/ext-aspect-ratio-preset {f}/aspect-ratio-preset',
-      f'-b 23.03.30 https://github.com/anime-webui-colab/ext-batchlinks {f}/batchlinks',
       f'-b 23.03.23 https://github.com/anime-webui-colab/ext-controlnet {f}/controlnet',
       f'-b 23.03.22 https://github.com/anime-webui-colab/ext-cutoff {f}/cutoff',
       f'-b 23.03.09 https://github.com/anime-webui-colab/ext-fast-pnginfo {f}/fast-pnginfo',
-      f'-b 23.03.16 https://github.com/anime-webui-colab/ext-images-browser {f}/images-browser',
       f'-b 23.02.19 https://github.com/anime-webui-colab/ext-latent-couple-two-shot {f}/latent-couple-two-shot',
       f'-b 23.03.19 https://github.com/anime-webui-colab/ext-session-organizer {f}/session-organizer',
-      f'-b 23.03.31 https://github.com/anime-webui-colab/ext-state {f}/state',
-      f'-b 23.04.06 https://github.com/anime-webui-colab/ext-stealth-pnginfo {f}/stealth-pnginfo',
-      f'-b 23.04.05 https://github.com/anime-webui-colab/ext-tagcomplete {f}/tagcomplete',
-      f'-b 23.02.27 https://github.com/anime-webui-colab/ext-tunnels {f}/tunnels',
     ],
     'latest': [
       # using my own fork again to not lose my presets
@@ -117,28 +117,37 @@ def extensions_list(option):
     ],
     'experimental': [
       # this will change a lot, dont expect anything permanent here
-      f'https://github.com/deforum-art/deforum-for-automatic1111-webui {f}/exp-deforum',
-      f'https://github.com/adieyal/sd-dynamic-prompts {f}/exp-dynamic-prompts',
-      f'https://github.com/ashen-sensored/stable-diffusion-webui-two-shot {f}/exp-latent-couple-two-shot-regions',
-      f'https://github.com/muerrilla/stable-diffusion-NPW {f}/exp-negative-prompt-weight',
-      f'https://github.com/hako-mikan/sd-webui-regional-prompter {f}/exp-regional-prompter',
+      f'https://github.com/deforum-art/deforum-for-automatic1111-webui {f}/z-deforum',
+      f'https://github.com/adieyal/sd-dynamic-prompts {f}/z-dynamic-prompts',
+      f'https://github.com/ashen-sensored/stable-diffusion-webui-two-shot {f}/z-latent-couple-two-shot-regions',
+      f'https://github.com/muerrilla/stable-diffusion-NPW {f}/z-negative-prompt-weight',
+      f'https://github.com/hako-mikan/sd-webui-regional-prompter {f}/z-regional-prompter',
     ],
   }
 
-  if option == 'experimental':
+  if option == 'none':
+    print('😶 No extensions would be installed. Pure vanilla web UI')
+  elif option == 'lite':
+    print('🙂 No "advanced" extensions would be installed. Only installing the bare minimum.')
+    ext_list = extensions['lite']
+  elif option == 'stable':
+    ext_list = extensions['lite'] + extensions['stable']
+  elif option == 'latest':
+    print('🔼 Installing the latest versions of the extensions.')
+    ext_list = extensions['latest']
+  elif option == 'experimental':
     print('😲 You are now installing some extensions I deem experimental for this colab!')
-    print('😮 Experimental extensions are prefixed with "exp"')
-    return extensions['latest'] + extensions['experimental']
-  else:
-    if option == 'none':
-      print('😶 No extensions would be installed. Pure vanilla web UI')
-    elif option == 'lite':
-      print('🙂 No "advanced" extensions would be installed. Only installing the bare minimum.')
+    print('😮 Experimental extensions are prefixed with "z-"')
+    ext_list = extensions['latest'] + extensions['experimental']
+  
+  if option != 'none':
+    print(f'📦 Installing {len(ext_list)} extensions...')
 
-    return extensions[option]
+  ext_list.sort(key=sort_ext)
+  return ext_list
 
 def embeddings_list():
-  print('🛏 Fetching embeddings...')
+  print('💉 Fetching embeddings...')
   return [
     'https://huggingface.co/nick-x-hacker/bad-artist/resolve/main/bad-artist.pt',
     'https://huggingface.co/nick-x-hacker/bad-artist/resolve/main/bad-artist-anime.pt',
