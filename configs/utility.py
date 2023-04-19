@@ -78,7 +78,7 @@ def extensions_list(option):
     'none': [],
     'lite': [
       f'-b 23.03.30 https://github.com/anime-webui-colab/ext-batchlinks {f}/batchlinks',
-      f'-b 23.03.28 https://github.com/anime-webui-colab/ext-images-browser {f}/images-browser',
+      f'-b 23.03.16 https://github.com/anime-webui-colab/ext-images-browser {f}/images-browser',
       f'-b 23.03.31 https://github.com/anime-webui-colab/ext-state {f}/state',
       f'-b 23.04.06 https://github.com/anime-webui-colab/ext-stealth-pnginfo {f}/stealth-pnginfo',
       f'-b 23.04.05 https://github.com/anime-webui-colab/ext-tagcomplete {f}/tagcomplete',
@@ -91,7 +91,7 @@ def extensions_list(option):
       f'-b 23.03.23 https://github.com/anime-webui-colab/ext-controlnet {f}/controlnet',
       f'-b 23.03.22 https://github.com/anime-webui-colab/ext-cutoff {f}/cutoff',
       f'-b 23.03.09 https://github.com/anime-webui-colab/ext-fast-pnginfo {f}/fast-pnginfo',
-      f'-b 23.03.28 https://github.com/anime-webui-colab/ext-images-browser {f}/images-browser',
+      f'-b 23.03.16 https://github.com/anime-webui-colab/ext-images-browser {f}/images-browser',
       f'-b 23.02.19 https://github.com/anime-webui-colab/ext-latent-couple-two-shot {f}/latent-couple-two-shot',
       f'-b 23.03.19 https://github.com/anime-webui-colab/ext-session-organizer {f}/session-organizer',
       f'-b 23.03.31 https://github.com/anime-webui-colab/ext-state {f}/state',
