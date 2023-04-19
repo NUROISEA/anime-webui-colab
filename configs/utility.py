@@ -22,6 +22,7 @@ models_folder = f'{web_ui_folder}/models/Stable-diffusion'
 vae_folder = f'{web_ui_folder}/models/VAE'
 embeddings_folder = f'{web_ui_folder}/embeddings'
 extensions_folder = f'{web_ui_folder}/extensions'
+controlnet_folder = f'{extensions_folder}/controlnet'
 
 models_downloaded = []
 
@@ -171,6 +172,67 @@ def patch_list():
   print('🩹 Applying colab patches...')
   return data.splitlines()
 
+def controlnet_list(option):
+  log_usage(f'controlnet-version-{option}')
+
+  controlnet_models = {
+    'none': [],
+    'v1.0': [
+      'https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_canny-fp16.safetensors',
+      'https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_depth-fp16.safetensors',
+      'https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_hed-fp16.safetensors',
+      'https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_mlsd-fp16.safetensors',
+      'https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_normal-fp16.safetensors',
+      'https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_openpose-fp16.safetensors',
+      'https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_scribble-fp16.safetensors',
+      'https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_seg-fp16.safetensors',
+    ],
+    'v1.0-diff': [
+      'https://huggingface.co/kohya-ss/ControlNet-diff-modules/resolve/main/diff_control_sd15_canny_fp16.safetensors',
+      'https://huggingface.co/kohya-ss/ControlNet-diff-modules/resolve/main/diff_control_sd15_depth_fp16.safetensors',
+      'https://huggingface.co/kohya-ss/ControlNet-diff-modules/resolve/main/diff_control_sd15_hed_fp16.safetensors',
+      'https://huggingface.co/kohya-ss/ControlNet-diff-modules/resolve/main/diff_control_sd15_mlsd_fp16.safetensors',
+      'https://huggingface.co/kohya-ss/ControlNet-diff-modules/resolve/main/diff_control_sd15_normal_fp16.safetensors',
+      'https://huggingface.co/kohya-ss/ControlNet-diff-modules/resolve/main/diff_control_sd15_openpose_fp16.safetensors',
+      'https://huggingface.co/kohya-ss/ControlNet-diff-modules/resolve/main/diff_control_sd15_scribble_fp16.safetensors',
+      'https://huggingface.co/kohya-ss/ControlNet-diff-modules/resolve/main/diff_control_sd15_seg_fp16.safetensors',
+    ],
+    't2i': [
+      'https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_canny-fp16.safetensors',
+      'https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_color-fp16.safetensors',
+      'https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_depth-fp16.safetensors',
+      'https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_keypose-fp16.safetensors',
+      'https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_openpose-fp16.safetensors',
+      'https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_seg-fp16.safetensors',
+      'https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_sketch-fp16.safetensors',
+      'https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_style-fp16.safetensors',
+    ],
+    'v1.1': [
+      'https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11e_sd15_ip2p_fp16.safetensors',
+      'https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11e_sd15_shuffle_fp16.safetensors',
+      'https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11f1p_sd15_depth_fp16.safetensors',
+      'https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_canny_fp16.safetensors',
+      'https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_inpaint_fp16.safetensors',
+      'https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_lineart_fp16.safetensors',
+      'https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_mlsd_fp16.safetensors',
+      'https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_normalbae_fp16.safetensors',
+      'https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_openpose_fp16.safetensors',
+      'https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_scribble_fp16.safetensors',
+      'https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_seg_fp16.safetensors',
+      'https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_softedge_fp16.safetensors',
+      'https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15s2_lineart_anime_fp16.safetensors',
+      'https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11u_sd15_tile_fp16.safetensors',  
+    ],
+  }
+
+  if option != 'none':
+    count = len(controlnet_models[option])
+    estimate_size = (count * 723) if option != 't2i' else (count * 155)
+    print(f'🤙 Downloading {count} controlnet {option} models...')
+    print(f'⌛ This might take a while! Size estimate is ~{estimate_size}MB. Grab a 🍿 or something xD')
+
+  return controlnet_models[option]
+
 def arguments(model='', vae='', tunnel='gradio', ng_token='', ng_region='auto', extra_args='', default_override=''):
   default_arguments = ' '.join([
     '--xformers',
@@ -239,7 +301,7 @@ def aria2_download(link, folder, file_name, force_redownload=False):
   global installed_aria2, models_downloaded
 
   if link in models_downloaded and not force_redownload:
-    return f'echo "{file_name} already downloaded. Skipping..."'
+    return f'echo "👍 {file_name} already downloaded."'
 
   commands = []
   aria2_flags = '--quiet --console-log-level=error -c -x 16 -s 16 -k 1M'
@@ -252,7 +314,7 @@ def aria2_download(link, folder, file_name, force_redownload=False):
     installed_aria2 = True
 
   print(f'⏬ Downloading {file_name} to {folder}...')
-  #print('⌚ Download status will be printed every 5 seconds.')
+
   commands += [
     f'aria2c {aria2_flags} "{link}" -d "{folder}" -o "{file_name}"'
   ]
@@ -285,6 +347,11 @@ def download_vae(link):
   global vae_folder
   file_name = link.split('/')[-1]
   return aria2_download(link, vae_folder, file_name)
+
+def download_controlnet(link):
+  global controlnet_folder
+  file_name = link.split('/')[-1]
+  return aria2_download(link, controlnet_folder, file_name)
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
