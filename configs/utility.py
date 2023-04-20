@@ -70,7 +70,7 @@ def install_webui(option):
   git_clone_command = f"git clone -q {version_dictionary[option]} {web_ui_folder}"
   return git_clone_command
 
-def extensions_list(option):
+def extensions_list(option,webui_version='stable',controlnet='none'):
   global extensions_folder
 
   # sorter via folder name
@@ -95,7 +95,6 @@ def extensions_list(option):
     ],
     'stable': [
       f'-b 23.03.31 https://github.com/anime-webui-colab/ext-aspect-ratio-preset {f}/aspect-ratio-preset',
-      f'-b 23.03.23 https://github.com/anime-webui-colab/ext-controlnet {f}/controlnet',
       f'-b 23.03.22 https://github.com/anime-webui-colab/ext-cutoff {f}/cutoff',
       f'-b 23.03.09 https://github.com/anime-webui-colab/ext-fast-pnginfo {f}/fast-pnginfo',
       f'-b 23.02.19 https://github.com/anime-webui-colab/ext-latent-couple-two-shot {f}/latent-couple-two-shot',
@@ -105,7 +104,6 @@ def extensions_list(option):
       # using my own fork again to not lose my presets
       f'-b 23.03.31 https://github.com/anime-webui-colab/ext-aspect-ratio-preset {f}/aspect-ratio-preset',
       f'https://github.com/etherealxx/batchlinks-webui {f}/batchlinks',
-      f'https://github.com/Mikubill/sd-webui-controlnet {f}/controlnet',
       f'https://github.com/hnmr293/sd-webui-cutoff {f}/cutoff',
       f'https://github.com/NoCrypt/sd-fast-pnginfo {f}/fast-png-info',
       f'https://github.com/AlUlkesh/stable-diffusion-webui-images-browser {f}/images-browser',
@@ -126,6 +124,15 @@ def extensions_list(option):
       f'https://github.com/hako-mikan/sd-webui-regional-prompter {f}/z-regional-prompter',
     ],
   }
+  
+  controlnet_extensions = {
+    'stable': [
+      f'-b 23.03.23 https://github.com/anime-webui-colab/ext-controlnet {f}/controlnet',
+    ],
+    'latest': [
+      f'https://github.com/Mikubill/sd-webui-controlnet {f}/controlnet',
+    ],
+  }
 
   if option == 'none':
     print('😶 No extensions would be installed. Pure vanilla web UI')
@@ -141,7 +148,18 @@ def extensions_list(option):
     print('😲 You are now installing some extensions I deem experimental for this colab!')
     print('😮 Experimental extensions are prefixed with "z-"')
     ext_list = extensions['latest'] + extensions['experimental']
-  
+
+  if option in ['latest', 'experimental'] and webui_version == 'stable':
+    print(f'\n😱 The stable version of the web UI and {option} extensions do not mix well.')
+    print(f'📣 Some extensions might be broken! You have been warned!\n')
+
+  if controlnet != 'none' and option not in ['none', 'lite']:
+    print(f'💃 ControlNet {controlnet} models detected, including related extensions!')
+    if option == 'stable':
+      ext_list += controlnet_extensions['stable']
+    elif option in ['latest', 'experimental']:
+      ext_list += controlnet_extensions['latest']
+
   if option != 'none':
     print(f'📦 Installing {len(ext_list)} extensions...')
 
@@ -173,7 +191,7 @@ def patch_list():
   print('🩹 Applying colab patches...')
   return data.splitlines()
 
-def controlnet_list(option):
+def controlnet_list(option,webui_version='stable',extensions_version='stable'):
   log_usage(f'controlnet-version-{option}')
 
   controlnet_models = {
@@ -227,10 +245,16 @@ def controlnet_list(option):
   }
 
   if option != 'none':
-    count = len(controlnet_models[option])
-    estimate_size = (count * 723) if option != 't2i' else (count * 155)
-    print(f'🤙 Downloading {count} controlnet {option} models...')
-    print(f'⌛ This might take a while! Size estimate is ~{estimate_size}MB. Grab a 🍿 or something xD')
+    if extensions_version not in ['none', 'lite']:
+      count = len(controlnet_models[option])
+      estimate_size = (count * 723) if option != 't2i' else (count * 155)
+      print(f'🤙 Downloading {count} controlnet {option} models...')
+      print(f'⌛ This might take a while! Size estimate is ~{estimate_size}MB. Grab a 🍿 or something xD')
+    elif extensions_version in ['none', 'lite']:
+      print('😅 ControlNet models will only be downloaded if the extensions_versions is not "none" or "lite"')
+      print('😉 Disconnect and delete this runtime and run this cell again, if you want ControlNet!')
+      print('😆 Do not forget to change extensions_versions if you do so!')
+      return controlnet_models['none']
 
   return controlnet_models[option]
 
