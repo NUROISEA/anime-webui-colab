@@ -347,7 +347,7 @@ def aria2_download(link, folder, file_name, force_redownload=False):
   aria2_flags = '--quiet --console-log-level=error -c -x 16 -s 16 -k 1M'
   
   if not installed_aria2:
-    print('🚀 Installing aria2...')
+    print('📦 Installing aria2...')
     commands += [
       'apt -y install -qq aria2 &> /dev/null', #because that wall of text is disgusting 
     ]
