@@ -9,6 +9,7 @@ webui_branch = '23.03.14'
 has_run = False
 mounted_gdrive = False
 installed_aria2 = False
+controlnet_installed = False
 
 pip_commands = [
   'pip install -q xformers==0.0.17',
@@ -71,7 +72,7 @@ def install_webui(option):
   return git_clone_command
 
 def extensions_list(option,webui_version='stable',controlnet='none'):
-  global extensions_folder
+  global extensions_folder, controlnet_installed
 
   # sorter via folder name
   def sort_ext(string):
@@ -155,6 +156,7 @@ def extensions_list(option,webui_version='stable',controlnet='none'):
 
   if controlnet != 'none' and option not in ['none', 'lite']:
     print(f'💃 ControlNet {controlnet} models detected, including related extensions!')
+    controlnet_installed = True
     if option == 'stable':
       ext_list += controlnet_extensions['stable']
     elif option in ['latest', 'experimental']:
@@ -192,6 +194,8 @@ def patch_list():
   return data.splitlines()
 
 def controlnet_list(option,webui_version='stable',extensions_version='stable'):
+  global controlnet_installed
+  
   log_usage(f'controlnet-version-{option}')
 
   controlnet_models = {
@@ -244,17 +248,28 @@ def controlnet_list(option,webui_version='stable',extensions_version='stable'):
     ],
   }
 
-  if option != 'none':
-    if extensions_version not in ['none', 'lite']:
-      count = len(controlnet_models[option])
-      estimate_size = (count * 723) if option != 't2i' else (count * 155)
-      print(f'🤙 Downloading {count} controlnet {option} models...')
-      print(f'⌛ This might take a while! Size estimate is ~{estimate_size}MB. Grab a 🍿 or something xD')
-    elif extensions_version in ['none', 'lite']:
-      print('😅 ControlNet models will only be downloaded if the extensions_versions is not "none" or "lite"')
-      print('😉 Disconnect and delete this runtime and run this cell again, if you want ControlNet!')
-      print('😆 Do not forget to change extensions_versions if you do so!')
-      return controlnet_models['none']
+  if option == 'none':
+    return controlnet_models['none']
+
+  if extensions_version in ['none', 'lite']:
+    print('\n😅 ControlNet models will only be downloaded if the extensions_versions is not "none" or "lite"')
+    print('😉 Disconnect and delete this runtime and run this cell again, if you want ControlNet!')
+    print('😆 Do not forget to change extensions_versions if you do so!\n')
+    return controlnet_models['none']
+
+  if not controlnet_installed:
+    print('\n😭 No ControlNet extensions installed! Not downloading anything.')
+    print('📣 This happens when you first launched without selecting any ControlNet models!')
+    print('📣 For the meantime, if you wish to use ControlNet, on your first launch,')
+    print('      select a ControlNet version that isn\'t "none", this will install the')
+    print('      required extensions upon setting up the web UI')
+    print('\n😭 sry\n')
+    return controlnet_models['none']
+
+  count = len(controlnet_models[option])
+  estimate_size = (count * 723) if option != 't2i' else (count * 155)
+  print(f'⌛ This might take a while! Size estimate is ~{estimate_size}MB. Grab a 🍿 or something xD')
+  print(f'🤙 Downloading {count} controlnet {option} models...')
 
   return controlnet_models[option]
 
