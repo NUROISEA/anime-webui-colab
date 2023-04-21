@@ -18,7 +18,7 @@ pip_commands = [
 xformers_link = ' && '.join(pip_commands)
 
 # copy pasted code, will update all notebooks later
-web_ui_folder = '/content/stable-diffusion-webui'
+web_ui_folder = '/content/ui'
 models_folder = f'{web_ui_folder}/models/Stable-diffusion'
 vae_folder = f'{web_ui_folder}/models/VAE'
 embeddings_folder = f'{web_ui_folder}/embeddings'
@@ -317,7 +317,7 @@ def mount_drive(on_drive=False):
 def output_to_gdrive(on_drive=False, drive_folder='AI/Generated'):
   drive_ouput_path = f'/content/drive/MyDrive/{drive_folder}/'
   
-  config_path = '/content/stable-diffusion-webui/config.json'
+  config_path = '/content/ui/config.json'
   
   save_path = drive_ouput_path if on_drive else ''
 
