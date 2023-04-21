@@ -18,7 +18,7 @@ pip_commands = [
 xformers_link = ' && '.join(pip_commands)
 
 # copy pasted code, will update all notebooks later
-web_ui_folder = '/content/ui'
+web_ui_folder = '/content/stable-diffusion-webui'
 models_folder = f'{web_ui_folder}/models/Stable-diffusion'
 vae_folder = f'{web_ui_folder}/models/VAE'
 embeddings_folder = f'{web_ui_folder}/embeddings'
@@ -68,7 +68,7 @@ def install_webui(option):
     print("✨ You are now using anapnoe's fork of the web UI! Layouts are different!")
   
   print('🌟 Installing stable-diffusion-webui...')
-  git_clone_command = f"git clone -q {version_dictionary[option]} {web_ui_folder}"
+  git_clone_command = f"git clone -q {version_dictionary[option]} {utility.web_ui_folder}"
   return git_clone_command
 
 def extensions_list(option,webui_version='stable',controlnet='none'):
@@ -370,7 +370,7 @@ def download_model(link, yaml_link=''):
   commands = []
 
   if yaml_link not in models_downloaded and yaml_link != '':
-    commands += [ f'wget -q "{yaml_link}" -P "{models_folder}/"' ]
+    commands += [ f'wget -q "{yaml_link}" -P "{utility.models_folder}/"' ]
     models_downloaded += [ yaml_link ]
   
   # i am cringing at this
