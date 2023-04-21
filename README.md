@@ -1,4 +1,7 @@
-# ⚠🚨 Notice 🚨⚠
+
+# ✨ Anime Web UI Colab
+
+## ⚠🚨 Notice 🚨⚠
 Google Colab is starting to limit free users on using stable diffusion web UI.
 
 Running any of these *might* show a warning stating that this is 'prohibited code'. 
@@ -8,14 +11,18 @@ Running any of these *might* show a warning stating that this is 'prohibited cod
 You can still run it but you the risk of being disconnected early, *only if you get the warning*.
 
 You can read more in the following links:
-- [Initial reddit post in /r/StableDiffusion](https://old.reddit.com/r/StableDiffusion/comments/12t8tc7/is_colab_going_to_start_banning_people_who_use_it/)
+- [Initial reddit post in /r/StableDiffusion](https://www.reddit.com/r/StableDiffusion/comments/12t8tc7/is_colab_going_to_start_banning_people_who_use_it/)
+- [Colab Project lead's response to the reddit thread above](https://www.reddit.com/r/StableDiffusion/comments/12t8tc7/is_colab_going_to_start_banning_people_who_use_it/jh2rwe1/)
+- [Colab Project lead's stating no bans would happen](https://www.reddit.com/r/StableDiffusion/comments/12t8tc7/comment/jh2w6yy/?context=3)
 - [Colab Project lead's tweet](https://twitter.com/thechrisperry/status/1649189902079381505)
+- [Reddit post showing Pro users can use this no problem](https://www.reddit.com/r/StableDiffusion/comments/12tj22r/official_statement_from_the_person_in_charge_of/)
 
 Pro users seems to not get this warning. I recommend buying Colab Pro or Pro+ *only if you get the warning*.
 
 You can safely ignore this notice if you don't get the warning. 😉 (for now at least) 
 
-# ✨ Anime Web UI Colab
+**But when in doubt, use a Google Account that you don't care about, just in case.**
+
 ## 🤔 How to use (simpified)
 
 1. Open a notebook
