@@ -370,7 +370,7 @@ def download_model(link, yaml_link=''):
   commands = []
 
   if yaml_link not in models_downloaded and yaml_link != '':
-    commands += [ f'wget -q "{yaml_link}" -P "{utility.models_folder}/"' ]
+    commands += [ f'wget -q "{yaml_link}" -P "{models_folder}/"' ]
     models_downloaded += [ yaml_link ]
   
   # i am cringing at this
