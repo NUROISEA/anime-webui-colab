@@ -1,3 +1,14 @@
+# ⚠🚨 Google Colab is limiting free users on using these notebooks 🚨⚠
+Running any of these will throw a warning stating that this is 'prohibited code'. **It's not.** 
+
+You can still run it but you the risk of being disconnected early. 😟
+
+You can read more in the following links:
+- [Initial reddit post in /r/StableDiffusion](https://old.reddit.com/r/StableDiffusion/comments/12t8tc7/is_colab_going_to_start_banning_people_who_use_it/)
+- [Colab Project lead's tweet](https://twitter.com/thechrisperry/status/1649189902079381505)
+
+I recommend buying Colab Pro or Pro+, yes *buy*. Free image generation is coming to an end, unfortunately.
+
 # ✨ Anime Web UI Colab
 ## 🤔 How to use (simpified)
 
