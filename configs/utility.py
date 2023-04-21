@@ -68,7 +68,7 @@ def install_webui(option):
     print("✨ You are now using anapnoe's fork of the web UI! Layouts are different!")
   
   print('🌟 Installing stable-diffusion-webui...')
-  git_clone_command = f"git clone -q {version_dictionary[option]} {utility.web_ui_folder}"
+  git_clone_command = f"git clone -q {version_dictionary[option]} {web_ui_folder}"
   return git_clone_command
 
 def extensions_list(option,webui_version='stable',controlnet='none'):
@@ -317,7 +317,7 @@ def mount_drive(on_drive=False):
 def output_to_gdrive(on_drive=False, drive_folder='AI/Generated'):
   drive_ouput_path = f'/content/drive/MyDrive/{drive_folder}/'
   
-  config_path = '/content/ui/config.json'
+  config_path = f'{web_ui_folder}/config.json'
   
   save_path = drive_ouput_path if on_drive else ''
 
