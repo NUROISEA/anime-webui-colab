@@ -1,15 +1,19 @@
-# ⚠🚨 Google Colab is limiting free users on using these notebooks 🚨⚠
-Running any of these will throw a warning stating that this is 'prohibited code'. **It's not.** 
+# ⚠🚨 Notice 🚨⚠
+Google Colab is starting to limit free users on using stable diffusion web UI.
 
-You can still run it but you the risk of being disconnected early. 😟
+Running any of these *might* show a warning stating that this is 'prohibited code'. 
+
+**It's not.** 
+
+You can still run it but you the risk of being disconnected early, *only if you get the warning*.
 
 You can read more in the following links:
 - [Initial reddit post in /r/StableDiffusion](https://old.reddit.com/r/StableDiffusion/comments/12t8tc7/is_colab_going_to_start_banning_people_who_use_it/)
 - [Colab Project lead's tweet](https://twitter.com/thechrisperry/status/1649189902079381505)
 
-Pro users seems to not get this warning.
+Pro users seems to not get this warning. I recommend buying Colab Pro or Pro+ *only if you get the warning*.
 
-I recommend buying Colab Pro or Pro+, yes *buy*. Free image generation is coming to an end, unfortunately.
+You can safely ignore this notice if you don't get the warning. 😉 (for now at least) 
 
 # ✨ Anime Web UI Colab
 ## 🤔 How to use (simpified)
