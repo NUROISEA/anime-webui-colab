@@ -146,6 +146,8 @@ Head over to 🖼[ ***Showcase*** ][showcase]✨ to see what the models might lo
 - [gsdf's EasyNegative](https://huggingface.co/datasets/gsdf/EasyNegative)
 - [Nerfgun3's bad_prompt](https://huggingface.co/datasets/Nerfgun3/bad_prompt)
 - [nick-x-hacker's bad-artist and bad-artist-anime](https://huggingface.co/nick-x-hacker/bad-artist)
+- [Xynon's bad-image-v2-39000](https://huggingface.co/Xynon/models/blob/main/experimentals/TI/bad-image-v2-39000.pt)
+- [yesyeahvh's bad-hands-5](https://huggingface.co/yesyeahvh/bad-hands-5)
 
 ## Models License
 <https://huggingface.co/spaces/CompVis/stable-diffusion-license>
