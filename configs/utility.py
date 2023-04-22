@@ -1,6 +1,7 @@
 import json
 import os
 import subprocess
+import shlex
 from datetime import datetime,timezone
 
 logged_keys = []
@@ -71,7 +72,7 @@ def install_webui(option):
   git_clone_command = f"git clone -q {version_dictionary[option]} {web_ui_folder}"
   return git_clone_command
 
-def extensions_list(option,webui_version='stable',controlnet='none'):
+def extensions_list(option,webui_version='stable',controlnet='none', only_controlnet=False):
   global extensions_folder, controlnet_installed
 
   # sorter via folder name
@@ -134,6 +135,14 @@ def extensions_list(option,webui_version='stable',controlnet='none'):
       f'https://github.com/Mikubill/sd-webui-controlnet {f}/controlnet',
     ],
   }
+
+  if only_controlnet:
+    if option == 'stable':
+      return controlnet_extensions['stable']
+    elif option in ['latest', 'experimental']:
+      return controlnet_extensions['latest']
+    else:
+      return []
 
   if option == 'none':
     print('😶 No extensions would be installed. Pure vanilla web UI')
@@ -258,18 +267,23 @@ def controlnet_list(option,webui_version='stable',extensions_version='stable'):
     return controlnet_models['none']
 
   if not controlnet_installed:
-    print('\n😭 No ControlNet extensions installed! Not downloading anything.')
-    print('📣 This happens when you first launched without selecting any ControlNet models!')
-    print('📣 For the meantime, if you wish to use ControlNet, on your first launch,')
-    print('      select a ControlNet version that isn\'t "none", this will install the')
-    print('      required extensions upon setting up the web UI')
-    print('\n😭 sry\n')
-    return controlnet_models['none']
+    ext_list = extensions_list(option=extensions_version,only_controlnet=True)
+
+    if len(ext_list) > 0:
+      print(f'📦 Installing {len(ext_list)} extensions...')
+
+    for ext in ext_list:
+      ext_name = ext.split('/')[-1]
+      print(f'  └ {ext_name}')
+      git_command = shlex.split(f'git clone {ext}')
+      _ = subprocess.run(git_command)
+
+    controlnet_installed = True
 
   count = len(controlnet_models[option])
   estimate_size = (count * 723) if option != 't2i' else (count * 155)
   print(f'⌛ This might take a while! Size estimate is ~{estimate_size}MB. Grab a 🍿 or something xD')
-  print(f'🤙 Downloading {count} controlnet {option} models...')
+  print(f'🤙 Downloading {count} ControlNet {option} models...')
 
   return controlnet_models[option]
 
