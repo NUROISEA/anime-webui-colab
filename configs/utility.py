@@ -38,6 +38,10 @@ def dictionary_to_json(json_file, data_dictionary):
   with open(json_file, 'w') as f:
     json.dump(json_data, f)
 
+def run_shell(command):
+  shlex_command = shlex.split(command)
+  _ = subprocess.run(shlex_command)
+
 def log_usage(key):
   if key not in logged_keys:
     now_utc = datetime.now(timezone.utc)
@@ -53,6 +57,27 @@ def log_usage(key):
     weekly_log = subprocess.check_output(['curl', f'{count_url}-{weekly_prefix}'])
 
     logged_keys.append(key)
+
+def colab_memory_fix():
+  commands = [
+    'apt -y update -qq',
+    'wget http://launchpadlibrarian.net/367274644/libgoogle-perftools-dev_2.5-2.2ubuntu3_amd64.deb',
+    'wget https://launchpad.net/ubuntu/+source/google-perftools/2.5-2.2ubuntu3/+build/14795286/+files/google-perftools_2.5-2.2ubuntu3_all.deb',
+    'wget https://launchpad.net/ubuntu/+source/google-perftools/2.5-2.2ubuntu3/+build/14795286/+files/libtcmalloc-minimal4_2.5-2.2ubuntu3_amd64.deb',
+    'wget https://launchpad.net/ubuntu/+source/google-perftools/2.5-2.2ubuntu3/+build/14795286/+files/libgoogle-perftools4_2.5-2.2ubuntu3_amd64.deb',
+    'apt install -qq libunwind8-dev',
+    'dpkg -i *.deb',
+  ]
+
+  print('🩹 Applying Colab memory fix...')
+
+  for command in commands:
+    run_shell(command)
+
+  os.environ['LD_PRELOAD'] = 'libtcmalloc.so'
+  os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
+
+  run_shell('rm *.deb')
 
 def install_webui(option):
   global webui_branch, web_ui_folder
@@ -201,7 +226,7 @@ def patch_list():
   url = 'https://github.com/NUROISEA/anime-webui-colab/raw/main/configs/patch_list.txt'
   response = requests.get(url)
   data = response.text
-  print('🩹 Applying colab patches...')
+  print('🩹 Applying web UI Colab patches...')
   return data.splitlines()
 
 def controlnet_list(option,webui_version='stable',extensions_version='stable'):
@@ -277,8 +302,7 @@ def controlnet_list(option,webui_version='stable',extensions_version='stable'):
     for ext in ext_list:
       ext_name = ext.split('/')[-1]
       print(f'  └ {ext_name}')
-      git_command = shlex.split(f'git clone {ext}')
-      _ = subprocess.run(git_command)
+      run_shell(f'git clone {ext}')
 
     controlnet_installed = True
 
@@ -359,25 +383,18 @@ def aria2_download(link, folder, file_name, force_redownload=False):
   if link in models_downloaded and not force_redownload:
     return f'echo "👍 {file_name} already downloaded."'
 
-  commands = []
   aria2_flags = '--quiet --console-log-level=error -c -x 16 -s 16 -k 1M'
-  
+
   if not installed_aria2:
     print('📦 Installing aria2...')
-    commands += [
-      'apt -y install -qq aria2 &> /dev/null', #because that wall of text is disgusting 
-    ]
+    run_shell('apt -y install -qq aria2')
     installed_aria2 = True
 
   print(f'⏬ Downloading {file_name} to {folder}...')
 
-  commands += [
-    f'aria2c {aria2_flags} "{link}" -d "{folder}" -o "{file_name}"'
-  ]
-
   models_downloaded += [ link ]
 
-  return ' && '.join(commands)
+  return f'aria2c {aria2_flags} "{link}" -d "{folder}" -o "{file_name}"'
 
 def download_model(link, yaml_link=''):
   # TODO: this function isn't elegant :/
@@ -408,7 +425,5 @@ def download_controlnet(link):
   global controlnet_models_folder
   file_name = link.split('/')[-1]
   return aria2_download(link, controlnet_models_folder, file_name)
-
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
 print('👍 Utility script imported.')
