@@ -74,10 +74,7 @@ def colab_memory_fix():
   for command in commands:
     run_shell(command)
 
-  os.environ['LD_PRELOAD'] = 'libtcmalloc.so'
   os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
-
-  run_shell('rm *.deb')
 
 def install_webui(option):
   global webui_branch, web_ui_folder
