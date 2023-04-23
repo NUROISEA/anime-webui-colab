@@ -133,6 +133,7 @@ Head over to 🖼[ ***Showcase*** ][showcase]✨ to see what the models might lo
 - [Mikubill's sd-webui-controlnet](https://github.com/Mikubill/sd-webui-controlnet)
 - [NoCrypt's sd-fast-pnginfo](https://github.com/NoCrypt/sd-fast-pnginfo)
 - [opparco's stable-diffusion-webui-two-shot](https://github.com/opparco/stable-diffusion-webui-two-shot)
+- [pkuliyi2015's multidiffusion-upscaler-for-automatic1111](https://github.com/pkuliyi2015/multidiffusion-upscaler-for-automatic1111)
 - [space-nuko's sd-webui-session-organizer](https://github.com/space-nuko/sd-webui-session-organizer)
 ### Experimental
 - Everything in Stable/Latest
