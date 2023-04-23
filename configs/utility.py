@@ -326,9 +326,11 @@ def arguments(model='', vae='', tunnel='gradio', ng_token='', ng_region='auto', 
   args = [
     default_arguments if not default_override else default_override,
     f'--ckpt \"{model}\"' if model else '',
-    f'--vae-path \"{vae}\"' if vae else '',
     extra_args if extra_args else '',
   ]
+  
+  if vae != f'{vae_folder}/': # this is the models without VAEs
+    args.append(f'--vae-path \"{vae}\"' if vae else '')
 
   if tunnel == 'gradio':
     args.append('--share')
