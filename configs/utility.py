@@ -60,13 +60,13 @@ def log_usage(key):
 
 def colab_memory_fix():
   commands = [
-    'apt -y update -qq',
+    'apt -y update -qq &> /dev/null',
     'wget -q http://launchpadlibrarian.net/367274644/libgoogle-perftools-dev_2.5-2.2ubuntu3_amd64.deb',
     'wget -q https://launchpad.net/ubuntu/+source/google-perftools/2.5-2.2ubuntu3/+build/14795286/+files/google-perftools_2.5-2.2ubuntu3_all.deb',
     'wget -q https://launchpad.net/ubuntu/+source/google-perftools/2.5-2.2ubuntu3/+build/14795286/+files/libtcmalloc-minimal4_2.5-2.2ubuntu3_amd64.deb',
     'wget -q https://launchpad.net/ubuntu/+source/google-perftools/2.5-2.2ubuntu3/+build/14795286/+files/libgoogle-perftools4_2.5-2.2ubuntu3_amd64.deb',
-    'apt install -qq libunwind8-dev',
-    'dpkg -i *.deb',
+    'apt install -qq libunwind8-dev &> /dev/null',
+    'dpkg -i *.deb &> /dev/null',
   ]
 
   print('🩹 Applying Colab memory fix...')
