@@ -1,5 +1,5 @@
 
-# ✨ Anime Web UI Colab
+# ✨ Anime Web UI Colab (Legacy)
 
 ## ⚠🚨 Notice 🚨⚠
 Google Colab is starting to limit free users on using stable diffusion web UI.
@@ -155,44 +155,44 @@ Head over to 🖼[ ***Showcase*** ][showcase]✨ to see what the models might lo
 
 [colab-icon]: https://colab.research.google.com/assets/colab-badge.svg
 
-[7thla]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/7th_layer.ipynb
-[8528d]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/8528-diffusion.ipynb
-[anime]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/animeinourworld.ipynb
-[anyga]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/any_gape_mix.ipynb
-[anymx]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/anything_mix.ipynb
-[anyv3]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/anything_v3.ipynb
-[anyv4]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/anything_v4.ipynb
-[bakad]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/baka_diffusion.ipynb
-[camel]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/camelliamix.ipynb
-[chame]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/chameleonai-mix.ipynb
-[count]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/counterfeit.ipynb
-[darks]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/dark_sushi_mix.ipynb
-[drbob]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/drbob2142_mix_models.ipynb
-[eimis]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/eimis_anime_diffusion.ipynb
-[elysi]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/elysium_anime.ipynb
-[every]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/everything.ipynb
-[evtv3]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/evt_v3.ipynb
-[expmi]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/expmix_line.ipynb
-[grape]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/grapefruit.ipynb
-[hddre]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/hddream_g.ipynb
-[henta]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/hentai_diffusion.ipynb
-[ligne]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/ligne_claire_anime_diffusion.ipynb
-[midni]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/midnight_mixes.ipynb
-[misob]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/misobarisic_playground.ipynb
-[mix00]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/soul0000.ipynb
-[mixin]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/mixing-cauldron.ipynb
-[mixpr]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/mix-pro-v3.ipynb
-[momoc]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/momocha_mix.ipynb
-[opena]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/open_anime_journey.ipynb
-[orang]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/orange_mixs.ipynb
-[paste]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/pastel_mix.ipynb
-[platd]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/plat-diffusion.ipynb
-[proto]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/protothing_200.ipynb
-[rasge]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/rasgeath_self_made_sauce.ipynb
-[shira]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/shirayuki_model.ipynb
-[somet]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/something.ipynb
-[voxo-]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/voxo.ipynb
-[waifa]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/waifuanything.ipynb
-[waifd]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/waifu_diffusion.ipynb
+[7thla]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/legacy/notebooks/7th_layer.ipynb
+[8528d]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/legacy/notebooks/8528-diffusion.ipynb
+[anime]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/legacy/notebooks/animeinourworld.ipynb
+[anyga]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/legacy/notebooks/any_gape_mix.ipynb
+[anymx]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/legacy/notebooks/anything_mix.ipynb
+[anyv3]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/legacy/notebooks/anything_v3.ipynb
+[anyv4]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/legacy/notebooks/anything_v4.ipynb
+[bakad]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/legacy/notebooks/baka_diffusion.ipynb
+[camel]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/legacy/notebooks/camelliamix.ipynb
+[chame]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/legacy/notebooks/chameleonai-mix.ipynb
+[count]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/legacy/notebooks/counterfeit.ipynb
+[darks]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/legacy/notebooks/dark_sushi_mix.ipynb
+[drbob]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/legacy/notebooks/drbob2142_mix_models.ipynb
+[eimis]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/legacy/notebooks/eimis_anime_diffusion.ipynb
+[elysi]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/legacy/notebooks/elysium_anime.ipynb
+[every]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/legacy/notebooks/everything.ipynb
+[evtv3]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/legacy/notebooks/evt_v3.ipynb
+[expmi]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/legacy/notebooks/expmix_line.ipynb
+[grape]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/legacy/notebooks/grapefruit.ipynb
+[hddre]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/legacy/notebooks/hddream_g.ipynb
+[henta]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/legacy/notebooks/hentai_diffusion.ipynb
+[ligne]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/legacy/notebooks/ligne_claire_anime_diffusion.ipynb
+[midni]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/legacy/notebooks/midnight_mixes.ipynb
+[misob]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/legacy/notebooks/misobarisic_playground.ipynb
+[mix00]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/legacy/notebooks/soul0000.ipynb
+[mixin]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/legacy/notebooks/mixing-cauldron.ipynb
+[mixpr]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/legacy/notebooks/mix-pro-v3.ipynb
+[momoc]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/legacy/notebooks/momocha_mix.ipynb
+[opena]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/legacy/notebooks/open_anime_journey.ipynb
+[orang]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/legacy/notebooks/orange_mixs.ipynb
+[paste]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/legacy/notebooks/pastel_mix.ipynb
+[platd]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/legacy/notebooks/plat-diffusion.ipynb
+[proto]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/legacy/notebooks/protothing_200.ipynb
+[rasge]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/legacy/notebooks/rasgeath_self_made_sauce.ipynb
+[shira]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/legacy/notebooks/shirayuki_model.ipynb
+[somet]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/legacy/notebooks/something.ipynb
+[voxo-]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/legacy/notebooks/voxo.ipynb
+[waifa]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/legacy/notebooks/waifuanything.ipynb
+[waifd]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/legacy/notebooks/waifu_diffusion.ipynb
 
-[own-model]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/provide_your_own_models.ipynb
+[own-model]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/legacy/notebooks/provide_your_own_models.ipynb

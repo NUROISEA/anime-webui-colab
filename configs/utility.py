@@ -46,7 +46,7 @@ def log_usage(key):
   if key not in logged_keys:
     now_utc = datetime.now(timezone.utc)
 
-    namespace = 'nuroisea-anime-webui-colab'
+    namespace = 'nuroisea-anime-webui-colab-legacy'
     count_url = f'https://api.countapi.xyz/hit/{namespace}/{key}'
 
     monthly_prefix = now_utc.strftime('m%y%m')
@@ -214,14 +214,14 @@ def embeddings_list():
 def configs_list():
   print('🔧 Fetching configs...')
   return [
-    'https://github.com/NUROISEA/anime-webui-colab/raw/main/configs/config.json',
-    'https://github.com/NUROISEA/anime-webui-colab/raw/main/configs/ui-config.json',
-    'https://github.com/NUROISEA/anime-webui-colab/raw/main/configs/styles.csv',
+    'https://github.com/NUROISEA/anime-webui-colab/raw/legacy/configs/config.json',
+    'https://github.com/NUROISEA/anime-webui-colab/raw/legacy/configs/ui-config.json',
+    'https://github.com/NUROISEA/anime-webui-colab/raw/legacy/configs/styles.csv',
   ]
 
 def patch_list():
   import requests
-  url = 'https://github.com/NUROISEA/anime-webui-colab/raw/main/configs/patch_list.txt'
+  url = 'https://github.com/NUROISEA/anime-webui-colab/raw/legacy/configs/patch_list.txt'
   response = requests.get(url)
   data = response.text
   print('🩹 Applying web UI Colab patches...')
