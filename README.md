@@ -97,12 +97,17 @@ Head over to 🖼[ ***Showcase*** ][showcase]✨ to see what the models might lo
 
 <small>^ Models in the colab are have some sort of variant that are noticably different</small>
 
-[showcase]: https://anime-webui-colab.github.io/showcase/model-list
-
-## 🔧 Provide your own
+## 🔧 Provide Your Own Models (PYOM 😊)
 | Colab Link | Description
 | --- | --- |
 [![Open In Colab][colab-icon]][own-model] | You provide the download links for the model and VAE
+
+## 📚 Unified Models
+| Colab Link | Description
+| --- | --- |
+| `<none soon:tm:>` | Includes all of the models above, a supercharged PYOM <br> *Because maintaining 40 notebooks is such a hassle*
+
+[showcase]: https://anime-webui-colab.github.io/showcase/model-list
 
 # 🧐 References
 

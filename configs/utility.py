@@ -401,7 +401,7 @@ def wget_download(link, folder, file_name=''):
 
   models_downloaded += [ link ]
 
-  if file_name != '':
+  if file_name == '':
     return f'wget -q --show-progress {link} -P {folder}/ --content-disposition'
 
   return f'wget -q --show-progress {link} -P {folder}/ -O {file_name}'
