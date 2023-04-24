@@ -396,6 +396,16 @@ def aria2_download(link, folder, file_name, force_redownload=False):
 
   return f'aria2c {aria2_flags} "{link}" -d "{folder}" -o "{file_name}"'
 
+def wget_download(link, folder, file_name=''):
+  global models_downloaded
+
+  models_downloaded += [ link ]
+
+  if file_name != '':
+    return f'wget -q --show-progress {link} -P {folder}/ --content-disposition'
+
+  return f'wget -q --show-progress {link} -P {folder}/ -O {file_name}'
+
 def download_model(link, yaml_link=''):
   # TODO: this function isn't elegant :/
   global models_folder, models_downloaded
