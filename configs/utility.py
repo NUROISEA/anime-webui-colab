@@ -52,9 +52,9 @@ def log_usage(key):
     monthly_prefix = now_utc.strftime('m%y%m')
     weekly_prefix = now_utc.strftime('w%y%V')
 
-    total_log = subprocess.check_output(['curl', count_url])
-    monthly_log = subprocess.check_output(['curl', f'{count_url}-{monthly_prefix}'])
-    weekly_log = subprocess.check_output(['curl', f'{count_url}-{weekly_prefix}'])
+    # total_log = subprocess.check_output(['curl', count_url])
+    # monthly_log = subprocess.check_output(['curl', f'{count_url}-{monthly_prefix}'])
+    # weekly_log = subprocess.check_output(['curl', f'{count_url}-{weekly_prefix}'])
 
     logged_keys.append(key)
 
