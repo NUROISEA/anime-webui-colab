@@ -453,6 +453,6 @@ def dl_model(link,yaml='',folder=model_download_folder):
 def dl_vae(link,yaml='',folder=vae_download_folder):
   link = link.replace('/blob/', '/resolve/')
   has_downloaded_at_least_once = True
-  return download_vae(link,yaml,folder)
+  return download_vae(link,folder)
 
 print('👍 Utility script imported.')
