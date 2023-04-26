@@ -28,6 +28,10 @@ extensions_folder = f'{web_ui_folder}/extensions'
 controlnet_folder = f'{extensions_folder}/controlnet'
 controlnet_models_folder = f'{controlnet_folder}/models'
 
+# variables for PYOM and UWUColab
+model_download_folder = '/content/models'
+vae_download_folder = '/content/VAE'
+
 def dictionary_to_json(json_file, data_dictionary):
   with open(json_file, 'r') as f:
     json_data = json.load(f)
@@ -439,5 +443,16 @@ def download_vae(link, folder=vae_folder):
 def download_controlnet(link, folder=controlnet_models_folder):
   file_name = link.split('/')[-1]
   return aria2_download(link, folder, file_name)
+
+# download functions for PYOM and UWUColab
+def dl_model(link,yaml='',folder=model_download_folder):
+  link = link.replace('/blob/', '/resolve/')
+  has_downloaded_at_least_once = True
+  return download_model(link,yaml,folder)
+
+def dl_vae(link,yaml='',folder=vae_download_folder):
+  link = link.replace('/blob/', '/resolve/')
+  has_downloaded_at_least_once = True
+  return download_vae(link,yaml,folder)
 
 print('👍 Utility script imported.')
