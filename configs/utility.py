@@ -20,7 +20,6 @@ pip_commands = [
 ]
 xformers_link = ' && '.join(pip_commands)
 
-# copy pasted code, will update all notebooks later
 web_ui_folder = '/content/stable-diffusion-webui'
 models_folder = f'{web_ui_folder}/models/Stable-diffusion'
 vae_folder = f'{web_ui_folder}/models/VAE'
@@ -413,34 +412,32 @@ def wget_download(link, folder, file_name=''):
 
   return f'wget -q --show-progress {link} -P {folder}/ -O {file_name}'
 
-def download_model(link, yaml_link=''):
+def download_model(link, yaml_link='', folder=models_folder):
   # TODO: this function isn't elegant :/
-  global models_folder, models_downloaded
-  file_name = link.split('/')[-1]  
+  global models_downloaded
+  file_name = link.split('/')[-1]
   commands = []
 
   if yaml_link not in models_downloaded and yaml_link != '':
-    commands += [ f'wget -q "{yaml_link}" -P "{models_folder}/"' ]
+    commands += [ f'wget -q "{yaml_link}" -P "{folder}/"' ]
     models_downloaded += [ yaml_link ]
   
   # i am cringing at this
   commands += [
-    aria2_download(link, models_folder, file_name)
+    aria2_download(link, folder, file_name)
   ]
 
   return ' && '.join(commands)
 
-def download_vae(link):
+def download_vae(link, folder=vae_folder):
   if link == '':
     return 'echo "Continuing without VAE..."'
 
-  global vae_folder
   file_name = link.split('/')[-1]
-  return aria2_download(link, vae_folder, file_name)
+  return aria2_download(link, folder, file_name)
 
-def download_controlnet(link):
-  global controlnet_models_folder
+def download_controlnet(link, folder=controlnet_models_folder):
   file_name = link.split('/')[-1]
-  return aria2_download(link, controlnet_models_folder, file_name)
+  return aria2_download(link, folder, file_name)
 
 print('👍 Utility script imported.')
