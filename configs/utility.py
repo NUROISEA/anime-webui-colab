@@ -46,6 +46,8 @@ def run_shell(command):
   _ = subprocess.run(shlex_command)
 
 def log_usage(key):
+  global disabled_logging
+
   if disabled_logging:
     return
 
