@@ -5,12 +5,14 @@ import shlex
 from datetime import datetime,timezone
 
 logged_keys = []
+models_downloaded = []
 webui_branch = '23.03.14'
 
 has_run = False
 mounted_gdrive = False
 installed_aria2 = False
 controlnet_installed = False
+disabled_logging = False
 
 pip_commands = [
   'pip install -q xformers==0.0.17',
@@ -27,8 +29,6 @@ extensions_folder = f'{web_ui_folder}/extensions'
 controlnet_folder = f'{extensions_folder}/controlnet'
 controlnet_models_folder = f'{controlnet_folder}/models'
 
-models_downloaded = []
-
 def dictionary_to_json(json_file, data_dictionary):
   with open(json_file, 'r') as f:
     json_data = json.load(f)
@@ -43,6 +43,9 @@ def run_shell(command):
   _ = subprocess.run(shlex_command)
 
 def log_usage(key):
+  if disabled_logging:
+    return
+
   if key not in logged_keys:
     now_utc = datetime.now(timezone.utc)
 
@@ -52,9 +55,13 @@ def log_usage(key):
     monthly_prefix = now_utc.strftime('m%y%m')
     weekly_prefix = now_utc.strftime('w%y%V')
 
-    total_log = subprocess.check_output(['curl', count_url])
-    monthly_log = subprocess.check_output(['curl', f'{count_url}-{monthly_prefix}'])
-    weekly_log = subprocess.check_output(['curl', f'{count_url}-{weekly_prefix}'])
+    try:
+      total_log = subprocess.check_output(['curl', count_url])
+      monthly_log = subprocess.check_output(['curl', f'{count_url}-{monthly_prefix}'])
+      weekly_log = subprocess.check_output(['curl', f'{count_url}-{weekly_prefix}'])
+    except:
+      print('😖 countapi.xyz seems to be having an issue, disabled usage counting for now...')
+      disabled_logging = True
 
     logged_keys.append(key)
 
