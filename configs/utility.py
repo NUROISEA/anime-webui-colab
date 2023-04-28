@@ -128,7 +128,7 @@ def extensions_list(option,webui_version='stable',controlnet='none', only_contro
       f'-b 23.03.22 https://github.com/anime-webui-colab/ext-cutoff {f}/cutoff',
       f'-b 23.02.19 https://github.com/anime-webui-colab/ext-latent-couple-two-shot {f}/latent-couple-two-shot',
       f'-b 23.03.19 https://github.com/anime-webui-colab/ext-session-organizer {f}/session-organizer',
-      f'-b 23.04.16 https://github.com/anime-webui-colab/ext-multidiffusion-upscaler {f}/tiled-multidiffusion-upscaler'
+      f'-b 23.04.16 https://github.com/anime-webui-colab/ext-multidiffusion-upscaler {f}/tiled-multidiffusion-upscaler',
     ],
     'latest': [
       # using my own fork again to not lose my presets
@@ -141,7 +141,7 @@ def extensions_list(option,webui_version='stable',controlnet='none', only_contro
       f'https://github.com/ilian6806/stable-diffusion-webui-state {f}/state',
       f'https://github.com/ashen-sensored/sd_webui_stealth_pnginfo {f}/stealth-pnginfo',
       f'https://github.com/DominikDoom/a1111-sd-webui-tagcomplete {f}/tagcomplete',
-      f'https://github.com/pkuliyi2015/multidiffusion-upscaler-for-automatic1111 {f}/tiled-multidiffusion-upscaler'
+      f'https://github.com/pkuliyi2015/multidiffusion-upscaler-for-automatic1111 {f}/tiled-multidiffusion-upscaler',
       # wait why? because the upstream is optimized for their colab, this is the one i refuse to update
       f'-b 23.02.27 https://github.com/anime-webui-colab/ext-tunnels {f}/tunnels',
     ],
