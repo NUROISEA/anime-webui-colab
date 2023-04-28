@@ -1,7 +1,10 @@
 
 # ✨ Anime Web UI Colab
 
-## ⚠🚨 Notice 🚨⚠
+## ⚠🚨 Notice 🚨⚠ 
+
+<details><summary>(click to expand)</summary>
+
 Google Colab is starting to limit free users on using stable diffusion web UI.
 
 Running any of these *might* show a warning stating that this is 'prohibited code'. 
@@ -22,6 +25,8 @@ Pro users seems to not get this warning. I recommend buying Colab Pro or Pro+ *o
 You can safely ignore this notice if you don't get the warning. 😉 (for now at least) 
 
 **But when in doubt, use a Google Account that you don't care about, just in case.**
+
+</details>
 
 ## 🤔 How to use (simpified)
 
