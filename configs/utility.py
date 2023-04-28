@@ -325,13 +325,12 @@ def controlnet_list(option,webui_version='stable',extensions_version='stable'):
 
 def arguments(model='', vae='', tunnel='gradio', ng_token='', ng_region='auto', extra_args='', default_override=''):
   default_arguments = ' '.join([
-    '--xformers',
+    '--opt-sdp-attention',
     '--lowram',
     '--no-hashing',
     '--enable-insecure-extension-access',
     '--no-half-vae',
     '--disable-safe-unpickle',
-    '--opt-channelslast',
     '--gradio-queue',
   ])
   
