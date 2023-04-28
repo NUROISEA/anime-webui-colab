@@ -46,29 +46,24 @@ def run_shell(command):
   _ = subprocess.run(shlex_command)
 
 def log_usage(key):
-  global disabled_logging
+  global disabled_logging, logged_keys
 
   if disabled_logging:
     return
 
-  if key not in logged_keys:
-    now_utc = datetime.now(timezone.utc)
+  if key in logged_keys:
+    return
 
-    namespace = 'nuroisea-anime-webui-colab'
-    count_url = f'https://api.countapi.xyz/hit/{namespace}/{key}'
+  namespace = 'nuroisea-anime-webui-colab'
+  count_url = f'https://api.visitorbadge.io/api/visitors?path={namespace}/{key}'
 
-    monthly_prefix = now_utc.strftime('m%y%m')
-    weekly_prefix = now_utc.strftime('w%y%V')
+  try:
+    run_shell(f'curl {count_url}')
+  except:
+    print('😖 visitorbadge.io seems to be having an issue, disabled usage counting for now...')
+    disabled_logging = True
 
-    try:
-      total_log = subprocess.check_output(['curl', count_url])
-      monthly_log = subprocess.check_output(['curl', f'{count_url}-{monthly_prefix}'])
-      weekly_log = subprocess.check_output(['curl', f'{count_url}-{weekly_prefix}'])
-    except:
-      print('😖 countapi.xyz seems to be having an issue, disabled usage counting for now...')
-      disabled_logging = True
-
-    logged_keys.append(key)
+  logged_keys.append(key)
 
 def colab_memory_fix():
   commands = [
