@@ -17,6 +17,13 @@ disabled_logging = False
 pip_commands = [
   'pip install -q xformers==0.0.17',
   'pip install -q triton==2.0.0',
+  'echo "\n🚨🚨🚨🚨🚨🚨🚨🚨🚨\n"',
+  'echo "You are using an old version of the notebook!"',
+  'echo "Please update your copy by visiting https://github.com/NUROISEA/anime-webui-colab"',
+  'echo "xformers install commands will be removed on 2023-05-06"',
+  'echo "After that this notebook will break!',
+  'echo "Please update your copy!"',
+  'echo "\n🚨🚨🚨🚨🚨🚨🚨🚨🚨\n"',
 ]
 xformers_link = ' && '.join(pip_commands)
 
