@@ -88,7 +88,8 @@ def install_webui(option):
   version_dictionary = {
     'stable':     f'-b {webui_branch} https://github.com/anime-webui-colab/stable-diffusion-webui',
     'latest':      'https://github.com/AUTOMATIC1111/stable-diffusion-webui',
-    'ui-redesign': 'https://github.com/anapnoe/stable-diffusion-webui-ux'
+    'latest-dev':  '-b dev https://github.com/AUTOMATIC1111/stable-diffusion-webui',
+    'ui-redesign': 'https://github.com/anapnoe/stable-diffusion-webui-ux',
   }
 
   log_usage(f'webui-version-{option}')
