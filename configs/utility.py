@@ -134,6 +134,7 @@ def extensions_list(option,webui_version='stable',controlnet='none', only_contro
     'stable': [
       f'-b 23.03.31 https://github.com/anime-webui-colab/ext-aspect-ratio-preset {f}/aspect-ratio-preset',
       f'-b 23.03.22 https://github.com/anime-webui-colab/ext-cutoff {f}/cutoff',
+      f'-b 23.04.12 https://github.com/anime-webui-colab/ext-dynamic-thresholding {f}/dynamic-thresholding',
       f'-b 23.02.19 https://github.com/anime-webui-colab/ext-latent-couple-two-shot {f}/latent-couple-two-shot',
       f'-b 23.03.19 https://github.com/anime-webui-colab/ext-session-organizer {f}/session-organizer',
       f'-b 23.04.16 https://github.com/anime-webui-colab/ext-multidiffusion-upscaler {f}/tiled-multidiffusion-upscaler',
@@ -143,6 +144,7 @@ def extensions_list(option,webui_version='stable',controlnet='none', only_contro
       f'-b 23.03.31 https://github.com/anime-webui-colab/ext-aspect-ratio-preset {f}/aspect-ratio-preset',
       f'https://github.com/etherealxx/batchlinks-webui {f}/batchlinks',
       f'https://github.com/hnmr293/sd-webui-cutoff {f}/cutoff',
+      f'https://github.com/mcmonkeyprojects/sd-dynamic-thresholding {f}/dynamic-thresholding',
       f'https://github.com/AlUlkesh/stable-diffusion-webui-images-browser {f}/images-browser',
       f'https://github.com/opparco/stable-diffusion-webui-two-shot {f}/latent-couple-two-shot',
       f'https://github.com/space-nuko/sd-webui-session-organizer {f}/session-organizer',

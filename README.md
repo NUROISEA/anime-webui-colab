@@ -140,6 +140,7 @@ Head over to 🖼[ ***Showcase*** ][showcase]✨ to see what the models might lo
 - Everything in Lite
 - [alemelis' sd-webui-ar](https://github.com/alemelis/sd-webui-ar)
 - [hnmr293's sd-webui-cutoff](https://github.com/hnmr293/sd-webui-cutoff)
+- [mcmonkeyprojects's sd-dynamic-thresholding](https://github.com/mcmonkeyprojects/sd-dynamic-thresholding)
 - [Mikubill's sd-webui-controlnet](https://github.com/Mikubill/sd-webui-controlnet)
 - [opparco's stable-diffusion-webui-two-shot](https://github.com/opparco/stable-diffusion-webui-two-shot)
 - [pkuliyi2015's multidiffusion-upscaler-for-automatic1111](https://github.com/pkuliyi2015/multidiffusion-upscaler-for-automatic1111)
