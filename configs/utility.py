@@ -103,9 +103,13 @@ def install_webui(option):
 
   if option == 'ui-redesign':
     print("✨ You are now using anapnoe's fork of the web UI! Layouts are different!")
+  elif option == 'latest-dev':
+    print('🧪 This is the cutting-edge version of the web UI! Stuff might not work!')
+  elif opion == 'latest':
+    print('🔼 Selected the latest version of the web UI.')
   
   print('🌟 Installing stable-diffusion-webui...')
-  git_clone_command = f"git clone -q {version_dictionary[option]} {web_ui_folder}"
+  git_clone_command = f'git clone -q {version_dictionary[option]} {web_ui_folder}'
   return git_clone_command
 
 def extensions_list(option,webui_version='stable',controlnet='none', only_controlnet=False):
