@@ -105,7 +105,7 @@ def install_webui(option):
     print("✨ You are now using anapnoe's fork of the web UI! Layouts are different!")
   elif option == 'latest-dev':
     print('🧪 This is the cutting-edge version of the web UI! Stuff might not work!')
-  elif opion == 'latest':
+  elif option == 'latest':
     print('🔼 Selected the latest version of the web UI.')
   
   print('🌟 Installing stable-diffusion-webui...')
