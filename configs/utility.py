@@ -226,6 +226,7 @@ def embeddings_list():
     'https://huggingface.co/nick-x-hacker/bad-artist/resolve/main/bad-artist-anime.pt',
     'https://huggingface.co/datasets/Nerfgun3/bad_prompt/resolve/main/bad_prompt_version2.pt',
     'https://huggingface.co/datasets/gsdf/EasyNegative/resolve/main/EasyNegative.safetensors',
+    'https://huggingface.co/gsdf/Counterfeit-V3.0/resolve/main/embedding/EasyNegativeV2.safetensors',
     'https://huggingface.co/yesyeahvh/bad-hands-5/resolve/main/bad-hands-5.pt',
     'https://huggingface.co/Xynon/models/resolve/main/experimentals/TI/bad-image-v2-39000.pt',
   ]

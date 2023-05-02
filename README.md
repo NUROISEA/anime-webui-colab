@@ -54,10 +54,10 @@ Head over to 🖼[ ***Showcase*** ][showcase]✨ to see what the models might lo
 [![Open In Colab][colab-icon]][bakad] | Baka-Diffusion! |  | [🤗Hosioka](https://huggingface.co/Hosioka/Baka-Diffusion) | 1 
 [![Open In Colab][colab-icon]][camel] | CamelliaMix <br>(👑`v2`)| 🔁📚 | [🤗Powidl43](https://huggingface.co/Powidl43/CamelliaMix) (mirror) | 8
 [![Open In Colab][colab-icon]][chame] | ChameleonAI Mix | 🔁 | [👔ChameleonAI](https://civitai.com/models/19785/chameleonai-mix) | 1
-[![Open In Colab][colab-icon]][count] | Counterfeit <br>(👑`v2.1`) | 🔁📚 | [🤗gsdf](https://huggingface.co/gsdf/Counterfeit-V2.5) | 5
+[![Open In Colab][colab-icon]][count] | Counterfeit <br>(👑`v2.1`) | 🔁📚 | [🤗gsdf](https://huggingface.co/gsdf/Counterfeit-V3.0) | 6
 [![Open In Colab][colab-icon]][darks] | Dark Sushi Mix <br>(👑`brighter`) | 🔁 | [👔Aitasai](https://civitai.com/models/24779) | 2
 [![Open In Colab][colab-icon]][drbob] | DrBob2142's Mix Models <br>(👑`Midnight Mix`)| 🔁📚 | [🤗DrBob2142](https://huggingface.co/DrBob2142/Mix-Models) | 12
-[![Open In Colab][colab-icon]][eimis] | Eimis Anime Diffusion |  | [🤗eimiss](https://huggingface.co/eimiss/EimisAnimeDiffusion_1.0v) | 1
+[![Open In Colab][colab-icon]][eimis] | Eimis Anime Diffusion |  | [🤗eimiss](https://huggingface.co/eimiss/EimisAnimeDiffusion_1.0v) | 3
 [![Open In Colab][colab-icon]][elysi] | Elysium Anime <br>(👑`v2`)| 🔁📚 | [🤗hesw23168](https://huggingface.co/hesw23168/SD-Elysium-Model) | 3
 [![Open In Colab][colab-icon]][every] | Everything | 🔁 | [🤗DrBob2142](https://huggingface.co/DrBob2142/Everything) | 3
 [![Open In Colab][colab-icon]][evtv3] | Evt_V3 |  | [🤗haor](https://huggingface.co/haor/Evt_V3) | 1
@@ -153,8 +153,8 @@ Head over to 🖼[ ***Showcase*** ][showcase]✨ to see what the models might lo
 - [hako-mikan's sd-webui-regional-prompter](https://github.com/hako-mikan/sd-webui-regional-prompter)
 - [muerrilla's stable-diffusion-NPW](https://github.com/muerrilla/stable-diffusion-NPW)
 
-## Embeddings
-- [gsdf's EasyNegative](https://huggingface.co/datasets/gsdf/EasyNegative)
+## (Negative) Embeddings
+- [gsdf's EasyNegative](https://huggingface.co/datasets/gsdf/EasyNegative) [and EasyNegative2](https://huggingface.co/gsdf/Counterfeit-V3.0/blob/main/embedding/EasyNegativeV2.safetensors)
 - [Nerfgun3's bad_prompt](https://huggingface.co/datasets/Nerfgun3/bad_prompt)
 - [nick-x-hacker's bad-artist and bad-artist-anime](https://huggingface.co/nick-x-hacker/bad-artist)
 - [Xynon's bad-image-v2-39000](https://huggingface.co/Xynon/models/blob/main/experimentals/TI/bad-image-v2-39000.pt)
