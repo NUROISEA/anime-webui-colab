@@ -61,7 +61,7 @@ def log_usage(key):
   if key in logged_keys:
     return
 
-  namespace = 'nuroisea-anime-webui-colab'
+  namespace = 'NUROISEA/anime-webui-colab'
   count_url = f'https://api.visitorbadge.io/api/visitors?path={namespace}/{key}'
 
   try:
@@ -131,7 +131,6 @@ def extensions_list(option,webui_version='stable',controlnet='none', only_contro
       f'-b 23.03.30 https://github.com/anime-webui-colab/ext-batchlinks {f}/batchlinks',
       f'-b 23.03.16 https://github.com/anime-webui-colab/ext-images-browser {f}/images-browser',
       f'-b 23.03.31 https://github.com/anime-webui-colab/ext-state {f}/state',
-      f'-b 23.04.06 https://github.com/anime-webui-colab/ext-stealth-pnginfo {f}/stealth-pnginfo',
       f'-b 23.04.05 https://github.com/anime-webui-colab/ext-tagcomplete {f}/tagcomplete',
       f'-b 23.02.27 https://github.com/anime-webui-colab/ext-tunnels {f}/tunnels',
     ],
@@ -153,7 +152,6 @@ def extensions_list(option,webui_version='stable',controlnet='none', only_contro
       f'https://github.com/opparco/stable-diffusion-webui-two-shot {f}/latent-couple-two-shot',
       f'https://github.com/space-nuko/sd-webui-session-organizer {f}/session-organizer',
       f'https://github.com/ilian6806/stable-diffusion-webui-state {f}/state',
-      f'https://github.com/ashen-sensored/sd_webui_stealth_pnginfo {f}/stealth-pnginfo',
       f'https://github.com/DominikDoom/a1111-sd-webui-tagcomplete {f}/tagcomplete',
       f'https://github.com/pkuliyi2015/multidiffusion-upscaler-for-automatic1111 {f}/tiled-multidiffusion-upscaler',
       # wait why? because the upstream is optimized for their colab, this is the one i refuse to update
