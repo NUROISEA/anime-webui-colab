@@ -132,6 +132,7 @@ def extensions_list(option,webui_version='stable',controlnet='none', only_contro
       f'-b 23.03.16 https://github.com/anime-webui-colab/ext-images-browser {f}/images-browser',
       f'-b 23.03.31 https://github.com/anime-webui-colab/ext-state {f}/state',
       f'-b 23.04.05 https://github.com/anime-webui-colab/ext-tagcomplete {f}/tagcomplete',
+      f'-b 22.12.10 https://github.com/anime-webui-colab/ext-tokenizer {f}/tokenizer',
       f'-b 23.02.27 https://github.com/anime-webui-colab/ext-tunnels {f}/tunnels',
     ],
     'stable': [
@@ -153,6 +154,7 @@ def extensions_list(option,webui_version='stable',controlnet='none', only_contro
       f'https://github.com/space-nuko/sd-webui-session-organizer {f}/session-organizer',
       f'https://github.com/ilian6806/stable-diffusion-webui-state {f}/state',
       f'https://github.com/DominikDoom/a1111-sd-webui-tagcomplete {f}/tagcomplete',
+      f'https://github.com/AUTOMATIC1111/stable-diffusion-webui-tokenizer {f}/tokenizer',
       f'https://github.com/pkuliyi2015/multidiffusion-upscaler-for-automatic1111 {f}/tiled-multidiffusion-upscaler',
       # wait why? because the upstream is optimized for their colab, this is the one i refuse to update
       f'-b 23.02.27 https://github.com/anime-webui-colab/ext-tunnels {f}/tunnels',
@@ -169,17 +171,21 @@ def extensions_list(option,webui_version='stable',controlnet='none', only_contro
   
   controlnet_extensions = {
     'stable': [
+      # too lazy to test if they are stable, use latest instead
+      # keeping it here for backwards compatibility
       f'-b 23.03.23 https://github.com/anime-webui-colab/ext-controlnet {f}/controlnet',
     ],
     'latest': [
       f'https://github.com/Mikubill/sd-webui-controlnet {f}/controlnet',
+      f'https://github.com/fkunn1326/openpose-editor {f}/2d-openpose-editor',
+      f'https://github.com/nonnonstop/sd-webui-3d-open-pose-editor {f}/3d-openpose-editor',
+      f'https://github.com/jexom/sd-webui-depth-lib {f}/depth-lib',
     ],
   }
 
   if only_controlnet:
-    if option == 'stable':
-      return controlnet_extensions['stable']
-    elif option in ['latest', 'experimental']:
+    # if it breaks on stable, it breaks on stable
+    if option in ['stable', 'latest', 'experimental']:
       return controlnet_extensions['latest']
     else:
       return []
