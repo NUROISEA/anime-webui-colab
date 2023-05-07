@@ -199,10 +199,7 @@ def extensions_list(option,webui_version='stable',controlnet='none', only_contro
   if controlnet != 'none' and option not in ['none', 'lite']:
     print(f'💃 ControlNet {controlnet} models detected, including related extensions!')
     controlnet_installed = True
-    if option == 'stable':
-      ext_list += controlnet_extensions['stable']
-    elif option in ['latest', 'experimental']:
-      ext_list += controlnet_extensions['latest']
+    ext_list += controlnet_extensions['latest']
 
   if option != 'none':
     print(f'📦 Installing {len(ext_list)} extensions...')
