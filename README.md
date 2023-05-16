@@ -82,13 +82,13 @@ Head over to 🖼[ ***Showcase*** ][showcase]✨ to see what the models might lo
 [![Open In Colab][colab-icon]][somet] | Something | 🔁 | [🤗NoCrypt](https://huggingface.co/NoCrypt/SomethingV2_2) | 1
 [![Open In Colab][colab-icon]][voxo-] | VOXO | 🔁📚 | [🤗junjuice0](https://huggingface.co/junjuice0/VOXO) | 2
 [![Open In Colab][colab-icon]][waifa] | Waifu Anything | 🔁 | [🤗KuromiLayfe](https://huggingface.co/KuromiLayfe/WaifuAnything) | 1
-[![Open In Colab][colab-icon]][waifd] | Waifu Diffusion <br>(👑`1.5 beta 2`) | 📚 | [🤗hakurei](https://huggingface.co/hakurei/waifu-diffusion) | 7
+[![Open In Colab][colab-icon]][waifd] | Waifu Diffusion <br>(👑`1.5 beta 3 illusion`) | 📚 | [🤗waifu-diffusion](https://huggingface.co/waifu-diffusion/wd-1-5-beta3) | 12
 
 <!-- [![Open In Colab][colab-icon]][code] | name | emojis | [🤗author](https://huggingface.co/author/model) | count -->
 
 ### 🏷 Legends
 | Emoji | Meaning |
-| --- | --- |
+| :---: | --- |
 | (👑`<model>`) | Notable model** |
 | 🔥 | Personal favorite |
 | 🔁 | Mixed models |
@@ -141,7 +141,6 @@ Head over to 🖼[ ***Showcase*** ][showcase]✨ to see what the models might lo
 - [alemelis' sd-webui-ar](https://github.com/alemelis/sd-webui-ar)
 - [hnmr293's sd-webui-cutoff](https://github.com/hnmr293/sd-webui-cutoff)
 - [mcmonkeyprojects's sd-dynamic-thresholding](https://github.com/mcmonkeyprojects/sd-dynamic-thresholding)
-- [Mikubill's sd-webui-controlnet](https://github.com/Mikubill/sd-webui-controlnet)
 - [opparco's stable-diffusion-webui-two-shot](https://github.com/opparco/stable-diffusion-webui-two-shot)
 - [pkuliyi2015's multidiffusion-upscaler-for-automatic1111](https://github.com/pkuliyi2015/multidiffusion-upscaler-for-automatic1111)
 - [space-nuko's sd-webui-session-organizer](https://github.com/space-nuko/sd-webui-session-organizer)
@@ -153,6 +152,13 @@ Head over to 🖼[ ***Showcase*** ][showcase]✨ to see what the models might lo
 - [hako-mikan's sd-webui-regional-prompter](https://github.com/hako-mikan/sd-webui-regional-prompter)
 - [muerrilla's stable-diffusion-NPW](https://github.com/muerrilla/stable-diffusion-NPW)
 
+### ControlNet
+Automatically downloads when selecting ControlNet models
+- [Mikubill's sd-webui-controlnet](https://github.com/Mikubill/sd-webui-controlnet)
+- [fkunn1326's openpose-editor](https://github.com/fkunn1326/openpose-editor)
+- [nonnonstop's sd-webui-3d-open-pose-editor](https://github.com/nonnonstop/sd-webui-3d-open-pose-editor)
+- [jexom's sd-webui-depth-lib](https://github.com/jexom/sd-webui-depth-lib)
+
 ## (Negative) Embeddings
 - [gsdf's EasyNegative](https://huggingface.co/datasets/gsdf/EasyNegative) [and EasyNegative2](https://huggingface.co/gsdf/Counterfeit-V3.0/blob/main/embedding/EasyNegativeV2.safetensors)
 - [Nerfgun3's bad_prompt](https://huggingface.co/datasets/Nerfgun3/bad_prompt)
@@ -161,7 +167,19 @@ Head over to 🖼[ ***Showcase*** ][showcase]✨ to see what the models might lo
 - [yesyeahvh's bad-hands-5](https://huggingface.co/yesyeahvh/bad-hands-5)
 
 ## Models License
-<https://huggingface.co/spaces/CompVis/stable-diffusion-license>
+- [CompVis' stable-diffusion-license](https://huggingface.co/spaces/CompVis/stable-diffusion-license)
+
+## Miscellaneous
+- [visitorbadge.io](https://visitorbadge.io/)
+  - for tracking the usage of the notebooks
+
+<!--
+#######################################################################################################################
+##
+## LINKS
+##
+#######################################################################################################################
+ -->
 
 [colab-icon]: https://colab.research.google.com/assets/colab-badge.svg
 
