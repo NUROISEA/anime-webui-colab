@@ -315,6 +315,7 @@ def controlnet_list(option,webui_version='stable',extensions_version='stable'):
   count = len(controlnet_models[option])
   estimate_size = (count * 723) if option != 't2i' else (count * 155)
   print(f'⌛ This might take a while! Size estimate is ~{estimate_size}MB. Grab a 🍿 or something xD')
+  print('\n📢 These models are FP16, btw. ;)\n')
   print(f'🤙 Downloading {count} ControlNet {option} models...')
 
   return controlnet_models[option]
@@ -438,7 +439,7 @@ def download_vae(link, folder=vae_folder):
   return aria2_download(link, folder, file_name)
 
 def download_controlnet(link, folder=controlnet_models_folder):
-  file_name = link.split('/')[-1]
+  file_name = link.split('/')[-1].replace('-fp16','').replace('_fp16','')
   return aria2_download(link, folder, file_name)
 
 # download functions for PYOM and UWUColab
