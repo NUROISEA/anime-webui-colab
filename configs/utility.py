@@ -1,3 +1,5 @@
+#@title `script.py`
+
 import json
 import os
 import subprocess
@@ -13,6 +15,9 @@ mounted_gdrive = False
 installed_aria2 = False
 controlnet_installed = False
 disabled_logging = False
+
+chosen_webui_version = 'stable'
+chosen_extension_version = 'stable'
 
 web_ui_folder = '/content/stable-diffusion-webui'
 models_folder = f'{web_ui_folder}/models/Stable-diffusion'
@@ -77,7 +82,9 @@ def colab_memory_fix():
   return commands
 
 def install_webui(option):
-  global webui_branch, web_ui_folder
+  global webui_branch, web_ui_folder, chosen_webui_version
+
+  chosen_webui_version = option
 
   version_dictionary = {
     'stable':     f'-b {webui_branch} https://github.com/anime-webui-colab/stable-diffusion-webui',
@@ -100,7 +107,9 @@ def install_webui(option):
   return git_clone_command
 
 def extensions_list(option,webui_version='stable',controlnet='none', only_controlnet=False):
-  global extensions_folder, controlnet_installed
+  global extensions_folder, controlnet_installed, chosen_extension_version
+
+  chosen_extension_version = option
 
   # sorter via folder name
   def sort_ext(string):
@@ -228,12 +237,25 @@ def configs_list():
   ]
 
 def patch_list():
+  global chosen_webui_version
+
+  def replace(item):
+    if isinstance(item, str):
+      item = item.replace('prepare_environment()', 'import webui')
+      item = item.replace('launch.py', 'modules/launch_utils.py')
+    return item
+
   import requests
   url = 'https://github.com/NUROISEA/anime-webui-colab/raw/main/configs/patch_list.txt'
   response = requests.get(url)
   data = response.text
   print('🩹 Applying web UI Colab patches...')
-  return data.splitlines()
+  p_list = data.splitlines()
+
+  if chosen_webui_version in ['latest', 'latest-dev']:
+    p_list[:] = [replace(item) for item in p_list]
+
+  return p_list
 
 def controlnet_list(option,webui_version='stable',extensions_version='stable'):
   global controlnet_installed
