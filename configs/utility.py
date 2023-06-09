@@ -8,7 +8,6 @@ from datetime import datetime,timezone
 
 logged_keys = []
 models_downloaded = []
-webui_branch = '23.03.14'
 
 has_run = False
 mounted_gdrive = False
@@ -82,9 +81,11 @@ def colab_memory_fix():
   return commands
 
 def install_webui(option):
-  global webui_branch, web_ui_folder, chosen_webui_version
+  global web_ui_folder, chosen_webui_version
 
   chosen_webui_version = option
+
+  webui_branch = '23.03.14'
 
   version_dictionary = {
     'stable':     f'-b {webui_branch} https://github.com/anime-webui-colab/stable-diffusion-webui',
