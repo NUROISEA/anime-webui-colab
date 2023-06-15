@@ -50,7 +50,7 @@ Head over to 🖼[ ***Showcase*** ][showcase]✨ to see what the models might lo
 [![Open In Colab][colab-icon]][anyga] | AnyGape Mix | 🔁 | [🤗etherealxx](https://huggingface.co/etherealxx/anygape-mix) | 1
 [![Open In Colab][colab-icon]][anymx] | Anything Mix <br>(👑`blossom-extract`) | 🔁📚 | [🤗NUROISEA](https://huggingface.co/NUROISEA/anything-mix) | 7
 [![Open In Colab][colab-icon]][anyv3] | Anything V3 | 🔥 | [🤗NUROISEA](https://huggingface.co/NUROISEA/av3-mirror) (mirror) | 1 
-[![Open In Colab][colab-icon]][anyv4] | Anything V4 <br>(👑`v4`)| 🔥🔁📚 | [🤗andite](https://huggingface.co/andite/anything-v4.0) | 2
+[![Open In Colab][colab-icon]][anyv4] | Anything V4 <br>(👑`v4`)| 🔥🔁📚 | [🤗xyn-ai](https://huggingface.co/xyn-ai/anything-v4.0) (mirror) | 2
 [![Open In Colab][colab-icon]][bakad] | Baka-Diffusion! |  | [🤗Hosioka](https://huggingface.co/Hosioka/Baka-Diffusion) | 1 
 [![Open In Colab][colab-icon]][camel] | CamelliaMix <br>(👑`v2`)| 🔁📚 | [🤗Powidl43](https://huggingface.co/Powidl43/CamelliaMix) (mirror) | 8
 [![Open In Colab][colab-icon]][chame] | ChameleonAI Mix | 🔁 | [👔ChameleonAI](https://civitai.com/models/19785/chameleonai-mix) | 1
@@ -74,7 +74,7 @@ Head over to 🖼[ ***Showcase*** ][showcase]✨ to see what the models might lo
 [![Open In Colab][colab-icon]][momoc] | Momocha Mix | 🔁 | [🤗NoCrypt](https://huggingface.co/NoCrypt/momocha-mix) | 1
 [![Open In Colab][colab-icon]][opena] | OpenAnimeJourney |  | [🤗MehjourneyClosedAI](https://huggingface.co/MehjourneyClosedAI/OpenAnimeJourney) | 1
 [![Open In Colab][colab-icon]][orang] | OrangeMixs <br>(👑`BloodNightOrange`) | 🔁📚 | [🤗WarriorMama777](https://huggingface.co/WarriorMama777/OrangeMixs) | 27
-[![Open In Colab][colab-icon]][paste] | Pastel Mix | 🔥🔁 | [🤗andite](https://huggingface.co/andite/pastel-mix) | 1
+[![Open In Colab][colab-icon]][paste] | Pastel Mix | 🔥🔁 | [🤗NUROISEA](https://huggingface.co/NUROISEA/plmx-mirror) (mirror) | 1
 [![Open In Colab][colab-icon]][platd] | Plat Diffusion | | [🤗p1atdev](https://huggingface.co/p1atdev/plat-diffusion) | 1
 [![Open In Colab][colab-icon]][proto] | ProtoThing_200 | 🔁📚 | [🤗NiteStormz](https://huggingface.co/NiteStormz/ProtoThing_200) | 3
 [![Open In Colab][colab-icon]][rasge] | Rasgeath's Self Made Sauce <br>(👑`Kani-anime`)| 🔁 | [🤗Rasgeath](https://huggingface.co/Rasgeath/self_made_sauce) | 7
