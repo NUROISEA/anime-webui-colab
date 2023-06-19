@@ -161,7 +161,7 @@ def extensions_list(option,webui_version='stable',controlnet='none', only_contro
 
   extensions = {
     'lite': [
-      f'-b 23.03.30 https://github.com/anime-webui-colab/ext-batchlinks {f}/batchlinks',
+      f'-b 23.05.03 https://github.com/anime-webui-colab/ext-batchlinks {f}/batchlinks',
       f'-b 23.03.31 https://github.com/anime-webui-colab/ext-state {f}/state',
       f'-b 22.12.10 https://github.com/anime-webui-colab/ext-tokenizer {f}/tokenizer',
       f'-b 23.02.27 https://github.com/anime-webui-colab/ext-tunnels {f}/tunnels',
