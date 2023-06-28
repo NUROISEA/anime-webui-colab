@@ -87,7 +87,7 @@ def install_webui(option):
 
   version_dictionary = {
     'fallback':   f'-b 23.03.14 https://github.com/anime-webui-colab/stable-diffusion-webui',
-    'stable':     f'-b v1.3.2 https://github.com/anime-webui-colab/stable-diffusion-webui',
+    'stable':     f'-b v1.4.0 https://github.com/anime-webui-colab/stable-diffusion-webui',
     'latest':      'https://github.com/AUTOMATIC1111/stable-diffusion-webui',
     'latest-dev':  '-b dev https://github.com/AUTOMATIC1111/stable-diffusion-webui',
     'ui-redesign': 'https://github.com/anapnoe/stable-diffusion-webui-ux',
