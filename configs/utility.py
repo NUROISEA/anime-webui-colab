@@ -338,19 +338,33 @@ def controlnet_list(option,webui_version='stable',extensions_version='stable'):
     ],
     'v1.1': [
       'https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11e_sd15_ip2p_fp16.safetensors',
+      'https://huggingface.co/ckpt/ControlNet-v1-1/resolve/main/control_v11e_sd15_ip2p.yaml',
       'https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11e_sd15_shuffle_fp16.safetensors',
+      'https://huggingface.co/ckpt/ControlNet-v1-1/resolve/main/control_v11e_sd15_shuffle.yaml',
       'https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11f1p_sd15_depth_fp16.safetensors',
+      'https://huggingface.co/ckpt/ControlNet-v1-1/resolve/main/control_v11f1p_sd15_depth.yaml',
       'https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_canny_fp16.safetensors',
+      'https://huggingface.co/ckpt/ControlNet-v1-1/resolve/main/control_v11p_sd15_canny.yaml',
       'https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_inpaint_fp16.safetensors',
+      'https://huggingface.co/ckpt/ControlNet-v1-1/resolve/main/control_v11p_sd15_inpaint.yaml',
       'https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_lineart_fp16.safetensors',
+      'https://huggingface.co/ckpt/ControlNet-v1-1/resolve/main/control_v11p_sd15_lineart.yaml',
       'https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_mlsd_fp16.safetensors',
+      'https://huggingface.co/ckpt/ControlNet-v1-1/resolve/main/control_v11p_sd15_mlsd.yaml',
       'https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_normalbae_fp16.safetensors',
+      'https://huggingface.co/ckpt/ControlNet-v1-1/resolve/main/control_v11p_sd15_normalbae.yaml',
       'https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_openpose_fp16.safetensors',
+      'https://huggingface.co/ckpt/ControlNet-v1-1/resolve/main/control_v11p_sd15_openpose.yaml',
       'https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_scribble_fp16.safetensors',
+      'https://huggingface.co/ckpt/ControlNet-v1-1/resolve/main/control_v11p_sd15_scribble.yaml',
       'https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_seg_fp16.safetensors',
+      'https://huggingface.co/ckpt/ControlNet-v1-1/resolve/main/control_v11p_sd15_seg.yaml',
       'https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_softedge_fp16.safetensors',
+      'https://huggingface.co/ckpt/ControlNet-v1-1/resolve/main/control_v11p_sd15_softedge.yaml',
       'https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15s2_lineart_anime_fp16.safetensors',
-      'https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11u_sd15_tile_fp16.safetensors',  
+      'https://huggingface.co/ckpt/ControlNet-v1-1/resolve/main/control_v11p_sd15s2_lineart_anime.yaml',
+      'https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11u_sd15_tile_fp16.safetensors',
+      'https://huggingface.co/ckpt/ControlNet-v1-1/resolve/main/control_v11u_sd15_tile.yaml',
     ],
   }
 
@@ -377,10 +391,9 @@ def controlnet_list(option,webui_version='stable',extensions_version='stable'):
     controlnet_installed = True
 
   count = len(controlnet_models[option])
-  estimate_size = (count * 723) if option != 't2i' else (count * 155)
-  print(f'⌛ This might take a while! Size estimate is ~{estimate_size}MB. Grab a 🍿 or something xD')
+  print(f'⌛ This might take a while! Grab a 🍿 or something xD')
   print('\n📢 These models are FP16, btw. ;)\n')
-  print(f'🤙 Downloading {count} ControlNet {option} models...')
+  print(f'🤙 Downloading {count} ControlNet {option} files/models...')
 
   return controlnet_models[option]
 
