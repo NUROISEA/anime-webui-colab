@@ -36,11 +36,11 @@ You can safely ignore this notice if you don't get the warning. 😉 (for now at
 
 *For a detailed tutorial, [refer to the wiki](https://github.com/NUROISEA/anime-webui-colab/wiki)* :)
 
-## 🔎 Model Samples
+## 📒 Colab Notebooks
 
 Head over to 🖼[ ***Showcase*** ][showcase]✨ to see what the models might look like! :D
 
-## 📒 Colab Notebooks
+*Use [***Provide Your Own Models***][pyom] colab if the model you want is not in the list below ;)*
 
 | Colab Link | Model | 🤔 | Model Page | Count*
 | ---        | ---   | :---: | ---        | ---: |
@@ -113,6 +113,8 @@ Head over to 🖼[ ***Showcase*** ][showcase]✨ to see what the models might lo
 | `<none soon:tm:>` | Includes all of the models above, a supercharged PYOM <br> *Because maintaining 40 notebooks is such a hassle*
 
 [showcase]: https://anime-webui-colab.github.io/showcase/model-list
+
+[pyom]: #-provide-your-own-models-pyom-
 
 # 🧐 References
 
