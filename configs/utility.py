@@ -214,7 +214,7 @@ def extensions_list(option,webui_version='stable',controlnet='none', only_contro
       f'https://github.com/Mikubill/sd-webui-controlnet {f}/controlnet',
       f'https://github.com/fkunn1326/openpose-editor {f}/2d-openpose-editor',
       f'https://github.com/nonnonstop/sd-webui-3d-open-pose-editor {f}/3d-openpose-editor',
-      f'https://github.com/jexom/sd-webui-depth-lib {f}/depth-lib',
+      #f'https://github.com/jexom/sd-webui-depth-lib {f}/depth-lib',
     ],
   }
 
