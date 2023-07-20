@@ -387,7 +387,7 @@ def controlnet_list(option,webui_version='stable',extensions_version='stable'):
 
   count = len(controlnet_models[option])
   print(f'⌛ This might take a while! Grab a 🍿 or something xD')
-  print('\n📢 These models are FP16, btw. ;)\n')
+  print('📢 These models are FP16, btw. ;)')
   print(f'🤙 Downloading {count} ControlNet {option} files/models...')
 
   return controlnet_models[option]
@@ -524,5 +524,9 @@ def dl_vae(link,yaml='',folder=vae_download_folder):
   link = link.replace('/blob/', '/resolve/')
   has_downloaded_at_least_once = True
   return download_vae(link,folder)
+
+###############################################################################
+
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
 print('👍 Utility script imported.')
