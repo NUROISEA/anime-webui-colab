@@ -292,7 +292,13 @@ def patch_list():
   if chosen_webui_version not in ['fallback']:
     p_list[:] = [replace(item) for item in p_list]
 
-  return p_list
+  # haphazardly adding this
+  extra_patches = [
+    'echo "🩹 Applying Colab memory patches..."',
+    'wget -q https://github.com/camenduru/gperftools/releases/download/v1.0/libtcmalloc_minimal.so.4 -O /content/libtcmalloc_minimal.so.4',
+  ]
+
+  return p_list + extra_patches
 
 def controlnet_list(option,webui_version='stable',extensions_version='stable'):
   global controlnet_installed
