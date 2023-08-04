@@ -61,7 +61,7 @@ Head over to 🖼[ ***Showcase*** ][showcase]✨ to see what the models might lo
 [![Open In Colab][colab-icon]][elysi] | Elysium Anime <br>(👑`v2`)| 🔁📚 | [🤗hesw23168](https://huggingface.co/hesw23168/SD-Elysium-Model) | 3
 [![Open In Colab][colab-icon]][every] | Everything | 🔁 | [🤗DrBob2142](https://huggingface.co/DrBob2142/Everything) | 3
 [![Open In Colab][colab-icon]][evtv3] | Evt_V3 |  | [🤗haor](https://huggingface.co/haor/Evt_V3) | 1
-[![Open In Colab][colab-icon]][expmi] | ExpMix_Line <br>(👑`v2`)| 🔥🔁 | [👔mods13](https://civitai.com/models/12865/expmixline) | 2
+[![Open In Colab][colab-icon]][expmi] | ExpMix_Line <br>(👑`v2`)| 🔥🔁 | [👔mods13](https://civitai.com/models/44150) | 3
 [![Open In Colab][colab-icon]][grape] | Grapefruit | 🔁📚 | [🤗iZELX1](https://huggingface.co/iZELX1/Grapefruit) | 6
 [![Open In Colab][colab-icon]][hddre] | HDDream-G | 🔁 | [🤗Horsebird](https://huggingface.co/Horsebird/HDDream-G) | 1
 [![Open In Colab][colab-icon]][henta] | Hentai Diffusion <br>(👑`22`) | 📚 | [🤗Deltaadams](https://huggingface.co/Deltaadams/HentaiDiffusion) | 5
@@ -159,7 +159,6 @@ Automatically downloads when selecting ControlNet models
 - [Mikubill's sd-webui-controlnet](https://github.com/Mikubill/sd-webui-controlnet)
 - [fkunn1326's openpose-editor](https://github.com/fkunn1326/openpose-editor)
 - [nonnonstop's sd-webui-3d-open-pose-editor](https://github.com/nonnonstop/sd-webui-3d-open-pose-editor)
-- [jexom's sd-webui-depth-lib](https://github.com/jexom/sd-webui-depth-lib)
 
 ## (Negative) Embeddings
 - [gsdf's EasyNegative](https://huggingface.co/datasets/gsdf/EasyNegative) [and EasyNegative2](https://huggingface.co/gsdf/Counterfeit-V3.0/blob/main/embedding/EasyNegativeV2.safetensors)
