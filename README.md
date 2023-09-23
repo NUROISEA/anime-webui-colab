@@ -3,15 +3,11 @@
 
 ## ⚠🚨 Notice 🚨⚠ 
 
-<details><summary>(click to expand)</summary>
+### **YOU WILL NEED COLAB PRO TO RUN ANY OF THESE NOTEBOOKS**
 
-Google Colab is starting to limit free users on using stable diffusion web UI.
+Google Colab restricting free users on using Stable Diffusion web UI.
 
-Running any of these *might* show a warning stating that this is 'prohibited code'. 
-
-**It's not.** 
-
-You can still run it but you the risk of being disconnected early, *only if you get the warning*.
+Running without Pro will result in **early disconnects**.
 
 You can read more in the following links:
 - [Initial reddit post in /r/StableDiffusion](https://www.reddit.com/r/StableDiffusion/comments/12t8tc7/is_colab_going_to_start_banning_people_who_use_it/)
@@ -20,13 +16,6 @@ You can read more in the following links:
 - [Colab Project lead's tweet](https://twitter.com/thechrisperry/status/1649189902079381505)
 - [Reddit post showing Pro users can use this no problem](https://www.reddit.com/r/StableDiffusion/comments/12tj22r/official_statement_from_the_person_in_charge_of/)
 
-Pro users seems to not get this warning. I recommend buying Colab Pro or Pro+ *only if you get the warning*.
-
-You can safely ignore this notice if you don't get the warning. 😉 (for now at least) 
-
-**But when in doubt, use a Google Account that you don't care about, just in case.**
-
-</details>
 
 ## 🤔 How to use (simpified)
 
@@ -41,6 +30,8 @@ You can safely ignore this notice if you don't get the warning. 😉 (for now at
 Head over to 🖼[ ***Showcase*** ][showcase]✨ to see what the models might look like! :D
 
 *Use [***Provide Your Own Models***][pyom] colab if the model you want is not in the list below ;)*
+
+Just to reiterate: **YOU WILL NEED COLAB PRO TO RUN ANY OF THESE NOTEBOOKS**
 
 | Colab Link | Model | 🤔 | Model Page | Count*
 | ---        | ---   | :---: | ---        | ---: |
