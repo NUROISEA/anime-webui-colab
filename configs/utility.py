@@ -536,3 +536,17 @@ def dl_vae(link,yaml='',folder=vae_download_folder):
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
 print('👍 Utility script imported.')
+
+notices = [
+  '🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨',
+  '🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨',
+  '🚨🚨                 IF YOU DONT HAVE COLAB PRO                         🚨🚨',
+  '🚨🚨        THIS NOTEBOOK WILL STOP FUNCTIONING IMMEDIATELY             🚨🚨',
+  '🚨🚨                       OR AT 10 MINUTES                             🚨🚨',
+  '🚨🚨       you can ignore this if you have pro btw, but yeah            🚨🚨',
+  '🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨',
+  '🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨',
+]
+
+for notice in notices:
+  print(notice)
