@@ -100,7 +100,7 @@ def install_webui(option):
     print('⏲ Selected the fallback version of the web UI. Version released on 23.03.14.')
     print('📣 Extensions will follow suit.')
   
-  print('🌟 Installing stable-diffusion-webui...')
+  print(f'🌟 Installing stable-diffusion-webui ({option})...')
   git_clone_command = f'git clone -q {version_dictionary[option]} {web_ui_folder}'
   return git_clone_command
 
@@ -248,7 +248,7 @@ def extensions_list(option,webui_version='stable',controlnet='none', only_contro
     print('\n📣 Fallback web UI version detected, using older extensions!\n')
 
   if option != 'none':
-    print(f'📦 Installing {len(ext_list)} extensions...')
+    print(f'📦 Installing {len(ext_list)} extensions ({option})...')
 
   ext_list.sort(key=sort_ext)
   return ext_list
