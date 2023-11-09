@@ -292,10 +292,13 @@ def patch_list():
   if chosen_webui_version not in ['fallback']:
     p_list[:] = [replace(item) for item in p_list]
 
-  # haphazardly adding this
+  # still haphazardly adding this
   extra_patches = [
     'echo "🩹 Applying Colab memory patches..."',
     'wget -q https://github.com/camenduru/gperftools/releases/download/v1.0/libtcmalloc_minimal.so.4 -O /content/libtcmalloc_minimal.so.4',
+
+    'echo "🩹 Applying httpx fix for new Colab version..."',
+    'pip install -q httpx==0.24.1', # https://github.com/NUROISEA/anime-webui-colab/issues/35#issuecomment-1801356768
   ]
 
   return p_list + extra_patches
