@@ -298,8 +298,17 @@ def patch_list():
     'wget -q https://github.com/camenduru/gperftools/releases/download/v1.0/libtcmalloc_minimal.so.4 -O /content/libtcmalloc_minimal.so.4',
 
     'echo "🩹 Applying httpx fix for new Colab version..."',
-    'pip install -q httpx==0.24.1', # https://github.com/NUROISEA/anime-webui-colab/issues/35#issuecomment-1801356768
+    # https://github.com/NUROISEA/anime-webui-colab/issues/35#issuecomment-1801356768
+    'pip install -q httpx==0.24.1', 
   ]
+
+  if chosen_webui_version in ['stable']:
+    extra_patches += [
+      'echo "🩹 Applying torch/xformers fix for new Colab version..."',
+      # https://github.com/NUROISEA/anime-webui-colab/issues/39#issuecomment-2002471138
+      'pip uninstall torch xformers -y',
+      'python -m pip install -q torch==2.0.1 torchvision==0.15.2 --extra-index-url https://download.pytorch.org/whl/cu118 xformers==0.0.21',
+    ]
 
   return p_list + extra_patches
 
@@ -433,6 +442,10 @@ def arguments(model='', vae='', tunnel='gradio', ng_token='', ng_region='auto', 
   log_usage(f'tunnel-{tunnel}')
   
   args_clean = list(filter(None, map(str.strip, args))) # thanks, chatgpt!
+
+  # TODO: put this elsewhere
+  print('\n\n\n💬 Logs after this are now logs of the web UI...\n\n\n')
+
   return args_clean
 
 def mount_drive(on_drive=False):
