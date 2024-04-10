@@ -97,9 +97,12 @@ def install_webui(option):
     print('🧪 This is the cutting-edge version of the web UI! Stuff might not work!')
   elif option == 'latest':
     print('🔼 Selected the latest version of the web UI.')
+  elif option == 'stable':
+    print('🔔 Selected an old version of the web UI. Version released on 23.06.27. (v1.4.0)')
+    print('🔔 Please consider using the latest version, unless you really need this specific version.')
   elif option == 'fallback':
-    print('⏲ Selected the fallback version of the web UI. Version released on 23.03.14.')
-    print('📣 Extensions will follow suit.')
+    print('🔔 Selected the fallback version of the web UI. Version released on 23.03.14.')
+    print('🔔 Extensions will follow suit.')
   
   print(f'🌟 Installing stable-diffusion-webui ({option})...')
   git_clone_command = f'git clone -q {version_dictionary[option]} {web_ui_folder}'
