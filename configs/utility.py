@@ -54,9 +54,10 @@ def log_usage(key):
 
   namespace = 'NUROISEA/anime-webui-colab'
   count_url = f'https://api.visitorbadge.io/api/visitors?path={namespace}/{key}'
+  user_agent = 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
 
   try:
-    run_shell(f'curl {count_url}')
+    run_shell(f'curl {count_url} -H {user_agent}')
   except:
     print('😖 visitorbadge.io seems to be having an issue, disabled usage counting for now...')
     disabled_logging = True
