@@ -1,9 +1,11 @@
 
 # ✨ Anime Web UI Colab
 
-## ⚠🚨 Notice 🚨⚠ 
+> [!CAUTION]  
+> **YOU WILL NEED COLAB PRO TO RUN ANY OF THESE NOTEBOOKS**
+> Read more about this below
 
-### **YOU WILL NEED COLAB PRO TO RUN ANY OF THESE NOTEBOOKS**
+<details><summary>More info</summary>
 
 Google Colab restricting free users on using Stable Diffusion web UI.
 
@@ -16,6 +18,7 @@ You can read more in the following links:
 - [Colab Project lead's tweet](https://twitter.com/thechrisperry/status/1649189902079381505)
 - [Reddit post showing Pro users can use this no problem](https://www.reddit.com/r/StableDiffusion/comments/12tj22r/official_statement_from_the_person_in_charge_of/)
 
+</details>
 
 ## 🤔 How to use (simpified)
 
@@ -27,22 +30,21 @@ You can read more in the following links:
 
 ## 📒 Colab Notebooks
 
-Head over to 🖼[ ***Showcase*** ][showcase]✨ to see what the models might look like! :D
+> [!TIP]
+> Head over to 🖼[ ***Showcase*** ][showcase]✨ to see what the models might look like! :D
+> Use [***Provide Your Own Models***][pyom] colab if the model you want is not in the list below ;)
 
-*Use [***Provide Your Own Models***][pyom] colab if the model you want is not in the list below ;)*
-
-Just to reiterate: **YOU WILL NEED COLAB PRO TO RUN ANY OF THESE NOTEBOOKS**
+> [!CAUTION]
+> Just to reiterate: **YOU WILL NEED COLAB PRO TO RUN ANY OF THESE NOTEBOOKS**
 
 | Colab Link | Model | 🤔 | Model Page | Count*
 | ---        | ---   | :---: | ---        | ---: |
 [![Open In Colab][colab-icon]][7thla] | 7th_Layer <br>(👑`7th_anime_v2_A`) | 🔥🔁📚 | [🤗syaimu](https://huggingface.co/syaimu/7th_Layer) | 10
 [![Open In Colab][colab-icon]][8528d] | 8528-diffusion | 🔁 | [🤗ckpt](https://huggingface.co/ckpt/8528-diffusion) (mirror) | 1 
 [![Open In Colab][colab-icon]][anime] | AnimeInOurWorld |  | [🤗NoCrypt](https://huggingface.co/NoCrypt/animeinourworld-model) | 1
-[![Open In Colab][colab-icon]][anyga] | AnyGape Mix | 🔁 | [🤗etherealxx](https://huggingface.co/etherealxx/anygape-mix) | 1
 [![Open In Colab][colab-icon]][anymx] | Anything Mix <br>(👑`blossom-extract`) | 🔁📚 | [🤗NUROISEA](https://huggingface.co/NUROISEA/anything-mix) | 7
 [![Open In Colab][colab-icon]][anyv3] | Anything V3 | 🔥 | [🤗NUROISEA](https://huggingface.co/NUROISEA/av3-mirror) (mirror) | 1 
 [![Open In Colab][colab-icon]][anyv4] | Anything V4 <br>(👑`v4`)| 🔥🔁📚 | [🤗xyn-ai](https://huggingface.co/xyn-ai/anything-v4.0) (mirror) | 2
-[![Open In Colab][colab-icon]][bakad] | Baka-Diffusion! |  | [🤗Hosioka](https://huggingface.co/Hosioka/Baka-Diffusion) | 1 
 [![Open In Colab][colab-icon]][camel] | CamelliaMix <br>(👑`v2`)| 🔁📚 | [🤗Powidl43](https://huggingface.co/Powidl43/CamelliaMix) (mirror) | 8
 [![Open In Colab][colab-icon]][chame] | ChameleonAI Mix | 🔁 | [👔ChameleonAI](https://civitai.com/models/19785/chameleonai-mix) | 1
 [![Open In Colab][colab-icon]][count] | Counterfeit <br>(👑`v2.1`) | 🔁📚 | [🤗gsdf](https://huggingface.co/gsdf/Counterfeit-V3.0) | 6
@@ -54,28 +56,44 @@ Just to reiterate: **YOU WILL NEED COLAB PRO TO RUN ANY OF THESE NOTEBOOKS**
 [![Open In Colab][colab-icon]][evtv3] | Evt_V3 |  | [🤗haor](https://huggingface.co/haor/Evt_V3) | 1
 [![Open In Colab][colab-icon]][expmi] | ExpMix_Line <br>(👑`v2`)| 🔥🔁 | [👔mods13](https://civitai.com/models/44150) | 3
 [![Open In Colab][colab-icon]][grape] | Grapefruit | 🔁📚 | [🤗iZELX1](https://huggingface.co/iZELX1/Grapefruit) | 6
-[![Open In Colab][colab-icon]][hddre] | HDDream-G | 🔁 | [🤗Horsebird](https://huggingface.co/Horsebird/HDDream-G) | 1
 [![Open In Colab][colab-icon]][henta] | Hentai Diffusion <br>(👑`22`) | 📚 | [🤗Deltaadams](https://huggingface.co/Deltaadams/HentaiDiffusion) | 5
-[![Open In Colab][colab-icon]][ligne] | Ligne Claire Anime | 🔥 | [🤗breakcore2](https://huggingface.co/breakcore2/ligne_claire_anime_diffusion) | 1
 [![Open In Colab][colab-icon]][midni] | Midnight Mixes | 🔥🔁 | [🤗DrBob2142](https://huggingface.co/DrBob2142/Midnight_Mixes) | 3
-[![Open In Colab][colab-icon]][misob] | Misobarisic's Playground |  🔁📚 | [🤗misobarisic](https://huggingface.co/misobarisic/playground) | 7
 [![Open In Colab][colab-icon]][mix00] | mixes0000 <br>(👑`soul0000`) | 🔥🔁 | [🤗TheRaphael0000](https://huggingface.co/TheRaphael0000/mixes0000) | 2
 [![Open In Colab][colab-icon]][mixin] | Mixing Cauldron <br>(👑`exsoular`) | 🔁📚 | [🤗NUROISEA](https://huggingface.co/NUROISEA/mixing-cauldron) | 6
 [![Open In Colab][colab-icon]][mixpr] | MIX-Pro <br>(👑`V3`)| 🔥🔁 | [👔P317cm](https://civitai.com/models/7241/mix-pro-v3) | 4
-[![Open In Colab][colab-icon]][momoc] | Momocha Mix | 🔁 | [🤗NoCrypt](https://huggingface.co/NoCrypt/momocha-mix) | 1
-[![Open In Colab][colab-icon]][opena] | OpenAnimeJourney |  | [🤗MehjourneyClosedAI](https://huggingface.co/MehjourneyClosedAI/OpenAnimeJourney) | 1
 [![Open In Colab][colab-icon]][orang] | OrangeMixs <br>(👑`BloodNightOrange`) | 🔁📚 | [🤗WarriorMama777](https://huggingface.co/WarriorMama777/OrangeMixs) | 27
 [![Open In Colab][colab-icon]][paste] | Pastel Mix | 🔥🔁 | [🤗NUROISEA](https://huggingface.co/NUROISEA/plmx-mirror) (mirror) | 1
-[![Open In Colab][colab-icon]][platd] | Plat Diffusion | | [🤗p1atdev](https://huggingface.co/p1atdev/plat-diffusion) | 1
 [![Open In Colab][colab-icon]][proto] | ProtoThing_200 | 🔁📚 | [🤗NiteStormz](https://huggingface.co/NiteStormz/ProtoThing_200) | 3
 [![Open In Colab][colab-icon]][rasge] | Rasgeath's Self Made Sauce <br>(👑`Kani-anime`)| 🔁 | [🤗Rasgeath](https://huggingface.co/Rasgeath/self_made_sauce) | 7
-[![Open In Colab][colab-icon]][shira] | Shirayuki Model | 🔁 | [🤗hesw23168](https://huggingface.co/hesw23168/SD_Shirayuki_Model) | 1
 [![Open In Colab][colab-icon]][somet] | Something | 🔁 | [🤗NoCrypt](https://huggingface.co/NoCrypt/SomethingV2_2) | 1
 [![Open In Colab][colab-icon]][voxo-] | VOXO | 🔁📚 | [🤗junjuice0](https://huggingface.co/junjuice0/VOXO) | 2
-[![Open In Colab][colab-icon]][waifa] | Waifu Anything | 🔁 | [🤗KuromiLayfe](https://huggingface.co/KuromiLayfe/WaifuAnything) | 1
 [![Open In Colab][colab-icon]][waifd] | Waifu Diffusion <br>(👑`1.5 beta 3 illusion`) | 📚 | [🤗waifu-diffusion](https://huggingface.co/waifu-diffusion/wd-1-5-beta3) | 12
 
 <!-- [![Open In Colab][colab-icon]][code] | name | emojis | [🤗author](https://huggingface.co/author/model) | count -->
+
+<details><summary>Older notebooks (will not be updated and will break in the future)</summary>
+
+> [!CAUTION]
+> Notebooks listed here are no longer supported! These will break in the future.
+
+> [!TIP]
+> You can still use this model with **PYOM** but you have to manually add the links yourself.
+
+| Colab Link | Model | 🤔 | Model Page | EOS
+| ---        | ---   | :---: | ---        | ---: |
+[![Open In Colab][colab-icon]][anyga] | AnyGape Mix | 🔁 | [🤗etherealxx](https://huggingface.co/etherealxx/anygape-mix) | 24.04.12
+[![Open In Colab][colab-icon]][bakad] | Baka-Diffusion! |  | [🤗Hosioka](https://huggingface.co/Hosioka/Baka-Diffusion) | 24.04.12
+[![Open In Colab][colab-icon]][hddre] | HDDream-G | 🔁 | [🤗Horsebird](https://huggingface.co/Horsebird/HDDream-G) | 24.04.12
+[![Open In Colab][colab-icon]][ligne] | Ligne Claire Anime | 🔥 | [🤗breakcore2](https://huggingface.co/breakcore2/ligne_claire_anime_diffusion) | 24.04.12
+[![Open In Colab][colab-icon]][misob] | Misobarisic's Playground |  🔁📚 | [🤗misobarisic](https://huggingface.co/misobarisic/playground) | 24.04.12
+[![Open In Colab][colab-icon]][momoc] | Momocha Mix | 🔁 | [🤗NoCrypt](https://huggingface.co/NoCrypt/momocha-mix) | 24.04.12
+[![Open In Colab][colab-icon]][opena] | OpenAnimeJourney |  | [🤗MehjourneyClosedAI](https://huggingface.co/MehjourneyClosedAI/OpenAnimeJourney) | 24.04.12
+[![Open In Colab][colab-icon]][platd] | Plat Diffusion | | [🤗p1atdev](https://huggingface.co/p1atdev/plat-diffusion) | 24.04.12
+[![Open In Colab][colab-icon]][shira] | Shirayuki Model | 🔁 | [🤗hesw23168](https://huggingface.co/hesw23168/SD_Shirayuki_Model) | 24.04.12
+[![Open In Colab][colab-icon]][waifa] | Waifu Anything | 🔁 | [🤗KuromiLayfe](https://huggingface.co/KuromiLayfe/WaifuAnything) | 24.04.12
+
+
+</details>
 
 ### 🏷 Legends
 | Emoji | Meaning |
@@ -168,7 +186,7 @@ Automatically downloads when selecting ControlNet models
 <!--
 #######################################################################################################################
 ##
-## LINKS
+## NOTEBOOK LINKS
 ##
 #######################################################################################################################
  -->
@@ -178,11 +196,9 @@ Automatically downloads when selecting ControlNet models
 [7thla]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/7th_layer.ipynb
 [8528d]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/8528-diffusion.ipynb
 [anime]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/animeinourworld.ipynb
-[anyga]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/any_gape_mix.ipynb
 [anymx]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/anything_mix.ipynb
 [anyv3]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/anything_v3.ipynb
 [anyv4]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/anything_v4.ipynb
-[bakad]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/baka_diffusion.ipynb
 [camel]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/camelliamix.ipynb
 [chame]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/chameleonai-mix.ipynb
 [count]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/counterfeit.ipynb
@@ -194,25 +210,36 @@ Automatically downloads when selecting ControlNet models
 [evtv3]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/evt_v3.ipynb
 [expmi]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/expmix_line.ipynb
 [grape]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/grapefruit.ipynb
-[hddre]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/hddream_g.ipynb
 [henta]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/hentai_diffusion.ipynb
-[ligne]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/ligne_claire_anime_diffusion.ipynb
 [midni]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/midnight_mixes.ipynb
-[misob]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/misobarisic_playground.ipynb
 [mix00]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/soul0000.ipynb
 [mixin]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/mixing-cauldron.ipynb
 [mixpr]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/mix-pro-v3.ipynb
-[momoc]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/momocha_mix.ipynb
-[opena]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/open_anime_journey.ipynb
 [orang]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/orange_mixs.ipynb
 [paste]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/pastel_mix.ipynb
-[platd]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/plat-diffusion.ipynb
 [proto]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/protothing_200.ipynb
 [rasge]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/rasgeath_self_made_sauce.ipynb
-[shira]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/shirayuki_model.ipynb
 [somet]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/something.ipynb
 [voxo-]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/voxo.ipynb
-[waifa]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/waifuanything.ipynb
 [waifd]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/waifu_diffusion.ipynb
 
 [own-model]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/provide_your_own_models.ipynb
+
+<!--
+#######################################################################################################################
+##
+## DEPRECIATED NOTEBOOKS
+##
+#######################################################################################################################
+ -->
+
+[anyga]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/e7597dbf1a2356ba71ec2c92ab667ed07671534a/notebooks/any_gape_mix.ipynb
+[bakad]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/e7597dbf1a2356ba71ec2c92ab667ed07671534a/notebooks/baka_diffusion.ipynb
+[hddre]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/e7597dbf1a2356ba71ec2c92ab667ed07671534a/notebooks/hddream_g.ipynb
+[ligne]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/e7597dbf1a2356ba71ec2c92ab667ed07671534a/notebooks/ligne_claire_anime_diffusion.ipynb
+[misob]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/e7597dbf1a2356ba71ec2c92ab667ed07671534a/notebooks/misobarisic_playground.ipynb
+[momoc]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/e7597dbf1a2356ba71ec2c92ab667ed07671534a/notebooks/momocha_mix.ipynb
+[opena]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/e7597dbf1a2356ba71ec2c92ab667ed07671534a/notebooks/open_anime_journey.ipynb
+[platd]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/e7597dbf1a2356ba71ec2c92ab667ed07671534a/notebooks/plat-diffusion.ipynb
+[shira]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/e7597dbf1a2356ba71ec2c92ab667ed07671534a/notebooks/shirayuki_model.ipynb
+[waifa]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/e7597dbf1a2356ba71ec2c92ab667ed07671534a/notebooks/waifuanything.ipynb
