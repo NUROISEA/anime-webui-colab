@@ -3,6 +3,7 @@
 
 > [!CAUTION]  
 > **YOU WILL NEED COLAB PRO TO RUN ANY OF THESE NOTEBOOKS**
+> 
 > Read more about this below
 
 <details><summary>More info</summary>
@@ -32,6 +33,7 @@ You can read more in the following links:
 
 > [!TIP]
 > Head over to 🖼[ ***Showcase*** ][showcase]✨ to see what the models might look like! :D
+> 
 > Use [***Provide Your Own Models***][pyom] colab if the model you want is not in the list below ;)
 
 > [!CAUTION]
@@ -71,13 +73,11 @@ You can read more in the following links:
 
 <!-- [![Open In Colab][colab-icon]][code] | name | emojis | [🤗author](https://huggingface.co/author/model) | count -->
 
+
+> [!WARNING]
+> Notebooks listed below  are no longer supported! These will break in the future.
+
 <details><summary>Older notebooks (will not be updated and will break in the future)</summary>
-
-> [!CAUTION]
-> Notebooks listed here are no longer supported! These will break in the future.
-
-> [!TIP]
-> You can still use this model with **PYOM** but you have to manually add the links yourself.
 
 | Colab Link | Model | 🤔 | Model Page | EOS
 | ---        | ---   | :---: | ---        | ---: |
