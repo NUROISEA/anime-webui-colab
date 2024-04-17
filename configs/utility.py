@@ -558,17 +558,7 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 print('👍 Utility script imported.')
 
 notices = [
-  '🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨',
-  '🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨',
-  '🚨🚨                 IF YOU DONT HAVE COLAB PRO                         🚨🚨',
-  '🚨🚨        THIS NOTEBOOK WILL STOP FUNCTIONING IMMEDIATELY             🚨🚨',
-  '🚨🚨                       OR AT 10 MINUTES                             🚨🚨',
-  '🚨🚨                         OR RANDOMLY                                🚨🚨',
-  '🚨🚨                                                                    🚨🚨',
-  '🚨🚨                                                                    🚨🚨',
-  '🚨🚨       you can ignore this if you have pro btw, but yeah            🚨🚨',
-  '🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨',
-  '🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨',
+  '\n🛑 This notebook requires Colab Pro to work smoothly!\n',
 ]
 
 for notice in notices:
