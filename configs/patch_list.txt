@@ -1,1 +1,1 @@
-sed -i -e '''/    prepare_environment()/a\    os.system\(f\"""sed -i -e ''\"s/dict()))$/dict())).cuda()/gm\"'' /content/stable-diffusion-webui/repositories/stable-diffusion-stability-ai/ldm/util.py""")''' /content/stable-diffusion-webui/launch.py
+sed -i -e '''/    import webui/a\    os.system\(f\"""sed -i -e ''\"s/dict()))$/dict())).cuda()/gm\"'' /content/stable-diffusion-webui/repositories/stable-diffusion-stability-ai/ldm/util.py""")''' /content/stable-diffusion-webui/modules/launch_utils.py

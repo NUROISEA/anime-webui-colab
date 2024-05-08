@@ -82,7 +82,6 @@ def install_webui(option):
   chosen_webui_version = option
 
   version_dictionary = {
-    'fallback':   f'-b 23.03.14 https://github.com/anime-webui-colab/stable-diffusion-webui',
     'stable':     f'-b v1.4.0 https://github.com/anime-webui-colab/stable-diffusion-webui',
     'latest':      'https://github.com/AUTOMATIC1111/stable-diffusion-webui',
     'latest-dev':  '-b dev https://github.com/AUTOMATIC1111/stable-diffusion-webui',
@@ -100,9 +99,6 @@ def install_webui(option):
   elif option == 'stable':
     print('🔔 Selected an old version of the web UI. Version released on 23.06.27. (v1.4.0)')
     print('🔔 Please consider using the latest version, unless you really need this specific version.')
-  elif option == 'fallback':
-    print('🔔 Selected the fallback version of the web UI. Version released on 23.03.14.')
-    print('🔔 Extensions will follow suit.')
   
   print(f'🌟 Installing stable-diffusion-webui ({option})...')
   git_clone_command = f'git clone -q {version_dictionary[option]} {web_ui_folder}'
@@ -124,40 +120,6 @@ def extensions_list(option,webui_version='stable',controlnet='none', only_contro
 
   log_usage(f'extensions-version-{option}')
 
-  # i don't like this at all lmao
-  # this is temporary until the fallback is too old to be usable
-  # i think
-  ext_version = {
-    'images-browser': {
-      'fallback': '23.03.16',
-      'stable': '23.05.08',
-    },
-    'tagcomplete': {
-      'fallback': '23.04.05',
-      'stable': '23.06.09',
-    },
-    'aspect-ratio-preset': {
-      'fallback': '23.03.31',
-      'stable': '23.04.12',
-    },
-    'cutoff': {
-      'fallback': '23.03.22',
-      'stable': '23.05.03',
-    },
-    'dynamic-thresholding': {
-      'fallback': '23.04.12',
-      'stable': '23.05.22',
-    },
-    'tiled-multidiffusion-upscaler': {
-      'fallback': '23.04.16',
-      'stable': '23.06.10',
-    },
-  }
-
-  ext_tag = 'stable'
-  if webui_version == 'fallback':
-    ext_tag = 'fallback'
-
   extensions = {
     'lite': [
       f'-b 23.05.03 https://github.com/anime-webui-colab/ext-batchlinks {f}/batchlinks',
@@ -165,21 +127,21 @@ def extensions_list(option,webui_version='stable',controlnet='none', only_contro
       f'-b 22.12.10 https://github.com/anime-webui-colab/ext-tokenizer {f}/tokenizer',
       f'-b 23.02.27 https://github.com/anime-webui-colab/ext-tunnels {f}/tunnels',
 
-      f'-b {ext_version["images-browser"][ext_tag]} https://github.com/anime-webui-colab/ext-images-browser {f}/images-browser',
-      f'-b {ext_version["tagcomplete"][ext_tag]} https://github.com/anime-webui-colab/ext-tagcomplete {f}/tagcomplete',
+      f'-b 23.05.08 https://github.com/anime-webui-colab/ext-images-browser {f}/images-browser',
+      f'-b 23.06.09 https://github.com/anime-webui-colab/ext-tagcomplete {f}/tagcomplete',
     ],
     'stable': [
       f'-b 23.02.19 https://github.com/anime-webui-colab/ext-latent-couple-two-shot {f}/latent-couple-two-shot',
       f'-b 23.03.19 https://github.com/anime-webui-colab/ext-session-organizer {f}/session-organizer',
 
-      f'-b {ext_version["aspect-ratio-preset"][ext_tag]} https://github.com/anime-webui-colab/ext-aspect-ratio-preset {f}/aspect-ratio-preset',
-      f'-b {ext_version["cutoff"][ext_tag]} https://github.com/anime-webui-colab/ext-cutoff {f}/cutoff',
-      f'-b {ext_version["dynamic-thresholding"][ext_tag]} https://github.com/anime-webui-colab/ext-dynamic-thresholding {f}/dynamic-thresholding',
-      f'-b {ext_version["tiled-multidiffusion-upscaler"][ext_tag]} https://github.com/anime-webui-colab/ext-multidiffusion-upscaler {f}/tiled-multidiffusion-upscaler',
+      f'-b 23.04.12 https://github.com/anime-webui-colab/ext-aspect-ratio-preset {f}/aspect-ratio-preset',
+      f'-b 23.05.03 https://github.com/anime-webui-colab/ext-cutoff {f}/cutoff',
+      f'-b 23.05.22 https://github.com/anime-webui-colab/ext-dynamic-thresholding {f}/dynamic-thresholding',
+      f'-b 23.06.10 https://github.com/anime-webui-colab/ext-multidiffusion-upscaler {f}/tiled-multidiffusion-upscaler',
     ],
     'latest': [
       # using my own fork again to not lose my presets
-      f'-b {ext_version["aspect-ratio-preset"][ext_tag]} https://github.com/anime-webui-colab/ext-aspect-ratio-preset {f}/aspect-ratio-preset',
+      f'-b 23.04.12 https://github.com/anime-webui-colab/ext-aspect-ratio-preset {f}/aspect-ratio-preset',
       f'https://github.com/etherealxx/batchlinks-webui {f}/batchlinks',
       f'https://github.com/hnmr293/sd-webui-cutoff {f}/cutoff',
       f'https://github.com/mcmonkeyprojects/sd-dynamic-thresholding {f}/dynamic-thresholding',
@@ -239,17 +201,10 @@ def extensions_list(option,webui_version='stable',controlnet='none', only_contro
     print('😮 Experimental extensions are prefixed with "z-"')
     ext_list = extensions['latest'] + extensions['experimental']
 
-  if option in ['latest', 'experimental'] and webui_version == 'fallback':
-    print(f'\n😱 The fallback version of the web UI and {option} extensions do not mix well.')
-    print(f'📣 Some extensions might be broken! You have been warned!\n')
-
   if controlnet != 'none' and option not in ['none', 'lite']:
     print(f'💃 ControlNet {controlnet} models detected, including related extensions!')
     controlnet_installed = True
     ext_list += controlnet_extensions['latest']
-
-  if webui_version == 'fallback':
-    print('\n📣 Fallback web UI version detected, using older extensions!\n')
 
   if option != 'none':
     print(f'📦 Installing {len(ext_list)} extensions ({option})...')
@@ -280,21 +235,12 @@ def configs_list():
 def patch_list():
   global chosen_webui_version
 
-  def replace(item):
-    if isinstance(item, str):
-      item = item.replace('prepare_environment()', 'import webui')
-      item = item.replace('launch.py', 'modules/launch_utils.py')
-    return item
-
   import requests
   url = 'https://github.com/NUROISEA/anime-webui-colab/raw/main/configs/patch_list.txt'
   response = requests.get(url)
   data = response.text
   print('🩹 Applying web UI Colab patches...')
   p_list = data.splitlines()
-
-  if chosen_webui_version not in ['fallback']:
-    p_list[:] = [replace(item) for item in p_list]
 
   # still haphazardly adding this
   extra_patches = [
