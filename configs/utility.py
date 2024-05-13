@@ -4,6 +4,7 @@ import json
 import os
 import subprocess
 import shlex
+import hashlib
 from datetime import datetime,timezone
 
 logged_keys = []
@@ -51,18 +52,23 @@ def log_usage(key):
 
   if key in logged_keys:
     return
+  
+  logged_keys.append(key)
 
-  namespace = 'NUROISEA/anime-webui-colab'
-  count_url = f'https://api.visitorbadge.io/api/visitors?path={namespace}/{key}'
-  user_agent = 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+  def to_md5(str):
+    return hashlib.md5(str.encode('utf-8')).hexdigest()
+
+  namespace = to_md5('NUROISEA/anime-webui-colab')
+  key = to_md5(key)
+  count_url = f'https://api.counterapi.dev/v1/{namespace}/{key}/up'
 
   try:
-    run_shell(f'curl {count_url} -H {user_agent}')
+    # why the fuck am i using curl here again?
+    # TODO: remove dependency to shell, use native python requests
+    run_shell(f'curl -X GET {count_url}')
   except:
-    print('😖 visitorbadge.io seems to be having an issue, disabled usage counting for now...')
+    print('😖 counterapi.dev seems to be having an issue, disabled usage counting for now...')
     disabled_logging = True
-
-  logged_keys.append(key)
 
 def colab_memory_fix():
   commands = [
