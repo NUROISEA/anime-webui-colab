@@ -153,6 +153,7 @@ def extensions_list(option,webui_version='stable',controlnet='none', only_contro
       f'https://github.com/mcmonkeyprojects/sd-dynamic-thresholding {f}/dynamic-thresholding',
       f'https://github.com/AlUlkesh/stable-diffusion-webui-images-browser {f}/images-browser',
       f'https://github.com/opparco/stable-diffusion-webui-two-shot {f}/latent-couple-two-shot',
+      f'https://github.com/gutris1/sd-hub {f}/sd-hub',
       f'https://github.com/space-nuko/sd-webui-session-organizer {f}/session-organizer',
       f'https://github.com/ilian6806/stable-diffusion-webui-state {f}/state',
       f'https://github.com/DominikDoom/a1111-sd-webui-tagcomplete {f}/tagcomplete',

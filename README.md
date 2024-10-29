@@ -156,6 +156,7 @@ You can read more in the following links:
 - [opparco's stable-diffusion-webui-two-shot](https://github.com/opparco/stable-diffusion-webui-two-shot)
 - [pkuliyi2015's multidiffusion-upscaler-for-automatic1111](https://github.com/pkuliyi2015/multidiffusion-upscaler-for-automatic1111)
 - [space-nuko's sd-webui-session-organizer](https://github.com/space-nuko/sd-webui-session-organizer)
+- [gutris1's sd-hub](https://github.com/gutris1/sd-hub)
 ### Experimental
 - Everything in Stable/Latest
 - [adieyal's sd-dynamic-prompts](https://github.com/adieyal/sd-dynamic-prompts)
@@ -181,7 +182,7 @@ Automatically downloads when selecting ControlNet models
 - [CompVis' stable-diffusion-license](https://huggingface.co/spaces/CompVis/stable-diffusion-license)
 
 ## Miscellaneous
-- [visitorbadge.io](https://visitorbadge.io/)
+- [counterapi.dev](https://counterapi.dev/)
   - for tracking the usage of the notebooks
 
 <!--
