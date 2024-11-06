@@ -1,10 +1,18 @@
 
 # ✨ Anime Web UI Colab
 
-> [!CAUTION]  
-> **YOU WILL NEED COLAB PRO TO RUN ANY OF THESE NOTEBOOKS**
-> 
-> Read more about this below
+> [!TIP]  
+> Having Colab Pro or credits might be better :)
+
+<!--
+###############################################################
+OLD WARNINGS
+REMOVING FOR NOW SINCE CHRIS PERRY RELAXED THE RESTRICTIONS
+FOR THE WEB UI!!!!
+
+ty chris lol
+https://x.com/thechrisperry/status/1833287564721328236
+###############################################################
 
 <details><summary>More info</summary>
 
@@ -20,6 +28,7 @@ You can read more in the following links:
 - [Reddit post showing Pro users can use this no problem](https://www.reddit.com/r/StableDiffusion/comments/12tj22r/official_statement_from_the_person_in_charge_of/)
 
 </details>
+-->
 
 ## 🤔 How to use (simpified)
 
@@ -35,9 +44,6 @@ You can read more in the following links:
 > Head over to 🖼[ ***Showcase*** ][showcase]✨ to see what the models might look like! :D
 > 
 > Use [***Provide Your Own Models***][pyom] colab if the model you want is not in the list below ;)
-
-> [!CAUTION]
-> Just to reiterate: **YOU WILL NEED COLAB PRO TO RUN ANY OF THESE NOTEBOOKS**
 
 | Colab Link | Model | 🤔 | Model Page | Count*
 | ---        | ---   | :---: | ---        | ---: |
