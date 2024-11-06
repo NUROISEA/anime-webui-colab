@@ -148,7 +148,7 @@ def extensions_list(option,webui_version='stable',controlnet='none', only_contro
     'latest': [
       # using my own fork again to not lose my presets
       f'-b 23.04.12 https://github.com/anime-webui-colab/ext-aspect-ratio-preset {f}/aspect-ratio-preset',
-      f'https://github.com/etherealxx/batchlinks-webui {f}/batchlinks',
+      # f'https://github.com/etherealxx/batchlinks-webui {f}/batchlinks',
       f'https://github.com/hnmr293/sd-webui-cutoff {f}/cutoff',
       f'https://github.com/mcmonkeyprojects/sd-dynamic-thresholding {f}/dynamic-thresholding',
       f'https://github.com/AlUlkesh/stable-diffusion-webui-images-browser {f}/images-browser',
@@ -511,7 +511,10 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 print('👍 Utility script imported.')
 
 notices = [
-  '\n🛑 This notebook requires Colab Pro to work smoothly!\n',
+  '\n ⚠ This notebook is on maintenance mode! No new features but will try to fix random bugs.',
+  '\n 👉 Report bugs and stuff at: https://github.com/NUROISEA/anime-webui-colab/issues/new',
+  '\n 💡 A GitHub account is required to report bugs!',
+  '\n',
 ]
 
 for notice in notices:

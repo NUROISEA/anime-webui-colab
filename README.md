@@ -150,19 +150,18 @@ You can read more in the following links:
 - [Bing-su's sd-webui-tunnels](https://github.com/Bing-su/sd-webui-tunnels)
   - Fork: [camenduru's sd-webui-tunnels](https://github.com/camenduru/sd-webui-tunnels)
 - [DominikDoom's a1111-sd-webui-tagcomplete](https://github.com/DominikDoom/a1111-sd-webui-tagcomplete)
-- [etherealxx's batchlinks-webui](https://github.com/etherealxx/batchlinks-webui)
 - [ilian6806's stable-diffusion-webui-state](https://github.com/ilian6806/stable-diffusion-webui-state)
 - [yfszzx's stable-diffusion-webui-images-browser](https://github.com/yfszzx/stable-diffusion-webui-images-browser)
   - Fork: [AlUlkesh's stable-diffusion-webui-images-browser](https://github.com/AlUlkesh/stable-diffusion-webui-images-browser)
 ### Stable/Latest
 - Everything in Lite
 - [alemelis' sd-webui-ar](https://github.com/alemelis/sd-webui-ar)
+- [gutris1's sd-hub](https://github.com/gutris1/sd-hub)
 - [hnmr293's sd-webui-cutoff](https://github.com/hnmr293/sd-webui-cutoff)
 - [mcmonkeyprojects's sd-dynamic-thresholding](https://github.com/mcmonkeyprojects/sd-dynamic-thresholding)
 - [opparco's stable-diffusion-webui-two-shot](https://github.com/opparco/stable-diffusion-webui-two-shot)
 - [pkuliyi2015's multidiffusion-upscaler-for-automatic1111](https://github.com/pkuliyi2015/multidiffusion-upscaler-for-automatic1111)
 - [space-nuko's sd-webui-session-organizer](https://github.com/space-nuko/sd-webui-session-organizer)
-- [gutris1's sd-hub](https://github.com/gutris1/sd-hub)
 ### Experimental
 - Everything in Stable/Latest
 - [adieyal's sd-dynamic-prompts](https://github.com/adieyal/sd-dynamic-prompts)
