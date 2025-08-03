@@ -49,7 +49,7 @@ You can read more in the following links:
 | ---        | ---   | :---: | ---        | ---: |
 [![Open In Colab][colab-icon]][7thla] | 7th_Layer <br>(👑`7th_anime_v2_A`) | 🔥🔁📚 | [🤗syaimu](https://huggingface.co/syaimu/7th_Layer) | 10
 [![Open In Colab][colab-icon]][8528d] | 8528-diffusion | 🔁 | [🤗ckpt](https://huggingface.co/ckpt/8528-diffusion) (mirror) | 1 
-[![Open In Colab][colab-icon]][anima] | Animagine-XL<br>(👑`Animagine-XL 3.1`) | 🔥 | [🤗cagliostrolab](https://huggingface.co/collections/cagliostrolab/animagine-xl-31-65f78dc50b69c641b728ae6d) | 4
+[![Open In Colab][colab-icon]][anima] | Animagine-XL<br>(👑`Animagine-XL 4.0 Zero`) | 🔥 | [🤗cagliostrolab](https://huggingface.co/cagliostrolab/collections) | 4
 [![Open In Colab][colab-icon]][anime] | AnimeInOurWorld |  | [🤗NoCrypt](https://huggingface.co/NoCrypt/animeinourworld-model) | 1
 [![Open In Colab][colab-icon]][anymx] | Anything Mix <br>(👑`blossom-extract`) | 🔁📚 | [🤗NUROISEA](https://huggingface.co/NUROISEA/anything-mix) | 7
 [![Open In Colab][colab-icon]][anyv3] | Anything V3 | 🔥 | [🤗NUROISEA](https://huggingface.co/NUROISEA/av3-mirror) (mirror) | 1 
