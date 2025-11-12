@@ -258,7 +258,7 @@ def patch_list():
     'echo ""',
     'python --version',
     'echo "🐍 Installing pip for python 3.10.12..."',
-    'sudo apt-get install -y wget build-essential >> py-install.log',
+    'sudo apt-get install -y wget build-essential >> install.log',
     'wget https://bootstrap.pypa.io/get-pip.py -q',
     'sudo /usr/bin/python3.10 get-pip.py --force-reinstall >> install.log',
     'pip --version',
