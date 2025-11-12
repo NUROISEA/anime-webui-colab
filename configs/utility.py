@@ -255,7 +255,13 @@ def patch_list():
     'echo "🐍 Changing python version to 3.10.12..."',
     'sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.10 10',
     'echo 0 | sudo update-alternatives --config python3',
+    'echo ""',
     'python --version',
+    'echo "🐍 Installing pip for python 3.10.12..."',
+    'sudo apt-get install -y wget build-essential >> py-install.log',
+    'wget https://bootstrap.pypa.io/get-pip.py -q',
+    'sudo /usr/bin/python3.10 get-pip.py --force-reinstall >> install.log',
+    'pip --version',
 
     'echo "🩹 Applying Colab memory patches..."',
     'wget -q https://github.com/camenduru/gperftools/releases/download/v1.0/libtcmalloc_minimal.so.4 -O /content/libtcmalloc_minimal.so.4',
