@@ -527,6 +527,11 @@ def dl_vae(link,yaml='',folder=vae_download_folder):
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
+# For some reason
+# ValueError: Key backend: 'module://matplotlib_inline.backend_inline'
+# on launch.py
+os.environ['MPLBACKEND'] = 'module://matplotlib_inline'
+
 print('👍 Utility script imported.')
 
 notices = [
