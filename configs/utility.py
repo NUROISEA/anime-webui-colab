@@ -480,9 +480,9 @@ def wget_download(link, folder, file_name=''):
   models_downloaded += [ link ]
 
   if file_name == '':
-    return f'wget -q --show-progress {link} -P {folder}/ --content-disposition'
+    return f'wget -q --show-progress -P {folder}/ --content-disposition {link}'
 
-  return f'wget -q --show-progress {link} -P {folder}/ -O {file_name}'
+  return f'wget -q --show-progress -P {folder}/ -O {file_name} {link}'
 
 def download_model(link, yaml_link='', folder=models_folder):
   # TODO: this function isn't elegant :/
