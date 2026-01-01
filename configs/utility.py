@@ -532,6 +532,9 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 # on launch.py
 os.environ['MPLBACKEND'] = 'module://matplotlib_inline'
 
+# OG Repo got nuked, and I managed to find a repo that is 1:1 to the original. I hope
+os.environ['STABLE_DIFFUSION_REPO'] = 'https://github.com/NUROISEA/stablediffusion.git'
+
 print('👍 Utility script imported.')
 
 notices = [
