@@ -268,14 +268,21 @@ def patch_list():
 
     'echo "🩹 Applying httpx fix for new Colab version..."',
     # https://github.com/NUROISEA/anime-webui-colab/issues/35#issuecomment-1801356768
-    'pip install -q httpx==0.24.1', 
+    'pip install -q httpx==0.24.1 >> install.log', 
 
     # TODO: remove this after this is resolved in main webui repo
     'echo "🩹 Applying TEMPORARY fix for #53..."',
     'echo "🔗 https://github.com/NUROISEA/anime-webui-colab/issues/53"',
     # https://github.com/AUTOMATIC1111/stable-diffusion-webui/issues/16732#issuecomment-2553646760,
-    'pip uninstall wandb -y',
-    'pip install -q wandb==0.15.12',
+    'pip uninstall wandb -y >> install.log',
+    'pip install -q wandb==0.15.12 >> install.log',
+
+    'echo "🩹 Applying TEMPORARY(?) fix for #59..."',
+    'echo "🔗 https://github.com/NUROISEA/anime-webui-colab/issues/59"',
+    'echo "🔔 THIS WILL TAKE A WHILE 4-8 mins!!"',
+    'echo "📂 Check /content/install.log to see the logs"',
+    'pip install --force-reinstall setuptools==75.2.0 wheel==0.46.3 >> install.log',
+    'pip install https://github.com/openai/CLIP/archive/d50d76daa670286dd6cacf3bcd80b5e4823fc8e1.zip --no-build-isolation >> install.log',
   ]
 
   if chosen_webui_version in ['stable']:
@@ -541,6 +548,8 @@ notices = [
   '\n ⚠ This notebook is on maintenance mode! No new features but will try to fix random bugs.',
   '\n 👉 Report bugs and stuff at: https://github.com/NUROISEA/anime-webui-colab/issues/new',
   '\n 💡 A GitHub account is required to report bugs!',
+  '\n 💡 If you can, include the install.log if its related to the notebook!',
+  '\n 💡 Its in the folder icon at the left side of the screen :)',
   '\n',
 ]
 
